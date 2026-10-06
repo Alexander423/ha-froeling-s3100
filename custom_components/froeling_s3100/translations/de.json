@@ -1,0 +1,132 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Fröling Lambdatronic S3100 verbinden",
+        "description": "Die S3100 ist über einen transparenten RS232-Ethernet-Wandler (z. B. Waveshare) angeschlossen, eingestellt als TCP-Server mit 9600 Baud, 8N1.",
+        "data": {
+          "host": "Host",
+          "port": "Port"
+        },
+        "data_description": {
+          "host": "Hostname oder IP-Adresse des RS232-Ethernet-Wandlers.",
+          "port": "TCP-Port des Wandlers (Waveshare-Standard: 4196)."
+        }
+      },
+      "reconfigure": {
+        "title": "Verbindung ändern",
+        "data": {
+          "host": "Host",
+          "port": "Port"
+        },
+        "data_description": {
+          "host": "Hostname oder IP-Adresse des RS232-Ethernet-Wandlers.",
+          "port": "TCP-Port des Wandlers (Waveshare-Standard: 4196)."
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Der Wandler ist nicht erreichbar. Bitte IP-Adresse, Port und den Betriebsmodus TCP-Server prüfen.",
+      "no_response": "Der Wandler ist erreichbar, aber die S3100 antwortet nicht. Bitte Verkabelung (TXD/RXD gekreuzt, GND), 9600 Baud 8N1 prüfen und ob der Kessel eingeschaltet ist.",
+      "unknown": "Unerwarteter Fehler"
+    },
+    "abort": {
+      "already_configured": "Gerät ist bereits eingerichtet",
+      "reconfigure_successful": "Die Neukonfiguration war erfolgreich"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Optionen",
+        "data": {
+          "update_interval": "Aktualisierungsintervall",
+          "enable_writes": "Parameter ändern erlauben (experimentell)"
+        },
+        "data_description": {
+          "update_interval": "Die Steuerung sendet alle Werte jede Sekunde. Home Assistant übernimmt sie höchstens in diesem Abstand, damit die Datenbank klein bleibt.",
+          "enable_writes": "Stellt die Parameter des Kundenmenüs (Solltemperaturen, Heizzeiten …) als änderbare Entitäten bereit. Werte werden gegen die von der Steuerung gemeldeten Grenzen geprüft. Das Schreiben ist nicht auf jeder Steuerungsversion erprobt; bitte nach jeder Änderung das Kesseldisplay kontrollieren."
+        }
+      }
+    }
+  },
+  "entity": {
+    "binary_sensor": {
+      "connected": { "name": "Verbindung" },
+      "fault": { "name": "Störung" }
+    },
+    "event": {
+      "fault_event": {
+        "name": "Störmeldung",
+        "state_attributes": {
+          "event_type": {
+            "state": {
+              "fault": "Störung"
+            }
+          }
+        }
+      }
+    },
+    "sensor": {
+      "status": { "name": "Status" },
+      "operating_mode": { "name": "Betriebsart" },
+      "grate": { "name": "Rost" },
+      "boiler_temperature": { "name": "Kesseltemperatur" },
+      "boiler_temperature_target": { "name": "Kesseltemperatur Soll" },
+      "flue_gas_temperature": { "name": "Abgastemperatur" },
+      "flue_gas_temperature_target": { "name": "Abgastemperatur Soll" },
+      "boiler_control_value": { "name": "Kesselstellgröße" },
+      "induced_draft_fan": { "name": "Saugzug" },
+      "primary_air": { "name": "Primärluft" },
+      "primary_air_flap": { "name": "Primärluftklappe Position" },
+      "secondary_air": { "name": "Sekundärluft" },
+      "secondary_air_flap": { "name": "Sekundärluftklappe Position" },
+      "residual_oxygen": { "name": "Restsauerstoff" },
+      "oxygen_controller": { "name": "O2-Regler" },
+      "buffer_temperature_top": { "name": "Puffertemperatur oben" },
+      "buffer_temperature_middle": { "name": "Puffertemperatur Mitte" },
+      "buffer_temperature_bottom": { "name": "Puffertemperatur unten" },
+      "buffer_pump": { "name": "Pufferpumpe" },
+      "hot_water_temperature": { "name": "Warmwassertemperatur" },
+      "outdoor_temperature": { "name": "Außentemperatur" },
+      "combustion_chamber_temperature": { "name": "Feuerraumtemperatur" },
+      "feeder": { "name": "Einschub" },
+      "fill_level": { "name": "Füllstand" },
+      "operating_hours": { "name": "Betriebsstunden" },
+      "fire_hold_hours": { "name": "Stunden Feuerhaltung" },
+      "burner_starts": { "name": "Brennerstarts" },
+      "board_temperature": { "name": "Platinentemperatur" },
+      "flow_temperature": { "name": "Vorlauftemperatur Heizkreis {number}" },
+      "flow_temperature_target": { "name": "Vorlauftemperatur Soll Heizkreis {number}" },
+      "room_temperature": { "name": "Raumtemperatur Heizkreis {number}" },
+      "party_switch": { "name": "Partyschalter Heizkreis {number}" },
+      "kty_sensor": { "name": "KTY-Fühler {number}" },
+      "last_fault": { "name": "Letzte Störung" },
+      "last_fault_time": { "name": "Zeitpunkt letzte Störung" },
+      "controller_time": { "name": "Uhrzeit Steuerung" }
+    }
+  },
+  "exceptions": {
+    "cannot_connect": {
+      "message": "Keine Kommunikation mit der S3100: {error}"
+    },
+    "not_connected": {
+      "message": "Die S3100 ist derzeit nicht verbunden."
+    },
+    "writes_disabled": {
+      "message": "Das Ändern von Parametern ist in den Optionen der Integration deaktiviert."
+    },
+    "write_not_allowed": {
+      "message": "Dieser Wert kann nicht geschrieben werden: {error}"
+    },
+    "write_failed": {
+      "message": "Die S3100 hat die Änderung nicht übernommen: {error}"
+    }
+  },
+  "issues": {
+    "writes_enabled": {
+      "title": "Fröling S3100: Parameteränderungen sind aktiviert",
+      "description": "Die experimentelle Option zum Ändern von Steuerungsparametern ist aktiv. Es können nur Parameter des Kundenmenüs innerhalb der von der Steuerung gemeldeten Grenzen geändert werden. Bitte nach jeder Änderung das Kesseldisplay kontrollieren. Die Option in den Einstellungen der Integration deaktivieren, wenn sie nicht gebraucht wird."
+    }
+  }
+}

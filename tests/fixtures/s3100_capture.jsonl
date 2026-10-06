@@ -1,0 +1,1368 @@
+{"t": 0.0, "dir": "tx", "cmd": "Ra", "len": 3, "payload": "000001", "note": "login"}
+{"t": 5.1, "dir": "tx", "cmd": "Ra", "len": 3, "payload": "000001", "note": "login retry"}
+{"t": 10.219, "dir": "tx", "cmd": "Ra", "len": 3, "payload": "000001", "note": "login retry"}
+{"t": 10.247, "dir": "rx", "cmd": "Ra", "len": 1, "payload": "01", "note": "ack"}
+{"t": 10.262, "dir": "rx", "cmd": "MA", "len": 5, "payload": "5300020003"}
+{"t": 10.262, "dir": "tx", "cmd": "MA", "len": 1, "payload": "01", "note": "ack"}
+{"t": 10.302, "dir": "rx", "cmd": "MA", "len": 12, "payload": "49001c072b5a757374616e64"}
+{"t": 10.304, "dir": "tx", "cmd": "MA", "len": 1, "payload": "01", "note": "ack"}
+{"t": 10.336, "dir": "rx", "cmd": "MA", "len": 9, "payload": "49001d071c524f5354"}
+{"t": 10.336, "dir": "tx", "cmd": "MA", "len": 1, "payload": "01", "note": "ack"}
+{"t": 10.372, "dir": "rx", "cmd": "MA", "len": 15, "payload": "49000000034b657373656c74656d70"}
+{"t": 10.373, "dir": "tx", "cmd": "MA", "len": 1, "payload": "01", "note": "ack"}
+{"t": 10.412, "dir": "rx", "cmd": "MA", "len": 15, "payload": "4900050104416267617374656d702e"}
+{"t": 10.413, "dir": "tx", "cmd": "MA", "len": 1, "payload": "01", "note": "ack"}
+{"t": 10.455, "dir": "rx", "cmd": "MA", "len": 15, "payload": "490006050d41626761732e20535720"}
+{"t": 10.455, "dir": "tx", "cmd": "MA", "len": 1, "payload": "01", "note": "ack"}
+{"t": 10.494, "dir": "rx", "cmd": "MA", "len": 16, "payload": "49001905054b6573735374656c6c4772"}
+{"t": 10.495, "dir": "tx", "cmd": "MA", "len": 1, "payload": "01", "note": "ack"}
+{"t": 10.532, "dir": "rx", "cmd": "MA", "len": 14, "payload": "49000f012a536175677a75672020"}
+{"t": 10.532, "dir": "tx", "cmd": "MA", "len": 1, "payload": "01", "note": "ack"}
+{"t": 10.61, "dir": "rx", "cmd": "MA", "len": 15, "payload": "49001001085072696d2e4c75667420"}
+{"t": 10.611, "dir": "tx", "cmd": "MA", "len": 1, "payload": "01", "note": "ack"}
+{"t": 10.653, "dir": "rx", "cmd": "MA", "len": 16, "payload": "49002b032e5072696d2e4b6c2e706f73"}
+{"t": 10.653, "dir": "tx", "cmd": "MA", "len": 1, "payload": "01", "note": "ack"}
+{"t": 10.689, "dir": "rx", "cmd": "MA", "len": 12, "payload": "4900090109526573742d4f32"}
+{"t": 10.689, "dir": "tx", "cmd": "MA", "len": 1, "payload": "01", "note": "ack"}
+{"t": 10.723, "dir": "rx", "cmd": "MA", "len": 14, "payload": "49002d05304f322d5265676c6572"}
+{"t": 10.724, "dir": "tx", "cmd": "MA", "len": 1, "payload": "01", "note": "ack"}
+{"t": 10.761, "dir": "rx", "cmd": "MA", "len": 14, "payload": "490011010c53656b2e4c75667420"}
+{"t": 10.762, "dir": "tx", "cmd": "MA", "len": 1, "payload": "01", "note": "ack"}
+{"t": 10.802, "dir": "rx", "cmd": "MA", "len": 15, "payload": "49002e033153656b2e4b6c2e706f73"}
+{"t": 10.802, "dir": "tx", "cmd": "MA", "len": 1, "payload": "01", "note": "ack"}
+{"t": 10.842, "dir": "rx", "cmd": "MA", "len": 15, "payload": "490001000f507566666572742e6f62"}
+{"t": 10.843, "dir": "tx", "cmd": "MA", "len": 1, "payload": "01", "note": "ack"}
+{"t": 10.881, "dir": "rx", "cmd": "MA", "len": 15, "payload": "4900270132507566666572742e6d69"}
+{"t": 10.881, "dir": "tx", "cmd": "MA", "len": 1, "payload": "01", "note": "ack"}
+{"t": 10.922, "dir": "rx", "cmd": "MA", "len": 15, "payload": "4900020110507566666572742e756e"}
+{"t": 10.922, "dir": "tx", "cmd": "MA", "len": 1, "payload": "01", "note": "ack"}
+{"t": 10.962, "dir": "rx", "cmd": "MA", "len": 15, "payload": "49003303365075666665722050752e"}
+{"t": 10.962, "dir": "tx", "cmd": "MA", "len": 1, "payload": "01", "note": "ack"}
+{"t": 11.002, "dir": "rx", "cmd": "MA", "len": 15, "payload": "4900030014426f696c657274656d70"}
+{"t": 11.002, "dir": "tx", "cmd": "MA", "len": 1, "payload": "01", "note": "ack"}
+{"t": 11.041, "dir": "rx", "cmd": "MA", "len": 14, "payload": "49000a001d4175e1656e74656d70"}
+{"t": 11.041, "dir": "tx", "cmd": "MA", "len": 1, "payload": "01", "note": "ack"}
+{"t": 11.084, "dir": "rx", "cmd": "MA", "len": 17, "payload": "490015031e566f726c617566742e317377"}
+{"t": 11.085, "dir": "tx", "cmd": "MA", "len": 1, "payload": "01", "note": "ack"}
+{"t": 11.122, "dir": "rx", "cmd": "MA", "len": 15, "payload": "49000b011f566f726c617566742e31"}
+{"t": 11.122, "dir": "tx", "cmd": "MA", "len": 1, "payload": "01", "note": "ack"}
+{"t": 11.165, "dir": "rx", "cmd": "MA", "len": 17, "payload": "4900160322566f726c617566742e327377"}
+{"t": 11.165, "dir": "tx", "cmd": "MA", "len": 1, "payload": "01", "note": "ack"}
+{"t": 11.202, "dir": "rx", "cmd": "MA", "len": 15, "payload": "49000c0123566f726c617566742e32"}
+{"t": 11.202, "dir": "tx", "cmd": "MA", "len": 1, "payload": "01", "note": "ack"}
+{"t": 11.243, "dir": "rx", "cmd": "MA", "len": 16, "payload": "49000e03245261756d74656d702e3220"}
+{"t": 11.243, "dir": "tx", "cmd": "MA", "len": 1, "payload": "01", "note": "ack"}
+{"t": 11.281, "dir": "rx", "cmd": "MA", "len": 15, "payload": "490014032550617274797363682e32"}
+{"t": 11.282, "dir": "tx", "cmd": "MA", "len": 1, "payload": "01", "note": "ack"}
+{"t": 11.327, "dir": "rx", "cmd": "MA", "len": 17, "payload": "490025031a566f726c617566742e337377"}
+{"t": 11.327, "dir": "tx", "cmd": "MA", "len": 1, "payload": "01", "note": "ack"}
+{"t": 11.401, "dir": "rx", "cmd": "MA", "len": 15, "payload": "49001f0113566f726c617566742e33"}
+{"t": 11.402, "dir": "tx", "cmd": "MA", "len": 1, "payload": "01", "note": "ack"}
+{"t": 11.442, "dir": "rx", "cmd": "MA", "len": 16, "payload": "49002103165261756d74656d702e3320"}
+{"t": 11.443, "dir": "tx", "cmd": "MA", "len": 1, "payload": "01", "note": "ack"}
+{"t": 11.486, "dir": "rx", "cmd": "MA", "len": 15, "payload": "490023031850617274797363682e33"}
+{"t": 11.486, "dir": "tx", "cmd": "MA", "len": 1, "payload": "01", "note": "ack"}
+{"t": 11.518, "dir": "rx", "cmd": "MA", "len": 12, "payload": "49002907284b5459365f4832"}
+{"t": 11.519, "dir": "tx", "cmd": "MA", "len": 1, "payload": "01", "note": "ack"}
+{"t": 11.559, "dir": "rx", "cmd": "MA", "len": 12, "payload": "49002a07294b5459375f4832"}
+{"t": 11.559, "dir": "tx", "cmd": "MA", "len": 1, "payload": "01", "note": "ack"}
+{"t": 11.603, "dir": "rx", "cmd": "MA", "len": 14, "payload": "49001201264c6175667a6569743a"}
+{"t": 11.603, "dir": "tx", "cmd": "MA", "len": 1, "payload": "01", "note": "ack"}
+{"t": 11.638, "dir": "rx", "cmd": "MA", "len": 12, "payload": "4900320535462d68616c743a"}
+{"t": 11.639, "dir": "tx", "cmd": "MA", "len": 1, "payload": "01", "note": "ack"}
+{"t": 11.682, "dir": "rx", "cmd": "MA", "len": 15, "payload": "490018012c426f61726474656d702e"}
+{"t": 11.682, "dir": "tx", "cmd": "MA", "len": 1, "payload": "01", "note": "ack"}
+{"t": 11.707, "dir": "rx", "cmd": "MZ", "len": 1, "payload": "41"}
+{"t": 11.708, "dir": "tx", "cmd": "MZ", "len": 1, "payload": "01", "note": "ack"}
+{"t": 11.755, "dir": "rx", "cmd": "MB", "len": 18, "payload": "0000000057696e7465726265747269656220"}
+{"t": 11.755, "dir": "tx", "cmd": "MB", "len": 1, "payload": "01", "note": "ack"}
+{"t": 11.794, "dir": "rx", "cmd": "MB", "len": 18, "payload": "00000001536f6d6d65726265747269656220"}
+{"t": 11.795, "dir": "tx", "cmd": "MB", "len": 1, "payload": "01", "note": "ack"}
+{"t": 11.834, "dir": "rx", "cmd": "MB", "len": 18, "payload": "000000028162657267616e6773626574722e"}
+{"t": 11.834, "dir": "tx", "cmd": "MB", "len": 1, "payload": "01", "note": "ack"}
+{"t": 11.875, "dir": "rx", "cmd": "MB", "len": 18, "payload": "00000003536368656974686f6c7a62657472"}
+{"t": 11.876, "dir": "tx", "cmd": "MB", "len": 1, "payload": "01", "note": "ack"}
+{"t": 11.914, "dir": "rx", "cmd": "MB", "len": 18, "payload": "0000000420205265696e6967656e20202020"}
+{"t": 11.915, "dir": "tx", "cmd": "MB", "len": 1, "payload": "01", "note": "ack"}
+{"t": 11.954, "dir": "rx", "cmd": "MB", "len": 18, "payload": "000000052045787472616865697a656e2020"}
+{"t": 11.955, "dir": "tx", "cmd": "MB", "len": 1, "payload": "01", "note": "ack"}
+{"t": 11.993, "dir": "rx", "cmd": "MB", "len": 18, "payload": "000000064175736765736368616c74657420"}
+{"t": 11.994, "dir": "tx", "cmd": "MB", "len": 1, "payload": "01", "note": "ack"}
+{"t": 12.03, "dir": "rx", "cmd": "MB", "len": 14, "payload": "0000000720204681686c65722020"}
+{"t": 12.03, "dir": "tx", "cmd": "MB", "len": 1, "payload": "01", "note": "ack"}
+{"t": 12.07, "dir": "rx", "cmd": "MB", "len": 14, "payload": "00000008546865726d6f73746174"}
+{"t": 12.07, "dir": "tx", "cmd": "MB", "len": 1, "payload": "01", "note": "ack"}
+{"t": 12.114, "dir": "rx", "cmd": "MB", "len": 18, "payload": "00000009204b616d696e6b65687265722020"}
+{"t": 12.114, "dir": "tx", "cmd": "MB", "len": 1, "payload": "01", "note": "ack"}
+{"t": 12.155, "dir": "rx", "cmd": "MB", "len": 19, "payload": "00010000202053749472756e67202121212020"}
+{"t": 12.155, "dir": "tx", "cmd": "MB", "len": 1, "payload": "01", "note": "ack"}
+{"t": 12.195, "dir": "rx", "cmd": "MB", "len": 19, "payload": "0001000120204272656e6e6572204175732020"}
+{"t": 12.195, "dir": "tx", "cmd": "MB", "len": 1, "payload": "01", "note": "ack"}
+{"t": 12.236, "dir": "rx", "cmd": "MB", "len": 19, "payload": "000100022020416e6865697a656e2020202020"}
+{"t": 12.237, "dir": "tx", "cmd": "MB", "len": 1, "payload": "01", "note": "ack"}
+{"t": 12.275, "dir": "rx", "cmd": "MB", "len": 19, "payload": "000100032020204865697a656e202020202020"}
+{"t": 12.275, "dir": "tx", "cmd": "MB", "len": 1, "payload": "01", "note": "ack"}
+{"t": 12.315, "dir": "rx", "cmd": "MB", "len": 19, "payload": "0001000420466575657268616c74756e672020"}
+{"t": 12.316, "dir": "tx", "cmd": "MB", "len": 1, "payload": "01", "note": "ack"}
+{"t": 12.355, "dir": "rx", "cmd": "MB", "len": 19, "payload": "00010005202046657565722d41757320202020"}
+{"t": 12.355, "dir": "tx", "cmd": "MB", "len": 1, "payload": "01", "note": "ack"}
+{"t": 12.394, "dir": "rx", "cmd": "MB", "len": 19, "payload": "0001000620205481722d6f6666656e20202020"}
+{"t": 12.395, "dir": "tx", "cmd": "MB", "len": 1, "payload": "01", "note": "ack"}
+{"t": 12.434, "dir": "rx", "cmd": "MB", "len": 19, "payload": "0001000720566f72626572656974756e672020"}
+{"t": 12.435, "dir": "tx", "cmd": "MB", "len": 1, "payload": "01", "note": "ack"}
+{"t": 12.475, "dir": "rx", "cmd": "MB", "len": 19, "payload": "0001000820566f727784726d70686173652020"}
+{"t": 12.475, "dir": "tx", "cmd": "MB", "len": 1, "payload": "01", "note": "ack"}
+{"t": 12.515, "dir": "rx", "cmd": "MB", "len": 19, "payload": "000100092020205a816e64656e202020202020"}
+{"t": 12.515, "dir": "tx", "cmd": "MB", "len": 1, "payload": "01", "note": "ack"}
+{"t": 12.556, "dir": "rx", "cmd": "MB", "len": 19, "payload": "0001000a416273742e57617274656e20202020"}
+{"t": 12.556, "dir": "tx", "cmd": "MB", "len": 1, "payload": "01", "note": "ack"}
+{"t": 12.595, "dir": "rx", "cmd": "MB", "len": 19, "payload": "0001000b416273742e57617274656e20202031"}
+{"t": 12.596, "dir": "tx", "cmd": "MB", "len": 1, "payload": "01", "note": "ack"}
+{"t": 12.635, "dir": "rx", "cmd": "MB", "len": 19, "payload": "0001000c416273742e45696e73636875622031"}
+{"t": 12.635, "dir": "tx", "cmd": "MB", "len": 1, "payload": "01", "note": "ack"}
+{"t": 12.675, "dir": "rx", "cmd": "MB", "len": 19, "payload": "0001000d416273742e57617274656e20202032"}
+{"t": 12.675, "dir": "tx", "cmd": "MB", "len": 1, "payload": "01", "note": "ack"}
+{"t": 12.715, "dir": "rx", "cmd": "MB", "len": 19, "payload": "0001000e416273742e45696e73636875622032"}
+{"t": 12.715, "dir": "tx", "cmd": "MB", "len": 1, "payload": "01", "note": "ack"}
+{"t": 12.754, "dir": "rx", "cmd": "MB", "len": 19, "payload": "0001000f202041627265696e6967656e202020"}
+{"t": 12.755, "dir": "tx", "cmd": "MB", "len": 1, "payload": "01", "note": "ack"}
+{"t": 12.794, "dir": "rx", "cmd": "MB", "len": 19, "payload": "000100104665686c6572622e203230206d696e"}
+{"t": 12.795, "dir": "tx", "cmd": "MB", "len": 1, "payload": "01", "note": "ack"}
+{"t": 12.835, "dir": "rx", "cmd": "MB", "len": 19, "payload": "00020000202053749472756e67202121212020"}
+{"t": 12.836, "dir": "tx", "cmd": "MB", "len": 1, "payload": "01", "note": "ack"}
+{"t": 12.875, "dir": "rx", "cmd": "MB", "len": 19, "payload": "00020001202020202041757320202020202020"}
+{"t": 12.876, "dir": "tx", "cmd": "MB", "len": 1, "payload": "01", "note": "ack"}
+{"t": 12.915, "dir": "rx", "cmd": "MB", "len": 19, "payload": "000200022020416e6865697a656e2020202020"}
+{"t": 12.915, "dir": "tx", "cmd": "MB", "len": 1, "payload": "01", "note": "ack"}
+{"t": 12.954, "dir": "rx", "cmd": "MB", "len": 19, "payload": "000200032020204865697a656e202020202020"}
+{"t": 12.954, "dir": "tx", "cmd": "MB", "len": 1, "payload": "01", "note": "ack"}
+{"t": 12.996, "dir": "rx", "cmd": "MB", "len": 19, "payload": "0002000420466575657268616c74756e672020"}
+{"t": 12.996, "dir": "tx", "cmd": "MB", "len": 1, "payload": "01", "note": "ack"}
+{"t": 13.035, "dir": "rx", "cmd": "MB", "len": 19, "payload": "00020005202046657565722d41757320202020"}
+{"t": 13.035, "dir": "tx", "cmd": "MB", "len": 1, "payload": "01", "note": "ack"}
+{"t": 13.075, "dir": "rx", "cmd": "MB", "len": 19, "payload": "0002000620205481722d6f6666656e20202020"}
+{"t": 13.075, "dir": "tx", "cmd": "MB", "len": 1, "payload": "01", "note": "ack"}
+{"t": 13.115, "dir": "rx", "cmd": "MB", "len": 19, "payload": "0002000720566f72626572656974756e672020"}
+{"t": 13.115, "dir": "tx", "cmd": "MB", "len": 1, "payload": "01", "note": "ack"}
+{"t": 13.155, "dir": "rx", "cmd": "MB", "len": 19, "payload": "0002000820566f727784726d70686173652020"}
+{"t": 13.156, "dir": "tx", "cmd": "MB", "len": 1, "payload": "01", "note": "ack"}
+{"t": 13.194, "dir": "rx", "cmd": "MB", "len": 19, "payload": "000200092020205a816e64656e202020202020"}
+{"t": 13.194, "dir": "tx", "cmd": "MB", "len": 1, "payload": "01", "note": "ack"}
+{"t": 13.236, "dir": "rx", "cmd": "MB", "len": 19, "payload": "0002000a416273742e57617274656e20202020"}
+{"t": 13.236, "dir": "tx", "cmd": "MB", "len": 1, "payload": "01", "note": "ack"}
+{"t": 13.274, "dir": "rx", "cmd": "MB", "len": 19, "payload": "0002000b416273742e57617274656e20202031"}
+{"t": 13.274, "dir": "tx", "cmd": "MB", "len": 1, "payload": "01", "note": "ack"}
+{"t": 13.313, "dir": "rx", "cmd": "MB", "len": 19, "payload": "0002000c416273742e45696e73636875622031"}
+{"t": 13.314, "dir": "tx", "cmd": "MB", "len": 1, "payload": "01", "note": "ack"}
+{"t": 13.354, "dir": "rx", "cmd": "MB", "len": 19, "payload": "0002000d416273742e57617274656e20202032"}
+{"t": 13.354, "dir": "tx", "cmd": "MB", "len": 1, "payload": "01", "note": "ack"}
+{"t": 13.393, "dir": "rx", "cmd": "MB", "len": 19, "payload": "0002000e416273742e45696e73636875622032"}
+{"t": 13.394, "dir": "tx", "cmd": "MB", "len": 1, "payload": "01", "note": "ack"}
+{"t": 13.435, "dir": "rx", "cmd": "MB", "len": 19, "payload": "0002000f202041627265696e6967656e202020"}
+{"t": 13.435, "dir": "tx", "cmd": "MB", "len": 1, "payload": "01", "note": "ack"}
+{"t": 13.476, "dir": "rx", "cmd": "MB", "len": 19, "payload": "000200104665686c6572622e203230206d696e"}
+{"t": 13.476, "dir": "tx", "cmd": "MB", "len": 1, "payload": "01", "note": "ack"}
+{"t": 13.495, "dir": "rx", "cmd": "MZ", "len": 1, "payload": "42"}
+{"t": 13.495, "dir": "tx", "cmd": "MZ", "len": 1, "payload": "01", "note": "ack"}
+{"t": 13.521, "dir": "rx", "cmd": "MC", "len": 8, "payload": "0000f80000020002"}
+{"t": 13.522, "dir": "tx", "cmd": "MC", "len": 1, "payload": "01", "note": "ack"}
+{"t": 13.552, "dir": "rx", "cmd": "MC", "len": 8, "payload": "0001f80000020002"}
+{"t": 13.552, "dir": "tx", "cmd": "MC", "len": 1, "payload": "01", "note": "ack"}
+{"t": 13.582, "dir": "rx", "cmd": "MC", "len": 8, "payload": "0002f80000020002"}
+{"t": 13.583, "dir": "tx", "cmd": "MC", "len": 1, "payload": "01", "note": "ack"}
+{"t": 13.613, "dir": "rx", "cmd": "MC", "len": 8, "payload": "0003f80000020002"}
+{"t": 13.614, "dir": "tx", "cmd": "MC", "len": 1, "payload": "01", "note": "ack"}
+{"t": 13.641, "dir": "rx", "cmd": "MC", "len": 8, "payload": "0004f8000001000a"}
+{"t": 13.641, "dir": "tx", "cmd": "MC", "len": 1, "payload": "01", "note": "ack"}
+{"t": 13.672, "dir": "rx", "cmd": "MC", "len": 8, "payload": "0005f80000010003"}
+{"t": 13.672, "dir": "tx", "cmd": "MC", "len": 1, "payload": "01", "note": "ack"}
+{"t": 13.701, "dir": "rx", "cmd": "MC", "len": 8, "payload": "0006f80000010003"}
+{"t": 13.702, "dir": "tx", "cmd": "MC", "len": 1, "payload": "01", "note": "ack"}
+{"t": 13.733, "dir": "rx", "cmd": "MC", "len": 8, "payload": "0007f80000020002"}
+{"t": 13.734, "dir": "tx", "cmd": "MC", "len": 1, "payload": "01", "note": "ack"}
+{"t": 13.762, "dir": "rx", "cmd": "MC", "len": 8, "payload": "0008f80000020002"}
+{"t": 13.762, "dir": "tx", "cmd": "MC", "len": 1, "payload": "01", "note": "ack"}
+{"t": 13.792, "dir": "rx", "cmd": "MC", "len": 8, "payload": "00092501000a0002"}
+{"t": 13.792, "dir": "tx", "cmd": "MC", "len": 1, "payload": "01", "note": "ack"}
+{"t": 13.822, "dir": "rx", "cmd": "MC", "len": 8, "payload": "000af80000020002"}
+{"t": 13.822, "dir": "tx", "cmd": "MC", "len": 1, "payload": "01", "note": "ack"}
+{"t": 13.852, "dir": "rx", "cmd": "MC", "len": 8, "payload": "000bf80000020002"}
+{"t": 13.852, "dir": "tx", "cmd": "MC", "len": 1, "payload": "01", "note": "ack"}
+{"t": 13.881, "dir": "rx", "cmd": "MC", "len": 8, "payload": "000cf80000020002"}
+{"t": 13.882, "dir": "tx", "cmd": "MC", "len": 1, "payload": "01", "note": "ack"}
+{"t": 13.911, "dir": "rx", "cmd": "MC", "len": 8, "payload": "000df80000020002"}
+{"t": 13.912, "dir": "tx", "cmd": "MC", "len": 1, "payload": "01", "note": "ack"}
+{"t": 13.941, "dir": "rx", "cmd": "MC", "len": 8, "payload": "000ef80000020002"}
+{"t": 13.942, "dir": "tx", "cmd": "MC", "len": 1, "payload": "01", "note": "ack"}
+{"t": 13.972, "dir": "rx", "cmd": "MC", "len": 8, "payload": "000f250000010001"}
+{"t": 13.972, "dir": "tx", "cmd": "MC", "len": 1, "payload": "01", "note": "ack"}
+{"t": 14.002, "dir": "rx", "cmd": "MC", "len": 8, "payload": "0010250000010001"}
+{"t": 14.002, "dir": "tx", "cmd": "MC", "len": 1, "payload": "01", "note": "ack"}
+{"t": 14.032, "dir": "rx", "cmd": "MC", "len": 8, "payload": "0011250000010001"}
+{"t": 14.033, "dir": "tx", "cmd": "MC", "len": 1, "payload": "01", "note": "ack"}
+{"t": 14.061, "dir": "rx", "cmd": "MC", "len": 8, "payload": "0012680000010001"}
+{"t": 14.062, "dir": "tx", "cmd": "MC", "len": 1, "payload": "01", "note": "ack"}
+{"t": 14.092, "dir": "rx", "cmd": "MC", "len": 8, "payload": "0013200000010001"}
+{"t": 14.093, "dir": "tx", "cmd": "MC", "len": 1, "payload": "01", "note": "ack"}
+{"t": 14.122, "dir": "rx", "cmd": "MC", "len": 8, "payload": "0014200000010001"}
+{"t": 14.123, "dir": "tx", "cmd": "MC", "len": 1, "payload": "01", "note": "ack"}
+{"t": 14.152, "dir": "rx", "cmd": "MC", "len": 8, "payload": "0015f80000020002"}
+{"t": 14.152, "dir": "tx", "cmd": "MC", "len": 1, "payload": "01", "note": "ack"}
+{"t": 14.181, "dir": "rx", "cmd": "MC", "len": 8, "payload": "0016f80000020002"}
+{"t": 14.182, "dir": "tx", "cmd": "MC", "len": 1, "payload": "01", "note": "ack"}
+{"t": 14.212, "dir": "rx", "cmd": "MC", "len": 8, "payload": "0017f80000020002"}
+{"t": 14.212, "dir": "tx", "cmd": "MC", "len": 1, "payload": "01", "note": "ack"}
+{"t": 14.242, "dir": "rx", "cmd": "MC", "len": 8, "payload": "0018f80000010002"}
+{"t": 14.242, "dir": "tx", "cmd": "MC", "len": 1, "payload": "01", "note": "ack"}
+{"t": 14.272, "dir": "rx", "cmd": "MC", "len": 8, "payload": "0019250000010001"}
+{"t": 14.272, "dir": "tx", "cmd": "MC", "len": 1, "payload": "01", "note": "ack"}
+{"t": 14.302, "dir": "rx", "cmd": "MC", "len": 8, "payload": "001a250000010001"}
+{"t": 14.302, "dir": "tx", "cmd": "MC", "len": 1, "payload": "01", "note": "ack"}
+{"t": 14.331, "dir": "rx", "cmd": "MC", "len": 8, "payload": "001b250000010001"}
+{"t": 14.332, "dir": "tx", "cmd": "MC", "len": 1, "payload": "01", "note": "ack"}
+{"t": 14.362, "dir": "rx", "cmd": "MC", "len": 8, "payload": "001c200000010001"}
+{"t": 14.362, "dir": "tx", "cmd": "MC", "len": 1, "payload": "01", "note": "ack"}
+{"t": 14.391, "dir": "rx", "cmd": "MC", "len": 8, "payload": "001d200000010001"}
+{"t": 14.392, "dir": "tx", "cmd": "MC", "len": 1, "payload": "01", "note": "ack"}
+{"t": 14.422, "dir": "rx", "cmd": "MC", "len": 8, "payload": "001e250000010001"}
+{"t": 14.423, "dir": "tx", "cmd": "MC", "len": 1, "payload": "01", "note": "ack"}
+{"t": 14.452, "dir": "rx", "cmd": "MC", "len": 8, "payload": "001ff80000020002"}
+{"t": 14.452, "dir": "tx", "cmd": "MC", "len": 1, "payload": "01", "note": "ack"}
+{"t": 14.481, "dir": "rx", "cmd": "MC", "len": 8, "payload": "0020f80000020002"}
+{"t": 14.481, "dir": "tx", "cmd": "MC", "len": 1, "payload": "01", "note": "ack"}
+{"t": 14.511, "dir": "rx", "cmd": "MC", "len": 8, "payload": "0021f80000020002"}
+{"t": 14.511, "dir": "tx", "cmd": "MC", "len": 1, "payload": "01", "note": "ack"}
+{"t": 14.541, "dir": "rx", "cmd": "MC", "len": 8, "payload": "0022f80000020002"}
+{"t": 14.541, "dir": "tx", "cmd": "MC", "len": 1, "payload": "01", "note": "ack"}
+{"t": 14.571, "dir": "rx", "cmd": "MC", "len": 8, "payload": "0023200000010001"}
+{"t": 14.571, "dir": "tx", "cmd": "MC", "len": 1, "payload": "01", "note": "ack"}
+{"t": 14.602, "dir": "rx", "cmd": "MC", "len": 8, "payload": "0024200000010001"}
+{"t": 14.602, "dir": "tx", "cmd": "MC", "len": 1, "payload": "01", "note": "ack"}
+{"t": 14.63, "dir": "rx", "cmd": "MC", "len": 8, "payload": "0025f80000020002"}
+{"t": 14.631, "dir": "tx", "cmd": "MC", "len": 1, "payload": "01", "note": "ack"}
+{"t": 14.66, "dir": "rx", "cmd": "MC", "len": 8, "payload": "0026f80000020002"}
+{"t": 14.661, "dir": "tx", "cmd": "MC", "len": 1, "payload": "01", "note": "ack"}
+{"t": 14.691, "dir": "rx", "cmd": "MC", "len": 8, "payload": "0027f80000020002"}
+{"t": 14.691, "dir": "tx", "cmd": "MC", "len": 1, "payload": "01", "note": "ack"}
+{"t": 14.721, "dir": "rx", "cmd": "MC", "len": 8, "payload": "0028f80000020002"}
+{"t": 14.721, "dir": "tx", "cmd": "MC", "len": 1, "payload": "01", "note": "ack"}
+{"t": 14.751, "dir": "rx", "cmd": "MC", "len": 8, "payload": "0029f80000020002"}
+{"t": 14.752, "dir": "tx", "cmd": "MC", "len": 1, "payload": "01", "note": "ack"}
+{"t": 14.781, "dir": "rx", "cmd": "MC", "len": 8, "payload": "002af80000020002"}
+{"t": 14.781, "dir": "tx", "cmd": "MC", "len": 1, "payload": "01", "note": "ack"}
+{"t": 14.811, "dir": "rx", "cmd": "MC", "len": 8, "payload": "002b250000010001"}
+{"t": 14.811, "dir": "tx", "cmd": "MC", "len": 1, "payload": "01", "note": "ack"}
+{"t": 14.84, "dir": "rx", "cmd": "MC", "len": 8, "payload": "002c250100cf00cf"}
+{"t": 14.841, "dir": "tx", "cmd": "MC", "len": 1, "payload": "01", "note": "ack"}
+{"t": 15.163, "dir": "rx", "cmd": "MC", "len": 8, "payload": "002d250000010001"}
+{"t": 15.163, "dir": "tx", "cmd": "MC", "len": 1, "payload": "01", "note": "ack"}
+{"t": 15.21, "dir": "rx", "cmd": "MC", "len": 8, "payload": "002e250000010001"}
+{"t": 15.211, "dir": "tx", "cmd": "MC", "len": 1, "payload": "01", "note": "ack"}
+{"t": 15.261, "dir": "rx", "cmd": "MC", "len": 8, "payload": "002f680000010001"}
+{"t": 15.262, "dir": "tx", "cmd": "MC", "len": 1, "payload": "01", "note": "ack"}
+{"t": 15.311, "dir": "rx", "cmd": "MC", "len": 8, "payload": "0030200000010001"}
+{"t": 15.311, "dir": "tx", "cmd": "MC", "len": 1, "payload": "01", "note": "ack"}
+{"t": 15.517, "dir": "rx", "cmd": "MC", "len": 8, "payload": "003155000001001e"}
+{"t": 15.517, "dir": "tx", "cmd": "MC", "len": 1, "payload": "01", "note": "ack"}
+{"t": 15.593, "dir": "rx", "cmd": "MC", "len": 8, "payload": "00326801000a000a"}
+{"t": 15.593, "dir": "tx", "cmd": "MC", "len": 1, "payload": "01", "note": "ack"}
+{"t": 15.662, "dir": "rx", "cmd": "MC", "len": 8, "payload": "0033250000010001"}
+{"t": 15.663, "dir": "tx", "cmd": "MC", "len": 1, "payload": "01", "note": "ack"}
+{"t": 15.724, "dir": "rx", "cmd": "MZ", "len": 1, "payload": "43"}
+{"t": 15.725, "dir": "tx", "cmd": "MZ", "len": 1, "payload": "01", "note": "ack"}
+{"t": 15.761, "dir": "rx", "cmd": "MD", "len": 17, "payload": "4100010002000045494e5354454c4c454e"}
+{"t": 15.761, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 15.805, "dir": "rx", "cmd": "MD", "len": 22, "payload": "410002000300004b657373656c74656d702e202e2e2e"}
+{"t": 15.806, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 15.855, "dir": "rx", "cmd": "MD", "len": 22, "payload": "410002000800005075666665722020202020202e2e2e"}
+{"t": 15.856, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 15.907, "dir": "rx", "cmd": "MD", "len": 22, "payload": "41000200090000426f696c65722020202020202e2e2e"}
+{"t": 15.907, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 15.957, "dir": "rx", "cmd": "MD", "len": 22, "payload": "410002005a00004865697a7a656974656e20202e2e2e"}
+{"t": 15.957, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 16.005, "dir": "rx", "cmd": "MD", "len": 22, "payload": "410002003200004865697a6b726569732031202e2e2e"}
+{"t": 16.006, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 16.047, "dir": "rx", "cmd": "MD", "len": 22, "payload": "410002003c00004865697a6b726569732032202e2e2e"}
+{"t": 16.048, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 16.097, "dir": "rx", "cmd": "MD", "len": 22, "payload": "410002004600004865697a6b726569732033202e2e2e"}
+{"t": 16.097, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 16.144, "dir": "rx", "cmd": "MD", "len": 20, "payload": "5300020000009c42657472696562736172743a0a"}
+{"t": 16.144, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 16.196, "dir": "rx", "cmd": "MD", "len": 23, "payload": "490002000000e352424720333130300a5a756f72642e3a"}
+{"t": 16.197, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 16.255, "dir": "rx", "cmd": "MD", "len": 32, "payload": "490003000000e2446965204b657373656c74656d702e0a736f6c6c207365696e"}
+{"t": 16.256, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 16.317, "dir": "rx", "cmd": "MD", "len": 33, "payload": "4900050000001952657374736175657273746f66662d0a676568616c74536f6c6c"}
+{"t": 16.318, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 16.379, "dir": "rx", "cmd": "MD", "len": 35, "payload": "4900080000007350756666657274656d702e4865697a2d0a6b7265697366726569672e"}
+{"t": 16.379, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 16.431, "dir": "rx", "cmd": "MD", "len": 28, "payload": "490008000000ae507566666572206f62656e0a4d696e2e54656d702e"}
+{"t": 16.432, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 16.487, "dir": "rx", "cmd": "MD", "len": 34, "payload": "49000900000075476577816e7363687465426f696c65720a74656d70657261747572"}
+{"t": 16.488, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 16.55, "dir": "rx", "cmd": "MD", "len": 34, "payload": "490009000000a54e6163686c6164656e2077656e6e0a426f696c657220756e746572"}
+{"t": 16.55, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 16.604, "dir": "rx", "cmd": "MD", "len": 30, "payload": "5a0009000000a1426567696e6e2064657220312e0a4175666c6164756e67"}
+{"t": 16.604, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 16.651, "dir": "rx", "cmd": "MD", "len": 28, "payload": "5a0009000000a2456e64652064657220312e0a4175666c6164756e67"}
+{"t": 16.651, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 16.703, "dir": "rx", "cmd": "MD", "len": 30, "payload": "5a0009000000a3426567696e6e2064657220322e0a4175666c6164756e67"}
+{"t": 16.703, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 16.753, "dir": "rx", "cmd": "MD", "len": 28, "payload": "5a0009000000a4456e64652064657220322e0a4175666c6164756e67"}
+{"t": 16.754, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 16.834, "dir": "rx", "cmd": "MD", "len": 30, "payload": "420009000000a66e757220317820616d205461670a6175666865697a656e"}
+{"t": 16.835, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 16.915, "dir": "rx", "cmd": "MD", "len": 32, "payload": "420009000000a74c6567696f6e656c6c656e0a4175666865697a756e673635f8"}
+{"t": 16.915, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 16.975, "dir": "rx", "cmd": "MD", "len": 31, "payload": "570009000000a84c6567696f6e656c6c656e204175662d0a6865697a746167"}
+{"t": 16.975, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 17.035, "dir": "rx", "cmd": "MD", "len": 33, "payload": "5a000e000000b0426567696e6e2064657220312e5075660a6665726c6164756e67"}
+{"t": 17.036, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 17.094, "dir": "rx", "cmd": "MD", "len": 31, "payload": "5a000e000000b1456e64652064657220312e5075660a6665726c6164756e67"}
+{"t": 17.094, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 17.156, "dir": "rx", "cmd": "MD", "len": 33, "payload": "5a000e000000b5426567696e6e2064657220322e5075660a6665726c6164756e67"}
+{"t": 17.156, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 17.213, "dir": "rx", "cmd": "MD", "len": 31, "payload": "5a000e000000b6456e64652064657220322e5075660a6665726c6164756e67"}
+{"t": 17.214, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 17.262, "dir": "rx", "cmd": "MD", "len": 20, "payload": "490010000000715281636b6c2e20536f6c6c772e"}
+{"t": 17.263, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 17.326, "dir": "rx", "cmd": "MD", "len": 21, "payload": "41003200350000576f6368656e70726f6772616d6d"}
+{"t": 17.326, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 17.394, "dir": "rx", "cmd": "MD", "len": 22, "payload": "410032003300004865697a6b757276652020202e2e2e"}
+{"t": 17.394, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 17.452, "dir": "rx", "cmd": "MD", "len": 29, "payload": "4900320000005c566f726c61756674656d702e0a416273656e6b2e756d"}
+{"t": 17.452, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 17.507, "dir": "rx", "cmd": "MD", "len": 33, "payload": "4900320000005d4175e1656e74656d706572617475720a4865697a6772656e7a65"}
+{"t": 17.507, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 17.565, "dir": "rx", "cmd": "MD", "len": 33, "payload": "4900320000005e4175e1656e742e4865697a67722e0a416273656e6b626574722e"}
+{"t": 17.566, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 17.627, "dir": "rx", "cmd": "MD", "len": 35, "payload": "49003300000064566f726c61756674656d702e206265690a6175e1656e202d3130f843"}
+{"t": 17.628, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 17.688, "dir": "rx", "cmd": "MD", "len": 35, "payload": "49003300000065566f726c61756674656d702e206265690a6175e1656e202b3130f843"}
+{"t": 17.688, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 17.736, "dir": "rx", "cmd": "MD", "len": 23, "payload": "50003500000000204d6f44694d69446f46725361536f0a"}
+{"t": 17.736, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 17.783, "dir": "rx", "cmd": "MD", "len": 21, "payload": "41003c003f0000576f6368656e70726f6772616d6d"}
+{"t": 17.783, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 17.833, "dir": "rx", "cmd": "MD", "len": 22, "payload": "41003c003d00004865697a6b757276652020202e2e2e"}
+{"t": 17.834, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 17.913, "dir": "rx", "cmd": "MD", "len": 30, "payload": "49003c000000665261756d74656d706572617475720a536f6c6c77657274"}
+{"t": 17.913, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 17.996, "dir": "rx", "cmd": "MD", "len": 34, "payload": "49003c000000675261756d74656d702e536f6c6c772e0a416273656e6b626574722e"}
+{"t": 17.997, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 18.05, "dir": "rx", "cmd": "MD", "len": 29, "payload": "49003c00000069566f726c61756674656d702e0a416273656e6b2e756d"}
+{"t": 18.051, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 18.106, "dir": "rx", "cmd": "MD", "len": 33, "payload": "49003c0000006a4175e1656e74656d706572617475720a4865697a6772656e7a65"}
+{"t": 18.106, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 18.166, "dir": "rx", "cmd": "MD", "len": 33, "payload": "49003c0000006b4175e1656e742e4865697a67722e0a416273656e6b626574722e"}
+{"t": 18.166, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 18.226, "dir": "rx", "cmd": "MD", "len": 35, "payload": "49003d00000071566f726c61756674656d702e206265690a6175e1656e202d3130f843"}
+{"t": 18.227, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 18.288, "dir": "rx", "cmd": "MD", "len": 35, "payload": "49003d00000072566f726c61756674656d702e206265690a6175e1656e202b3130f843"}
+{"t": 18.289, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 18.335, "dir": "rx", "cmd": "MD", "len": 23, "payload": "50003f00000001204d6f44694d69446f46725361536f0a"}
+{"t": 18.335, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 18.383, "dir": "rx", "cmd": "MD", "len": 21, "payload": "41004600490000576f6368656e70726f6772616d6d"}
+{"t": 18.383, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 18.434, "dir": "rx", "cmd": "MD", "len": 22, "payload": "410046004700004865697a6b757276652020202e2e2e"}
+{"t": 18.434, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 18.511, "dir": "rx", "cmd": "MD", "len": 30, "payload": "490046000000bf5261756d74656d706572617475720a536f6c6c77657274"}
+{"t": 18.511, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 18.585, "dir": "rx", "cmd": "MD", "len": 34, "payload": "490046000000c05261756d74656d702e536f6c6c772e0a416273656e6b626574722e"}
+{"t": 18.585, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 18.64, "dir": "rx", "cmd": "MD", "len": 29, "payload": "490046000000c2566f726c61756674656d702e0a416273656e6b2e756d"}
+{"t": 18.641, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 18.694, "dir": "rx", "cmd": "MD", "len": 33, "payload": "490046000000c34175e1656e74656d706572617475720a4865697a6772656e7a65"}
+{"t": 18.694, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 18.755, "dir": "rx", "cmd": "MD", "len": 33, "payload": "490046000000c44175e1656e742e4865697a67722e0a416273656e6b626574722e"}
+{"t": 18.755, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 18.816, "dir": "rx", "cmd": "MD", "len": 35, "payload": "490047000000ca566f726c61756674656d702e206265690a6175e1656e202d3130f843"}
+{"t": 18.817, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 18.876, "dir": "rx", "cmd": "MD", "len": 35, "payload": "490047000000cb566f726c61756674656d702e206265690a6175e1656e202b3130f843"}
+{"t": 18.877, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 18.924, "dir": "rx", "cmd": "MD", "len": 23, "payload": "50004900000002204d6f44694d69446f46725361536f0a"}
+{"t": 18.924, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 18.991, "dir": "rx", "cmd": "MD", "len": 21, "payload": "41005000530000576f6368656e70726f6772616d6d"}
+{"t": 18.992, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 19.061, "dir": "rx", "cmd": "MD", "len": 22, "payload": "410050005100004865697a6b757276652020202e2e2e"}
+{"t": 19.062, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 19.139, "dir": "rx", "cmd": "MD", "len": 29, "payload": "490050000000cf566f726c61756674656d702e0a416273656e6b2e756d"}
+{"t": 19.139, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 19.214, "dir": "rx", "cmd": "MD", "len": 33, "payload": "490050000000d04175e1656e74656d706572617475720a4865697a6772656e7a65"}
+{"t": 19.215, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 19.294, "dir": "rx", "cmd": "MD", "len": 33, "payload": "490050000000d14175e1656e742e4865697a67722e0a416273656e6b626574722e"}
+{"t": 19.294, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 19.375, "dir": "rx", "cmd": "MD", "len": 35, "payload": "490051000000d7566f726c61756674656d702e206265690a6175e1656e202d3130f843"}
+{"t": 19.376, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 19.455, "dir": "rx", "cmd": "MD", "len": 35, "payload": "490051000000d8566f726c61756674656d702e206265690a6175e1656e202b3130f843"}
+{"t": 19.455, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 19.522, "dir": "rx", "cmd": "MD", "len": 23, "payload": "50005300000003204d6f44694d69446f46725361536f0a"}
+{"t": 19.523, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 19.591, "dir": "rx", "cmd": "MD", "len": 22, "payload": "41005a005b00004865697a7a656974202020312e2e2e"}
+{"t": 19.592, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 19.662, "dir": "rx", "cmd": "MD", "len": 22, "payload": "41005a005c00004865697a7a656974202020322e2e2e"}
+{"t": 19.663, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 19.732, "dir": "rx", "cmd": "MD", "len": 22, "payload": "41005a005d00004865697a7a656974202020332e2e2e"}
+{"t": 19.732, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 19.801, "dir": "rx", "cmd": "MD", "len": 22, "payload": "41005a005e00004865697a7a656974202020342e2e2e"}
+{"t": 19.801, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 19.872, "dir": "rx", "cmd": "MD", "len": 22, "payload": "41005a005f00004865697a7a656974202020352e2e2e"}
+{"t": 19.872, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 19.941, "dir": "rx", "cmd": "MD", "len": 22, "payload": "41005a006000004865697a7a656974202020362e2e2e"}
+{"t": 19.941, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 19.991, "dir": "rx", "cmd": "MD", "len": 22, "payload": "41005a006100004865697a7a656974202020372e2e2e"}
+{"t": 19.992, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 20.041, "dir": "rx", "cmd": "MD", "len": 22, "payload": "41005a006200004865697a7a656974202020382e2e2e"}
+{"t": 20.042, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 20.091, "dir": "rx", "cmd": "MD", "len": 22, "payload": "41005a006300004865697a7a656974202020392e2e2e"}
+{"t": 20.092, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 20.142, "dir": "rx", "cmd": "MD", "len": 22, "payload": "41005a006400004865697a7a65697420202031302e2e"}
+{"t": 20.143, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 20.192, "dir": "rx", "cmd": "MD", "len": 22, "payload": "41005a006500004865697a7a65697420202031312e2e"}
+{"t": 20.192, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 20.241, "dir": "rx", "cmd": "MD", "len": 22, "payload": "41005a006600004865697a7a65697420202031322e2e"}
+{"t": 20.241, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 20.291, "dir": "rx", "cmd": "MD", "len": 22, "payload": "41005a006700004865697a7a65697420202031332e2e"}
+{"t": 20.292, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 20.342, "dir": "rx", "cmd": "MD", "len": 22, "payload": "41005a006800004865697a7a65697420202031342e2e"}
+{"t": 20.342, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 20.394, "dir": "rx", "cmd": "MD", "len": 25, "payload": "5a005b000000214865697a706861736520310a426567696e6e"}
+{"t": 20.395, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 20.442, "dir": "rx", "cmd": "MD", "len": 23, "payload": "5a005b000000224865697a706861736520310a456e6465"}
+{"t": 20.442, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 20.495, "dir": "rx", "cmd": "MD", "len": 25, "payload": "5a005b000000234865697a706861736520320a426567696e6e"}
+{"t": 20.495, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 20.543, "dir": "rx", "cmd": "MD", "len": 23, "payload": "5a005b000000244865697a706861736520320a456e6465"}
+{"t": 20.543, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 20.595, "dir": "rx", "cmd": "MD", "len": 25, "payload": "5a005c000000254865697a706861736520310a426567696e6e"}
+{"t": 20.595, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 20.643, "dir": "rx", "cmd": "MD", "len": 23, "payload": "5a005c000000264865697a706861736520310a456e6465"}
+{"t": 20.643, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 20.694, "dir": "rx", "cmd": "MD", "len": 25, "payload": "5a005c000000274865697a706861736520320a426567696e6e"}
+{"t": 20.695, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 20.743, "dir": "rx", "cmd": "MD", "len": 23, "payload": "5a005c000000284865697a706861736520320a456e6465"}
+{"t": 20.744, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 20.794, "dir": "rx", "cmd": "MD", "len": 25, "payload": "5a005d000000294865697a706861736520310a426567696e6e"}
+{"t": 20.794, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 20.841, "dir": "rx", "cmd": "MD", "len": 23, "payload": "5a005d0000002a4865697a706861736520310a456e6465"}
+{"t": 20.841, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 20.894, "dir": "rx", "cmd": "MD", "len": 25, "payload": "5a005d0000002b4865697a706861736520320a426567696e6e"}
+{"t": 20.894, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 20.942, "dir": "rx", "cmd": "MD", "len": 23, "payload": "5a005d0000002c4865697a706861736520320a456e6465"}
+{"t": 20.942, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 20.994, "dir": "rx", "cmd": "MD", "len": 25, "payload": "5a005e0000002d4865697a706861736520310a426567696e6e"}
+{"t": 20.994, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 21.041, "dir": "rx", "cmd": "MD", "len": 23, "payload": "5a005e0000002e4865697a706861736520310a456e6465"}
+{"t": 21.042, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 21.095, "dir": "rx", "cmd": "MD", "len": 25, "payload": "5a005e0000002f4865697a706861736520320a426567696e6e"}
+{"t": 21.096, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 21.141, "dir": "rx", "cmd": "MD", "len": 23, "payload": "5a005e000000304865697a706861736520320a456e6465"}
+{"t": 21.142, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 21.194, "dir": "rx", "cmd": "MD", "len": 25, "payload": "5a005f000000314865697a706861736520310a426567696e6e"}
+{"t": 21.194, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 21.242, "dir": "rx", "cmd": "MD", "len": 23, "payload": "5a005f000000324865697a706861736520310a456e6465"}
+{"t": 21.242, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 21.293, "dir": "rx", "cmd": "MD", "len": 25, "payload": "5a005f000000334865697a706861736520320a426567696e6e"}
+{"t": 21.294, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 21.341, "dir": "rx", "cmd": "MD", "len": 23, "payload": "5a005f000000344865697a706861736520320a456e6465"}
+{"t": 21.341, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 21.393, "dir": "rx", "cmd": "MD", "len": 25, "payload": "5a0060000000354865697a706861736520310a426567696e6e"}
+{"t": 21.394, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 21.442, "dir": "rx", "cmd": "MD", "len": 23, "payload": "5a0060000000364865697a706861736520310a456e6465"}
+{"t": 21.442, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 21.494, "dir": "rx", "cmd": "MD", "len": 25, "payload": "5a0060000000374865697a706861736520320a426567696e6e"}
+{"t": 21.494, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 21.542, "dir": "rx", "cmd": "MD", "len": 23, "payload": "5a0060000000384865697a706861736520320a456e6465"}
+{"t": 21.542, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 21.593, "dir": "rx", "cmd": "MD", "len": 25, "payload": "5a0061000000394865697a706861736520310a426567696e6e"}
+{"t": 21.594, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 21.641, "dir": "rx", "cmd": "MD", "len": 23, "payload": "5a00610000003a4865697a706861736520310a456e6465"}
+{"t": 21.642, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 21.693, "dir": "rx", "cmd": "MD", "len": 25, "payload": "5a00610000003b4865697a706861736520320a426567696e6e"}
+{"t": 21.694, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 21.742, "dir": "rx", "cmd": "MD", "len": 23, "payload": "5a00610000003c4865697a706861736520320a456e6465"}
+{"t": 21.742, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 21.793, "dir": "rx", "cmd": "MD", "len": 25, "payload": "5a00620000003d4865697a706861736520310a426567696e6e"}
+{"t": 21.794, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 21.841, "dir": "rx", "cmd": "MD", "len": 23, "payload": "5a00620000003e4865697a706861736520310a456e6465"}
+{"t": 21.842, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 21.893, "dir": "rx", "cmd": "MD", "len": 25, "payload": "5a00620000003f4865697a706861736520320a426567696e6e"}
+{"t": 21.894, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 21.941, "dir": "rx", "cmd": "MD", "len": 23, "payload": "5a0062000000404865697a706861736520320a456e6465"}
+{"t": 21.941, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 21.993, "dir": "rx", "cmd": "MD", "len": 25, "payload": "5a0063000000414865697a706861736520310a426567696e6e"}
+{"t": 21.994, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 22.04, "dir": "rx", "cmd": "MD", "len": 23, "payload": "5a0063000000424865697a706861736520310a456e6465"}
+{"t": 22.041, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 22.093, "dir": "rx", "cmd": "MD", "len": 25, "payload": "5a0063000000434865697a706861736520320a426567696e6e"}
+{"t": 22.094, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 22.14, "dir": "rx", "cmd": "MD", "len": 23, "payload": "5a0063000000444865697a706861736520320a456e6465"}
+{"t": 22.141, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 22.193, "dir": "rx", "cmd": "MD", "len": 25, "payload": "5a0064000000454865697a706861736520310a426567696e6e"}
+{"t": 22.193, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 22.241, "dir": "rx", "cmd": "MD", "len": 23, "payload": "5a0064000000464865697a706861736520310a456e6465"}
+{"t": 22.241, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 22.292, "dir": "rx", "cmd": "MD", "len": 25, "payload": "5a0064000000474865697a706861736520320a426567696e6e"}
+{"t": 22.293, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 22.34, "dir": "rx", "cmd": "MD", "len": 23, "payload": "5a0064000000484865697a706861736520320a456e6465"}
+{"t": 22.34, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 22.394, "dir": "rx", "cmd": "MD", "len": 25, "payload": "5a0065000000494865697a706861736520310a426567696e6e"}
+{"t": 22.394, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 22.44, "dir": "rx", "cmd": "MD", "len": 23, "payload": "5a00650000004a4865697a706861736520310a456e6465"}
+{"t": 22.44, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 22.493, "dir": "rx", "cmd": "MD", "len": 25, "payload": "5a00650000004b4865697a706861736520320a426567696e6e"}
+{"t": 22.494, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 22.54, "dir": "rx", "cmd": "MD", "len": 23, "payload": "5a00650000004c4865697a706861736520320a456e6465"}
+{"t": 22.54, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 22.592, "dir": "rx", "cmd": "MD", "len": 25, "payload": "5a00660000004d4865697a706861736520310a426567696e6e"}
+{"t": 22.592, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 22.641, "dir": "rx", "cmd": "MD", "len": 23, "payload": "5a00660000004e4865697a706861736520310a456e6465"}
+{"t": 22.641, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 22.697, "dir": "rx", "cmd": "MD", "len": 25, "payload": "5a00660000004f4865697a706861736520320a426567696e6e"}
+{"t": 22.697, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 22.74, "dir": "rx", "cmd": "MD", "len": 23, "payload": "5a0066000000504865697a706861736520320a456e6465"}
+{"t": 22.74, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 22.8, "dir": "rx", "cmd": "MD", "len": 25, "payload": "5a0067000000514865697a706861736520310a426567696e6e"}
+{"t": 22.8, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 22.849, "dir": "rx", "cmd": "MD", "len": 23, "payload": "5a0067000000524865697a706861736520310a456e6465"}
+{"t": 22.849, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 22.902, "dir": "rx", "cmd": "MD", "len": 25, "payload": "5a0067000000534865697a706861736520320a426567696e6e"}
+{"t": 22.902, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 22.957, "dir": "rx", "cmd": "MD", "len": 23, "payload": "5a0067000000544865697a706861736520320a456e6465"}
+{"t": 22.957, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 23.001, "dir": "rx", "cmd": "MD", "len": 25, "payload": "5a0068000000554865697a706861736520310a426567696e6e"}
+{"t": 23.001, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 23.051, "dir": "rx", "cmd": "MD", "len": 23, "payload": "5a0068000000564865697a706861736520310a456e6465"}
+{"t": 23.051, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 23.101, "dir": "rx", "cmd": "MD", "len": 25, "payload": "5a0068000000574865697a706861736520320a426567696e6e"}
+{"t": 23.101, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 23.149, "dir": "rx", "cmd": "MD", "len": 23, "payload": "5a0068000000584865697a706861736520320a456e6465"}
+{"t": 23.149, "dir": "tx", "cmd": "MD", "len": 1, "payload": "01", "note": "ack"}
+{"t": 23.179, "dir": "rx", "cmd": "MZ", "len": 1, "payload": "44"}
+{"t": 23.179, "dir": "tx", "cmd": "MZ", "len": 1, "payload": "01", "note": "ack"}
+{"t": 23.223, "dir": "rx", "cmd": "ME", "len": 17, "payload": "0000f8000002000200140005000000000a"}
+{"t": 23.223, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 23.263, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00016d00003c0001003c000a0000010258"}
+{"t": 23.264, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 23.306, "dir": "rx", "cmd": "ME", "len": 17, "payload": "0002f8000001001e012c00785800030078"}
+{"t": 23.306, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 23.343, "dir": "rx", "cmd": "ME", "len": 17, "payload": "0003f8000001003c012c00fa4e000200fa"}
+{"t": 23.343, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 23.384, "dir": "rx", "cmd": "ME", "len": 17, "payload": "0004f800000100000032000f000004000f"}
+{"t": 23.384, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 23.423, "dir": "rx", "cmd": "ME", "len": 17, "payload": "0005f8000001002800c800500000050055"}
+{"t": 23.423, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 23.468, "dir": "rx", "cmd": "ME", "len": 17, "payload": "0006200201000001270f00c80000060200"}
+{"t": 23.468, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 23.518, "dir": "rx", "cmd": "ME", "len": 17, "payload": "000773000001000a0e1001900000070190"}
+{"t": 23.518, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 23.553, "dir": "rx", "cmd": "ME", "len": 17, "payload": "0008200201000001270f00640000080100"}
+{"t": 23.554, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 23.596, "dir": "rx", "cmd": "ME", "len": 17, "payload": "000973000001000a0e1000b400000900b4"}
+{"t": 23.596, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 23.633, "dir": "rx", "cmd": "ME", "len": 17, "payload": "000a2500000100000064002300000a0032"}
+{"t": 23.633, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 23.673, "dir": "rx", "cmd": "ME", "len": 17, "payload": "000b7300000100010e10001e00000b001e"}
+{"t": 23.673, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 23.72, "dir": "rx", "cmd": "ME", "len": 17, "payload": "000cf800000200460064005a00000c00b4"}
+{"t": 23.72, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 23.762, "dir": "rx", "cmd": "ME", "len": 17, "payload": "000df800000200000014000300000d0006"}
+{"t": 23.762, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 23.803, "dir": "rx", "cmd": "ME", "len": 17, "payload": "000e2500000100000064000a00000e000a"}
+{"t": 23.803, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 23.844, "dir": "rx", "cmd": "ME", "len": 17, "payload": "000f2500000100000064006400000f0064"}
+{"t": 23.844, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 23.882, "dir": "rx", "cmd": "ME", "len": 17, "payload": "0010f800000100c8038402585800150258"}
+{"t": 23.883, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 23.922, "dir": "rx", "cmd": "ME", "len": 17, "payload": "0011250000010000006400005800120000"}
+{"t": 23.922, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 23.962, "dir": "rx", "cmd": "ME", "len": 17, "payload": "0012250000010000006400284e00110028"}
+{"t": 23.963, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 24.003, "dir": "rx", "cmd": "ME", "len": 17, "payload": "0013200201000001270f00140000130033"}
+{"t": 24.003, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 24.042, "dir": "rx", "cmd": "ME", "len": 17, "payload": "001473000001000a0e1002580000140258"}
+{"t": 24.042, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 24.082, "dir": "rx", "cmd": "ME", "len": 17, "payload": "0015f800000101f4044c03204e00100320"}
+{"t": 24.082, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 24.122, "dir": "rx", "cmd": "ME", "len": 17, "payload": "0016f8000001000003e801900000160190"}
+{"t": 24.122, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 24.162, "dir": "rx", "cmd": "ME", "len": 17, "payload": "0017200201000001270f00140000170033"}
+{"t": 24.162, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 24.202, "dir": "rx", "cmd": "ME", "len": 17, "payload": "001873000001000a0e10001e000018001e"}
+{"t": 24.202, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 24.242, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00192501000a00320096005a000019005a"}
+{"t": 24.242, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 24.282, "dir": "rx", "cmd": "ME", "len": 17, "payload": "001a2501000a006400d200aa00001a00c3"}
+{"t": 24.282, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 24.322, "dir": "rx", "cmd": "ME", "len": 17, "payload": "001b200201000001270f004600001b00b3"}
+{"t": 24.323, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 24.362, "dir": "rx", "cmd": "ME", "len": 17, "payload": "001c73000001000a0e10001e00001c001e"}
+{"t": 24.362, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 24.402, "dir": "rx", "cmd": "ME", "len": 17, "payload": "001d5601000a00000064001200001d0003"}
+{"t": 24.402, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 24.442, "dir": "rx", "cmd": "ME", "len": 17, "payload": "001e5601000a00000064006400001e0064"}
+{"t": 24.443, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 24.482, "dir": "rx", "cmd": "ME", "len": 17, "payload": "001f5601000a00000064001200001f0003"}
+{"t": 24.482, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 24.522, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00205601000a0000006400640000200064"}
+{"t": 24.522, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 24.562, "dir": "rx", "cmd": "ME", "len": 17, "payload": "002120000001000024000600000021012c"}
+{"t": 24.562, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 24.602, "dir": "rx", "cmd": "ME", "len": 17, "payload": "0022200000010000240022004e0021021c"}
+{"t": 24.602, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 24.642, "dir": "rx", "cmd": "ME", "len": 17, "payload": "0023200000010000240023004e0022043a"}
+{"t": 24.642, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 24.682, "dir": "rx", "cmd": "ME", "len": 17, "payload": "0024200000010000240023004e00230528"}
+{"t": 24.682, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 24.722, "dir": "rx", "cmd": "ME", "len": 17, "payload": "002520000001000024000400000025014a"}
+{"t": 24.722, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 24.762, "dir": "rx", "cmd": "ME", "len": 17, "payload": "0026200000010000240007004e0025023a"}
+{"t": 24.763, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 24.803, "dir": "rx", "cmd": "ME", "len": 17, "payload": "0027200000010000240015004e00260366"}
+{"t": 24.803, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 24.842, "dir": "rx", "cmd": "ME", "len": 17, "payload": "0028200000010000240022004e00270528"}
+{"t": 24.842, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 24.882, "dir": "rx", "cmd": "ME", "len": 17, "payload": "002920000001000024000400000029012c"}
+{"t": 24.882, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 24.922, "dir": "rx", "cmd": "ME", "len": 17, "payload": "002a200000010000240007004e002901a4"}
+{"t": 24.922, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 24.963, "dir": "rx", "cmd": "ME", "len": 17, "payload": "002b200000010000240015004e002a03de"}
+{"t": 24.964, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 25.003, "dir": "rx", "cmd": "ME", "len": 17, "payload": "002c200000010000240022004e002b04b0"}
+{"t": 25.003, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 25.041, "dir": "rx", "cmd": "ME", "len": 17, "payload": "002d2000000100002400040000002d00f0"}
+{"t": 25.041, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 25.082, "dir": "rx", "cmd": "ME", "len": 17, "payload": "002e200000010000240007004e002d01a4"}
+{"t": 25.083, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 25.122, "dir": "rx", "cmd": "ME", "len": 17, "payload": "002f200000010000240015004e002e0384"}
+{"t": 25.122, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 25.161, "dir": "rx", "cmd": "ME", "len": 17, "payload": "0030200000010000240022004e002f0528"}
+{"t": 25.161, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 25.202, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00312000000100002400040000003100f0"}
+{"t": 25.202, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 25.241, "dir": "rx", "cmd": "ME", "len": 17, "payload": "0032200000010000240007004e003101a4"}
+{"t": 25.242, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 25.282, "dir": "rx", "cmd": "ME", "len": 17, "payload": "0033200000010000240015004e00320384"}
+{"t": 25.283, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 25.322, "dir": "rx", "cmd": "ME", "len": 17, "payload": "0034200000010000240022004e00330528"}
+{"t": 25.323, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 25.362, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00352000000100002400040000003500f0"}
+{"t": 25.363, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 25.401, "dir": "rx", "cmd": "ME", "len": 17, "payload": "0036200000010000240007004e003501a4"}
+{"t": 25.401, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 25.441, "dir": "rx", "cmd": "ME", "len": 17, "payload": "0037200000010000240015004e00360384"}
+{"t": 25.441, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 25.482, "dir": "rx", "cmd": "ME", "len": 17, "payload": "0038200000010000240022004e00370528"}
+{"t": 25.482, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 25.521, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00392000000100002400040000003900f0"}
+{"t": 25.521, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 25.561, "dir": "rx", "cmd": "ME", "len": 17, "payload": "003a200000010000240007004e003901a4"}
+{"t": 25.561, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 25.601, "dir": "rx", "cmd": "ME", "len": 17, "payload": "003b200000010000240015004e003a0384"}
+{"t": 25.601, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 25.642, "dir": "rx", "cmd": "ME", "len": 17, "payload": "003c200000010000240022004e003b0528"}
+{"t": 25.643, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 25.681, "dir": "rx", "cmd": "ME", "len": 17, "payload": "003d2000000100002400040000003d00f0"}
+{"t": 25.682, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 25.721, "dir": "rx", "cmd": "ME", "len": 17, "payload": "003e200000010000240007004e003d01a4"}
+{"t": 25.721, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 25.763, "dir": "rx", "cmd": "ME", "len": 17, "payload": "003f200000010000240015004e003e0384"}
+{"t": 25.764, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 25.801, "dir": "rx", "cmd": "ME", "len": 17, "payload": "0040200000010000240022004e003f0528"}
+{"t": 25.802, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 25.842, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00412000000100002400040000004100f0"}
+{"t": 25.842, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 25.881, "dir": "rx", "cmd": "ME", "len": 17, "payload": "0042200000010000240007004e004101a4"}
+{"t": 25.881, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 25.924, "dir": "rx", "cmd": "ME", "len": 17, "payload": "0043200000010000240015004e00420384"}
+{"t": 25.924, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 25.962, "dir": "rx", "cmd": "ME", "len": 17, "payload": "0044200000010000240022004e00430528"}
+{"t": 25.962, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 26.001, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00452000000100002400040000004500f0"}
+{"t": 26.002, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 26.052, "dir": "rx", "cmd": "ME", "len": 17, "payload": "0046200000010000240007004e004501a4"}
+{"t": 26.053, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 26.091, "dir": "rx", "cmd": "ME", "len": 17, "payload": "0047200000010000240015004e00460384"}
+{"t": 26.091, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 26.132, "dir": "rx", "cmd": "ME", "len": 17, "payload": "0048200000010000240022004e00470528"}
+{"t": 26.132, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 26.173, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00492000000100002400040000004900f0"}
+{"t": 26.174, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 26.211, "dir": "rx", "cmd": "ME", "len": 17, "payload": "004a200000010000240007004e004901a4"}
+{"t": 26.212, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 26.253, "dir": "rx", "cmd": "ME", "len": 17, "payload": "004b200000010000240015004e004a0384"}
+{"t": 26.253, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 26.291, "dir": "rx", "cmd": "ME", "len": 17, "payload": "004c200000010000240022004e004b0528"}
+{"t": 26.291, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 26.331, "dir": "rx", "cmd": "ME", "len": 17, "payload": "004d2000000100002400040000004d00f0"}
+{"t": 26.331, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 26.371, "dir": "rx", "cmd": "ME", "len": 17, "payload": "004e200000010000240007004e004d01a4"}
+{"t": 26.372, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 26.41, "dir": "rx", "cmd": "ME", "len": 17, "payload": "004f200000010000240015004e004e0384"}
+{"t": 26.41, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 26.45, "dir": "rx", "cmd": "ME", "len": 17, "payload": "0050200000010000240022004e004f0528"}
+{"t": 26.45, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 26.49, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00512000000100002400040000005100f0"}
+{"t": 26.49, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 26.531, "dir": "rx", "cmd": "ME", "len": 17, "payload": "0052200000010000240007004e005101a4"}
+{"t": 26.532, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 26.571, "dir": "rx", "cmd": "ME", "len": 17, "payload": "0053200000010000240015004e00520384"}
+{"t": 26.571, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 26.61, "dir": "rx", "cmd": "ME", "len": 17, "payload": "0054200000010000240022004e00530528"}
+{"t": 26.61, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 26.65, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00552000000100002400040000005500f0"}
+{"t": 26.65, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 26.69, "dir": "rx", "cmd": "ME", "len": 17, "payload": "0056200000010000240007004e005501a4"}
+{"t": 26.69, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 26.73, "dir": "rx", "cmd": "ME", "len": 17, "payload": "0057200000010000240015004e00560384"}
+{"t": 26.731, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 26.77, "dir": "rx", "cmd": "ME", "len": 17, "payload": "0058200000010000240022004e00570528"}
+{"t": 26.77, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 26.811, "dir": "rx", "cmd": "ME", "len": 17, "payload": "0059f8000002000a001e00140000590028"}
+{"t": 26.811, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 26.851, "dir": "rx", "cmd": "ME", "len": 17, "payload": "005af8000002000a001e001000005a0020"}
+{"t": 26.852, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 26.893, "dir": "rx", "cmd": "ME", "len": 17, "payload": "005b2001000a00000064003c00005b003c"}
+{"t": 26.893, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 26.931, "dir": "rx", "cmd": "ME", "len": 17, "payload": "005cf800000200000046000f00005c000a"}
+{"t": 26.932, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 26.97, "dir": "rx", "cmd": "ME", "len": 17, "payload": "005df8000002ffec0032001200005d0018"}
+{"t": 26.97, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 27.011, "dir": "rx", "cmd": "ME", "len": 17, "payload": "005ef8000002ffec0032000700005e0006"}
+{"t": 27.011, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 27.05, "dir": "rx", "cmd": "ME", "len": 17, "payload": "005ff80000020019006e004b00005f0096"}
+{"t": 27.05, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 27.09, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00602001000a000103e800050000600005"}
+{"t": 27.09, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 27.13, "dir": "rx", "cmd": "ME", "len": 17, "payload": "006173000001000a0140003c000061003c"}
+{"t": 27.131, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 27.171, "dir": "rx", "cmd": "ME", "len": 17, "payload": "006273000001001e025800f000006200f0"}
+{"t": 27.171, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 27.211, "dir": "rx", "cmd": "ME", "len": 17, "payload": "0063f8000002fff60014000a0000630014"}
+{"t": 27.212, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 27.252, "dir": "rx", "cmd": "ME", "len": 17, "payload": "0064f8000002000a006e003c0000640064"}
+{"t": 27.252, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 27.292, "dir": "rx", "cmd": "ME", "len": 17, "payload": "0065f8000002000a006e0028000065004c"}
+{"t": 27.293, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 27.33, "dir": "rx", "cmd": "ME", "len": 17, "payload": "0066f8000002000a001e0014000066002c"}
+{"t": 27.33, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 27.371, "dir": "rx", "cmd": "ME", "len": 17, "payload": "0067f8000002000a001e00100000670028"}
+{"t": 27.371, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 27.41, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00682001000a00000064003c000068003c"}
+{"t": 27.411, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 27.45, "dir": "rx", "cmd": "ME", "len": 17, "payload": "0069f800000200000046000f000069000a"}
+{"t": 27.45, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 27.49, "dir": "rx", "cmd": "ME", "len": 17, "payload": "006af8000002ffec0032001200006a001e"}
+{"t": 27.49, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 27.53, "dir": "rx", "cmd": "ME", "len": 17, "payload": "006bf8000002ffec0032000700006bfff6"}
+{"t": 27.53, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 27.57, "dir": "rx", "cmd": "ME", "len": 17, "payload": "006cf80000020019006e004b00006c006e"}
+{"t": 27.57, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 27.613, "dir": "rx", "cmd": "ME", "len": 17, "payload": "006d2001000a000103e8000500006d0005"}
+{"t": 27.613, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 27.65, "dir": "rx", "cmd": "ME", "len": 17, "payload": "006e73000001000a0140003c00006e003c"}
+{"t": 27.651, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 27.69, "dir": "rx", "cmd": "ME", "len": 17, "payload": "006f73000001001e025800f000006f00f0"}
+{"t": 27.691, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 27.73, "dir": "rx", "cmd": "ME", "len": 17, "payload": "0070f8000002fff60014000a000070000a"}
+{"t": 27.73, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 27.77, "dir": "rx", "cmd": "ME", "len": 17, "payload": "0071f8000002000a006e003c000071006e"}
+{"t": 27.77, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 27.811, "dir": "rx", "cmd": "ME", "len": 17, "payload": "0072f8000002000a006e0028000072005a"}
+{"t": 27.811, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 27.849, "dir": "rx", "cmd": "ME", "len": 17, "payload": "0073f800000200140064001e5800ae003c"}
+{"t": 27.849, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 27.889, "dir": "rx", "cmd": "ME", "len": 17, "payload": "0074f8000002000300320006000074000c"}
+{"t": 27.889, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 27.929, "dir": "rx", "cmd": "ME", "len": 17, "payload": "0075f80000020014006400370000750064"}
+{"t": 27.929, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 27.97, "dir": "rx", "cmd": "ME", "len": 17, "payload": "0076200000010007000800070000760007"}
+{"t": 27.97, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 28.01, "dir": "rx", "cmd": "ME", "len": 17, "payload": "0077f8000002003c0050003c0000770078"}
+{"t": 28.011, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 28.049, "dir": "rx", "cmd": "ME", "len": 17, "payload": "0078f80000020023005000410000780082"}
+{"t": 28.049, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 28.09, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00792500000100000064002d000079002d"}
+{"t": 28.09, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 28.129, "dir": "rx", "cmd": "ME", "len": 17, "payload": "007a200201000001270f004600007a00b3"}
+{"t": 28.129, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 28.169, "dir": "rx", "cmd": "ME", "len": 17, "payload": "007b73000001000a0e10003c00007b003c"}
+{"t": 28.169, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 28.209, "dir": "rx", "cmd": "ME", "len": 17, "payload": "007cf800000200020028000a00007c0014"}
+{"t": 28.209, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 28.252, "dir": "rx", "cmd": "ME", "len": 17, "payload": "007d2000000100000001000000007d0000"}
+{"t": 28.252, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 28.289, "dir": "rx", "cmd": "ME", "len": 17, "payload": "007ef800000200020050001400007e0004"}
+{"t": 28.29, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 28.329, "dir": "rx", "cmd": "ME", "len": 17, "payload": "007f2500000100000064002d00007f002d"}
+{"t": 28.329, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 28.37, "dir": "rx", "cmd": "ME", "len": 17, "payload": "0080200201000001270f00fa0000800280"}
+{"t": 28.37, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 28.409, "dir": "rx", "cmd": "ME", "len": 17, "payload": "008173000001000a0e1002580000810258"}
+{"t": 28.41, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 28.449, "dir": "rx", "cmd": "ME", "len": 17, "payload": "0082f800000200020028000a0000820014"}
+{"t": 28.449, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 28.489, "dir": "rx", "cmd": "ME", "len": 17, "payload": "008325000001000000c800640000830064"}
+{"t": 28.489, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 28.532, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00846d00003c000001f4003c0000840e10"}
+{"t": 28.533, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 28.569, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00856d00003c000001f40005000085012c"}
+{"t": 28.57, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 28.61, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00862500000100000064000a000086000a"}
+{"t": 28.611, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 28.65, "dir": "rx", "cmd": "ME", "len": 17, "payload": "0087250000010000006400105800880010"}
+{"t": 28.65, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 28.69, "dir": "rx", "cmd": "ME", "len": 17, "payload": "008825000001000f006400414e00870041"}
+{"t": 28.69, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 28.729, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00892500000100000064000a58008a000a"}
+{"t": 28.729, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 28.769, "dir": "rx", "cmd": "ME", "len": 17, "payload": "008a2500000100000064003c4e0089003c"}
+{"t": 28.769, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 28.809, "dir": "rx", "cmd": "ME", "len": 17, "payload": "008b7301000a000a0140008200008b0082"}
+{"t": 28.81, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 28.85, "dir": "rx", "cmd": "ME", "len": 17, "payload": "008c200201000001270f001300008c0031"}
+{"t": 28.85, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 28.889, "dir": "rx", "cmd": "ME", "len": 17, "payload": "008d7300000100000e10005a00008d005a"}
+{"t": 28.889, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 28.929, "dir": "rx", "cmd": "ME", "len": 17, "payload": "008e2500000100000064003200008e0032"}
+{"t": 28.929, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 28.969, "dir": "rx", "cmd": "ME", "len": 17, "payload": "008ff80000010000012c006400008f0064"}
+{"t": 28.969, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 29.009, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00907300000100010258004b000090004b"}
+{"t": 29.01, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 29.05, "dir": "rx", "cmd": "ME", "len": 17, "payload": "009173000001000103e700780000910078"}
+{"t": 29.05, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 29.09, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00926d00003c0001001e000f0000920384"}
+{"t": 29.09, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 29.13, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00936d00003c00050032000f0000930384"}
+{"t": 29.13, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 29.169, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00946d00003c0001003c000a0000940258"}
+{"t": 29.169, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 29.209, "dir": "rx", "cmd": "ME", "len": 17, "payload": "0095730000010001025800010000950001"}
+{"t": 29.21, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 29.251, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00966d00003c0001003c001400009604b0"}
+{"t": 29.252, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 29.288, "dir": "rx", "cmd": "ME", "len": 17, "payload": "0097250000010000006400460000970046"}
+{"t": 29.289, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 29.328, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00982500000100000064002d000098002d"}
+{"t": 29.328, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 29.369, "dir": "rx", "cmd": "ME", "len": 17, "payload": "0099250000010000006400420000990042"}
+{"t": 29.37, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 29.409, "dir": "rx", "cmd": "ME", "len": 17, "payload": "009a2500000100000064001e00009a001e"}
+{"t": 29.409, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 29.456, "dir": "rx", "cmd": "ME", "len": 17, "payload": "009b2000000000000004000000009b0000"}
+{"t": 29.456, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 29.499, "dir": "rx", "cmd": "ME", "len": 17, "payload": "009c2000000000000001000000009c0000"}
+{"t": 29.499, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 29.538, "dir": "rx", "cmd": "ME", "len": 17, "payload": "009d2000000100002400050058009e012c"}
+{"t": 29.538, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 29.583, "dir": "rx", "cmd": "ME", "len": 17, "payload": "009e200000010000240008004e009d01e0"}
+{"t": 29.584, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 29.628, "dir": "rx", "cmd": "ME", "len": 17, "payload": "009f200000010000240017005800a003fc"}
+{"t": 29.628, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 29.668, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00a0200000010000240021004e009f04ec"}
+{"t": 29.669, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 29.708, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00a1200000010000240003005800a2001e"}
+{"t": 29.708, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 29.748, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00a2200000010000240005004e00a10582"}
+{"t": 29.748, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 29.79, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00a3200000010000240014005800a40348"}
+{"t": 29.79, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 29.828, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00a4200000010000240016004e00a303c0"}
+{"t": 29.828, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 29.868, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00a5f80000020001005a002d0000a5004a"}
+{"t": 29.868, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 29.908, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00a6200000000000000100000000a60000"}
+{"t": 29.908, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 29.959, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00a7200000000000000100010000a70000"}
+{"t": 29.959, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 29.998, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00a8200000010000000700010000a80001"}
+{"t": 29.998, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 30.038, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00a9f80000020003003200065800aa000c"}
+{"t": 30.038, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 30.079, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00aaf800000200030032000a4e00a90014"}
+{"t": 30.079, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 30.118, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00ab200201000001270f01f40000ab0500"}
+{"t": 30.118, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 30.158, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00ac73000001000a0e1000780000ac0078"}
+{"t": 30.158, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 30.199, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00ad2500000100000064002d0000ad002d"}
+{"t": 30.199, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 30.238, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00aef8000002000f007800414e00730050"}
+{"t": 30.239, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 30.278, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00aff800000200030032000a0000af0014"}
+{"t": 30.278, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 30.318, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00b0200000010000240005000000b0012c"}
+{"t": 30.318, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 30.358, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00b1200000010000240010000000b10258"}
+{"t": 30.358, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 30.398, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00b22501000a0000009600230000b20023"}
+{"t": 30.398, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 30.438, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00b3f80000020000006400320000b30064"}
+{"t": 30.438, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 30.489, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00b4250000010000006400280000b40028"}
+{"t": 30.489, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 30.53, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00b5200000010000240017000000b503fc"}
+{"t": 30.53, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 30.569, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00b6200000010000240022000000b60528"}
+{"t": 30.569, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 30.613, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00b7f8000001000000c800140000b70014"}
+{"t": 30.613, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 30.658, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00b8200000010000240015000000b80384"}
+{"t": 30.658, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 30.697, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00b9730000010014012c001e4e00ba001e"}
+{"t": 30.697, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 30.737, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00ba7300000100000019000a5800b9000a"}
+{"t": 30.737, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 30.783, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00bb200000010001000500010000bb0001"}
+{"t": 30.783, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 30.828, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00bc730000010000001e000f0000bc000f"}
+{"t": 30.828, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 30.868, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00bd73000001000a001e000f0000bd000f"}
+{"t": 30.868, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 30.907, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00be200000010001000d00090000be0009"}
+{"t": 30.908, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 30.949, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00bff8000002000a001e00140000bf0030"}
+{"t": 30.949, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 30.987, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00c0f8000002000a001e00100000c00020"}
+{"t": 30.987, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 31.027, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00c12001000a00000064003c0000c1003c"}
+{"t": 31.028, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 31.067, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00c2f800000200000046000f0000c2001e"}
+{"t": 31.067, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 31.107, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00c3f8000002ffec003200120000c3002c"}
+{"t": 31.107, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 31.147, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00c4f8000002ffec003200070000c4000e"}
+{"t": 31.147, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 31.188, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00c5f80000020019006e004b0000c50050"}
+{"t": 31.189, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 31.227, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00c62001000a000103e800050000c60005"}
+{"t": 31.228, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 31.267, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00c773000001000a0140003c0000c7003c"}
+{"t": 31.267, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 31.307, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00c873000001001e025800f00000c800f0"}
+{"t": 31.307, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 31.347, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00c9f8000002fff60014000a0000c90014"}
+{"t": 31.347, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 31.387, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00caf8000002000a006e003c0000ca0050"}
+{"t": 31.388, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 31.427, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00cbf8000002000a006e00280000cb003c"}
+{"t": 31.428, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 31.467, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00ccf8000002000a001e00140000cc0028"}
+{"t": 31.467, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 31.509, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00cdf8000002000a001e00100000cd0020"}
+{"t": 31.509, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 31.547, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00ce2001000a00000064003c0000ce003c"}
+{"t": 31.548, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 31.587, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00cff800000200000046000f0000cf001e"}
+{"t": 31.588, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 31.628, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00d0f8000002ffec003200120000d00024"}
+{"t": 31.628, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 31.667, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00d1f8000002ffec003200070000d1000e"}
+{"t": 31.667, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 31.707, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00d2f80000020019006e004b0000d20096"}
+{"t": 31.708, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 31.747, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00d32001000a000103e800050000d30005"}
+{"t": 31.747, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 31.787, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00d473000001000a0140003c0000d4003c"}
+{"t": 31.787, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 31.827, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00d573000001001e025800f00000d500f0"}
+{"t": 31.828, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 31.867, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00d6f8000002fff60014000a0000d60014"}
+{"t": 31.868, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 31.909, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00d7f8000002000a006e003c0000d70078"}
+{"t": 31.909, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 31.947, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00d8f8000002000a006e00280000d80050"}
+{"t": 31.947, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 31.988, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00d9250000010000019000820000d90082"}
+{"t": 31.988, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 32.028, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00da2002006400000bb800960000da0096"}
+{"t": 32.029, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 32.068, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00db730000010000002800050000db0005"}
+{"t": 32.068, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 32.107, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00dc250000cf0000005a00230000dc1c4d"}
+{"t": 32.107, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 32.146, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00dd2002010000000bb800190000dd0040"}
+{"t": 32.147, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 32.187, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00de200000010000002800070000de0007"}
+{"t": 32.187, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 32.226, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00df250000010000006400460000df0046"}
+{"t": 32.227, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 32.267, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00e0250000010000006400000000e00000"}
+{"t": 32.268, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 32.306, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00e1200000010000240009000000e1021c"}
+{"t": 32.306, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 32.347, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00e2f80000020046005a00500000e200a0"}
+{"t": 32.347, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 32.387, "dir": "rx", "cmd": "ME", "len": 17, "payload": "00e3200000010000000e00000000e30000"}
+{"t": 32.387, "dir": "tx", "cmd": "ME", "len": 1, "payload": "01", "note": "ack"}
+{"t": 32.41, "dir": "rx", "cmd": "MZ", "len": 1, "payload": "45"}
+{"t": 32.411, "dir": "tx", "cmd": "MZ", "len": 1, "payload": "01", "note": "ack"}
+{"t": 32.447, "dir": "rx", "cmd": "MF", "len": 16, "payload": "000057696e7465726265747269656220"}
+{"t": 32.447, "dir": "tx", "cmd": "MF", "len": 1, "payload": "01", "note": "ack"}
+{"t": 32.485, "dir": "rx", "cmd": "MF", "len": 16, "payload": "0001536f6d6d65726265747269656220"}
+{"t": 32.485, "dir": "tx", "cmd": "MF", "len": 1, "payload": "01", "note": "ack"}
+{"t": 32.526, "dir": "rx", "cmd": "MF", "len": 16, "payload": "00028162657267616e6773626574722e"}
+{"t": 32.527, "dir": "tx", "cmd": "MF", "len": 1, "payload": "01", "note": "ack"}
+{"t": 32.566, "dir": "rx", "cmd": "MF", "len": 16, "payload": "0003536368656974686f6c7a62657472"}
+{"t": 32.566, "dir": "tx", "cmd": "MF", "len": 1, "payload": "01", "note": "ack"}
+{"t": 32.605, "dir": "rx", "cmd": "MF", "len": 16, "payload": "000420205265696e6967656e20202020"}
+{"t": 32.605, "dir": "tx", "cmd": "MF", "len": 1, "payload": "01", "note": "ack"}
+{"t": 32.646, "dir": "rx", "cmd": "MF", "len": 16, "payload": "00052045787472616865697a656e2020"}
+{"t": 32.646, "dir": "tx", "cmd": "MF", "len": 1, "payload": "01", "note": "ack"}
+{"t": 32.685, "dir": "rx", "cmd": "MF", "len": 16, "payload": "00064175736765736368616c74657420"}
+{"t": 32.685, "dir": "tx", "cmd": "MF", "len": 1, "payload": "01", "note": "ack"}
+{"t": 32.72, "dir": "rx", "cmd": "MF", "len": 12, "payload": "000720204681686c65722020"}
+{"t": 32.72, "dir": "tx", "cmd": "MF", "len": 1, "payload": "01", "note": "ack"}
+{"t": 32.765, "dir": "rx", "cmd": "MF", "len": 12, "payload": "0008546865726d6f73746174"}
+{"t": 32.765, "dir": "tx", "cmd": "MF", "len": 1, "payload": "01", "note": "ack"}
+{"t": 32.837, "dir": "rx", "cmd": "MF", "len": 16, "payload": "0009204b616d696e6b65687265722020"}
+{"t": 32.837, "dir": "tx", "cmd": "MF", "len": 1, "payload": "01", "note": "ack"}
+{"t": 32.859, "dir": "rx", "cmd": "MZ", "len": 1, "payload": "46"}
+{"t": 32.859, "dir": "tx", "cmd": "MZ", "len": 1, "payload": "01", "note": "ack"}
+{"t": 32.911, "dir": "rx", "cmd": "MG", "len": 18, "payload": "000000010101010101010001010101010101"}
+{"t": 32.911, "dir": "tx", "cmd": "MG", "len": 1, "payload": "01", "note": "ack"}
+{"t": 32.947, "dir": "rx", "cmd": "MG", "len": 18, "payload": "000100010101010101010001010101010101"}
+{"t": 32.947, "dir": "tx", "cmd": "MG", "len": 1, "payload": "01", "note": "ack"}
+{"t": 32.987, "dir": "rx", "cmd": "MG", "len": 18, "payload": "000200010101010101010003030303030303"}
+{"t": 32.987, "dir": "tx", "cmd": "MG", "len": 1, "payload": "01", "note": "ack"}
+{"t": 33.027, "dir": "rx", "cmd": "MG", "len": 18, "payload": "000300010101010101010001010101010101"}
+{"t": 33.027, "dir": "tx", "cmd": "MG", "len": 1, "payload": "01", "note": "ack"}
+{"t": 33.05, "dir": "rx", "cmd": "MZ", "len": 1, "payload": "47"}
+{"t": 33.052, "dir": "tx", "cmd": "MZ", "len": 1, "payload": "01", "note": "ack"}
+{"t": 33.085, "dir": "rx", "cmd": "MK", "len": 6, "payload": "000000100081"}
+{"t": 33.085, "dir": "tx", "cmd": "MK", "len": 1, "payload": "01", "note": "ack"}
+{"t": 33.116, "dir": "rx", "cmd": "MK", "len": 6, "payload": "0002000430d2"}
+{"t": 33.116, "dir": "tx", "cmd": "MK", "len": 1, "payload": "01", "note": "ack"}
+{"t": 33.14, "dir": "rx", "cmd": "MZ", "len": 1, "payload": "4b"}
+{"t": 33.14, "dir": "tx", "cmd": "MZ", "len": 1, "payload": "01", "note": "ack"}
+{"t": 33.184, "dir": "rx", "cmd": "ML", "len": 24, "payload": "000000010083008018004648472045636f203135202e2e2e"}
+{"t": 33.184, "dir": "tx", "cmd": "ML", "len": 1, "payload": "01", "note": "ack"}
+{"t": 33.233, "dir": "rx", "cmd": "ML", "len": 24, "payload": "0000001000830080180046484720547572626f2032302e2e"}
+{"t": 33.233, "dir": "tx", "cmd": "ML", "len": 1, "payload": "01", "note": "ack"}
+{"t": 33.276, "dir": "rx", "cmd": "ML", "len": 24, "payload": "0000002000830080180046484720547572626f2033302e2e"}
+{"t": 33.276, "dir": "tx", "cmd": "ML", "len": 1, "payload": "01", "note": "ack"}
+{"t": 33.323, "dir": "rx", "cmd": "ML", "len": 24, "payload": "0000004000830080180046484720547572626f2034302e2e"}
+{"t": 33.324, "dir": "tx", "cmd": "ML", "len": 1, "payload": "01", "note": "ack"}
+{"t": 33.407, "dir": "rx", "cmd": "ML", "len": 24, "payload": "0000008000830080180046484720547572626f2035302e2e"}
+{"t": 33.408, "dir": "tx", "cmd": "ML", "len": 1, "payload": "01", "note": "ack"}
+{"t": 33.453, "dir": "rx", "cmd": "ML", "len": 24, "payload": "0000010000830080180046484720547572626f2037302e2e"}
+{"t": 33.453, "dir": "tx", "cmd": "ML", "len": 1, "payload": "01", "note": "ack"}
+{"t": 33.503, "dir": "rx", "cmd": "ML", "len": 24, "payload": "0000000203d500000c804648472d50656c6c6574732e2e2e"}
+{"t": 33.503, "dir": "tx", "cmd": "ML", "len": 1, "payload": "01", "note": "ack"}
+{"t": 33.553, "dir": "rx", "cmd": "ML", "len": 24, "payload": "000002007d5d080000a05032202d203130202020202e2e2e"}
+{"t": 33.553, "dir": "tx", "cmd": "ML", "len": 1, "payload": "01", "note": "ack"}
+{"t": 33.603, "dir": "rx", "cmd": "ML", "len": 24, "payload": "000000047d5d080000a05032202d203135202020202e2e2e"}
+{"t": 33.603, "dir": "tx", "cmd": "ML", "len": 1, "payload": "01", "note": "ack"}
+{"t": 33.653, "dir": "rx", "cmd": "ML", "len": 24, "payload": "000004007d5d080000a05032202d203230202020202e2e2e"}
+{"t": 33.653, "dir": "tx", "cmd": "ML", "len": 1, "payload": "01", "note": "ack"}
+{"t": 33.703, "dir": "rx", "cmd": "ML", "len": 24, "payload": "000000087d5d080000a05032202d203235202020202e2e2e"}
+{"t": 33.703, "dir": "tx", "cmd": "ML", "len": 1, "payload": "01", "note": "ack"}
+{"t": 33.754, "dir": "rx", "cmd": "ML", "len": 24, "payload": "00000800557d0000008050332020392e39202020202e2e2e"}
+{"t": 33.754, "dir": "tx", "cmd": "ML", "len": 1, "payload": "01", "note": "ack"}
+{"t": 33.801, "dir": "rx", "cmd": "ML", "len": 21, "payload": "00020001fcf50000000853797374656d20302e2e2e"}
+{"t": 33.801, "dir": "tx", "cmd": "ML", "len": 1, "payload": "01", "note": "ack"}
+{"t": 33.85, "dir": "rx", "cmd": "ML", "len": 21, "payload": "00020002f8fb0000000453797374656d20312e2e2e"}
+{"t": 33.85, "dir": "tx", "cmd": "ML", "len": 1, "payload": "01", "note": "ack"}
+{"t": 33.9, "dir": "rx", "cmd": "ML", "len": 21, "payload": "00020004fcfb0000000053797374656d20322e2e2e"}
+{"t": 33.9, "dir": "tx", "cmd": "ML", "len": 1, "payload": "01", "note": "ack"}
+{"t": 33.94, "dir": "rx", "cmd": "ML", "len": 21, "payload": "00020008fcce0000003053797374656d20332e2e2e"}
+{"t": 33.94, "dir": "tx", "cmd": "ML", "len": 1, "payload": "01", "note": "ack"}
+{"t": 33.98, "dir": "rx", "cmd": "ML", "len": 21, "payload": "00020010fcfa0000000053797374656d20342e2e2e"}
+{"t": 33.98, "dir": "tx", "cmd": "ML", "len": 1, "payload": "01", "note": "ack"}
+{"t": 34.02, "dir": "rx", "cmd": "ML", "len": 21, "payload": "00020020fffe0000000153797374656d20352e2e2e"}
+{"t": 34.02, "dir": "tx", "cmd": "ML", "len": 1, "payload": "01", "note": "ack"}
+{"t": 34.062, "dir": "rx", "cmd": "ML", "len": 21, "payload": "00020040ffce0000003053797374656d20362e2e2e"}
+{"t": 34.063, "dir": "tx", "cmd": "ML", "len": 1, "payload": "01", "note": "ack"}
+{"t": 34.11, "dir": "rx", "cmd": "ML", "len": 21, "payload": "00020080fdf50000020853797374656d20372e2e2e"}
+{"t": 34.11, "dir": "tx", "cmd": "ML", "len": 1, "payload": "01", "note": "ack"}
+{"t": 34.161, "dir": "rx", "cmd": "ML", "len": 21, "payload": "00020100fcc40000003853797374656d20382e2e2e"}
+{"t": 34.161, "dir": "tx", "cmd": "ML", "len": 1, "payload": "01", "note": "ack"}
+{"t": 34.227, "dir": "rx", "cmd": "ML", "len": 21, "payload": "00020200fcca0000001053797374656d20392e2e2e"}
+{"t": 34.228, "dir": "tx", "cmd": "ML", "len": 1, "payload": "01", "note": "ack"}
+{"t": 34.27, "dir": "rx", "cmd": "ML", "len": 21, "payload": "00020400fcf10000000053797374656d2031302e2e"}
+{"t": 34.271, "dir": "tx", "cmd": "ML", "len": 1, "payload": "01", "note": "ack"}
+{"t": 34.32, "dir": "rx", "cmd": "ML", "len": 21, "payload": "0002080000000000000053797374656d2031312e2e"}
+{"t": 34.32, "dir": "tx", "cmd": "ML", "len": 1, "payload": "01", "note": "ack"}
+{"t": 34.37, "dir": "rx", "cmd": "ML", "len": 21, "payload": "0002100000fb0000fb0453797374656d2031322e2e"}
+{"t": 34.37, "dir": "tx", "cmd": "ML", "len": 1, "payload": "01", "note": "ack"}
+{"t": 34.42, "dir": "rx", "cmd": "ML", "len": 21, "payload": "00022000c0ff00003b0453797374656d2031332e2e"}
+{"t": 34.42, "dir": "tx", "cmd": "ML", "len": 1, "payload": "01", "note": "ack"}
+{"t": 34.46, "dir": "rx", "cmd": "ML", "len": 21, "payload": "0002400000fb0000fb0453797374656d2031342e2e"}
+{"t": 34.46, "dir": "tx", "cmd": "ML", "len": 1, "payload": "01", "note": "ack"}
+{"t": 34.5, "dir": "rx", "cmd": "ML", "len": 21, "payload": "00028000c3fb00043b0053797374656d2031352e2e"}
+{"t": 34.5, "dir": "tx", "cmd": "ML", "len": 1, "payload": "01", "note": "ack"}
+{"t": 34.529, "dir": "rx", "cmd": "MZ", "len": 1, "payload": "4c"}
+{"t": 34.529, "dir": "tx", "cmd": "MZ", "len": 1, "payload": "01", "note": "ack"}
+{"t": 34.575, "dir": "rx", "cmd": "MM", "len": 26, "payload": "000000014c616d626461736f6e6465200a766f7268616e64656e"}
+{"t": 34.576, "dir": "tx", "cmd": "MM", "len": 1, "payload": "01", "note": "ack"}
+{"t": 34.63, "dir": "rx", "cmd": "MM", "len": 31, "payload": "0000000246657565727261756d74656d702e0a6681686c657220766f72682e"}
+{"t": 34.631, "dir": "tx", "cmd": "MM", "len": 1, "payload": "01", "note": "ack"}
+{"t": 34.69, "dir": "rx", "cmd": "MM", "len": 31, "payload": "000000044b657373656c66726569676162650a45696e67616e6720766f7268"}
+{"t": 34.69, "dir": "tx", "cmd": "MM", "len": 1, "payload": "01", "note": "ack"}
+{"t": 34.752, "dir": "rx", "cmd": "MM", "len": 33, "payload": "000000084b657373656c204155532077656e6e0a6f686e65205784726d65616e66"}
+{"t": 34.752, "dir": "tx", "cmd": "MM", "len": 1, "payload": "01", "note": "ack"}
+{"t": 34.808, "dir": "rx", "cmd": "MM", "len": 29, "payload": "000000105a816e64756e6720617573206265696d0a416e6865697a656e"}
+{"t": 34.808, "dir": "tx", "cmd": "MM", "len": 1, "payload": "01", "note": "ack"}
+{"t": 34.859, "dir": "rx", "cmd": "MM", "len": 31, "payload": "000000404b657373656c7479706520766f6e0a4b756e64652065696e73742e"}
+{"t": 34.859, "dir": "tx", "cmd": "MM", "len": 1, "payload": "01", "note": "ack"}
+{"t": 34.913, "dir": "rx", "cmd": "MM", "len": 30, "payload": "000000805374656c6c6d6f746f72206d69740a5281636b66816872756e67"}
+{"t": 34.914, "dir": "tx", "cmd": "MM", "len": 1, "payload": "01", "note": "ack"}
+{"t": 34.993, "dir": "rx", "cmd": "MM", "len": 21, "payload": "00000400566f72726174732d0a626568846c746572"}
+{"t": 34.993, "dir": "tx", "cmd": "MM", "len": 1, "payload": "01", "note": "ack"}
+{"t": 35.043, "dir": "rx", "cmd": "MM", "len": 25, "payload": "000020005363686e65636b656e2d0a61757374726167756e67"}
+{"t": 35.043, "dir": "tx", "cmd": "MM", "len": 1, "payload": "01", "note": "ack"}
+{"t": 35.098, "dir": "rx", "cmd": "MM", "len": 29, "payload": "00000100536175672d5363686e65636b656e0a41757374726167756e67"}
+{"t": 35.098, "dir": "tx", "cmd": "MM", "len": 1, "payload": "01", "note": "ack"}
+{"t": 35.147, "dir": "rx", "cmd": "MM", "len": 29, "payload": "000002004e6976656175737465756572756e670a766f7268616e64656e"}
+{"t": 35.148, "dir": "tx", "cmd": "MM", "len": 1, "payload": "01", "note": "ack"}
+{"t": 35.195, "dir": "rx", "cmd": "MM", "len": 26, "payload": "00004000556e692d5361756773797374656d0a6d616e75656c6c"}
+{"t": 35.196, "dir": "tx", "cmd": "MM", "len": 1, "payload": "01", "note": "ack"}
+{"t": 35.248, "dir": "rx", "cmd": "MM", "len": 30, "payload": "00001000556e692d5361756773797374656d0a6175746f6d617469736368"}
+{"t": 35.248, "dir": "tx", "cmd": "MM", "len": 1, "payload": "01", "note": "ack"}
+{"t": 35.293, "dir": "rx", "cmd": "MM", "len": 14, "payload": "0000080041627265696e6967656e"}
+{"t": 35.293, "dir": "tx", "cmd": "MM", "len": 1, "payload": "01", "note": "ack"}
+{"t": 35.351, "dir": "rx", "cmd": "MM", "len": 33, "payload": "00000020447265687a61686c726567656c756e670a535a20766f7268616e64656e"}
+{"t": 35.352, "dir": "tx", "cmd": "MM", "len": 1, "payload": "01", "note": "ack"}
+{"t": 35.401, "dir": "rx", "cmd": "MM", "len": 23, "payload": "000200014279706173732d0a70756d706520766f72682e"}
+{"t": 35.401, "dir": "tx", "cmd": "MM", "len": 1, "payload": "01", "note": "ack"}
+{"t": 35.457, "dir": "rx", "cmd": "MM", "len": 28, "payload": "0002000250756666657274656d702e2d0a6d6974746520766f72682e"}
+{"t": 35.457, "dir": "tx", "cmd": "MM", "len": 1, "payload": "01", "note": "ack"}
+{"t": 35.503, "dir": "rx", "cmd": "MM", "len": 25, "payload": "00020004426f696c6572726567656c756e670a20766f72682e"}
+{"t": 35.503, "dir": "tx", "cmd": "MM", "len": 1, "payload": "01", "note": "ack"}
+{"t": 35.551, "dir": "rx", "cmd": "MM", "len": 23, "payload": "000200085363686e656c6c650a4175666865697a756e67"}
+{"t": 35.552, "dir": "tx", "cmd": "MM", "len": 1, "payload": "01", "note": "ack"}
+{"t": 35.606, "dir": "rx", "cmd": "MM", "len": 28, "payload": "000201004272656e6e65727665722d0a626c6f636b756e6720617573"}
+{"t": 35.606, "dir": "tx", "cmd": "MM", "len": 1, "payload": "01", "note": "ack"}
+{"t": 35.651, "dir": "rx", "cmd": "MM", "len": 23, "payload": "00020200946c6b657373656c0a556d736368616c74762e"}
+{"t": 35.651, "dir": "tx", "cmd": "MM", "len": 1, "payload": "01", "note": "ack"}
+{"t": 35.696, "dir": "rx", "cmd": "MM", "len": 17, "payload": "00020400426f696c6572766f7272616e67"}
+{"t": 35.696, "dir": "tx", "cmd": "MM", "len": 1, "payload": "01", "note": "ack"}
+{"t": 35.735, "dir": "rx", "cmd": "MM", "len": 17, "payload": "00020800536f6c61727265676973742e20"}
+{"t": 35.735, "dir": "tx", "cmd": "MM", "len": 1, "payload": "01", "note": "ack"}
+{"t": 35.792, "dir": "rx", "cmd": "MM", "len": 34, "payload": "000200104865697a756e6773726567656c756e670a4865697a6b7265697320202031"}
+{"t": 35.793, "dir": "tx", "cmd": "MM", "len": 1, "payload": "01", "note": "ack"}
+{"t": 35.865, "dir": "rx", "cmd": "MM", "len": 34, "payload": "000200204865697a756e6773726567656c756e670a4665726e7374656c6c65722031"}
+{"t": 35.867, "dir": "tx", "cmd": "MM", "len": 1, "payload": "01", "note": "ack"}
+{"t": 35.922, "dir": "rx", "cmd": "MM", "len": 34, "payload": "000200404865697a756e6773726567656c756e670a4865697a6b7265697320202032"}
+{"t": 35.922, "dir": "tx", "cmd": "MM", "len": 1, "payload": "01", "note": "ack"}
+{"t": 35.983, "dir": "rx", "cmd": "MM", "len": 34, "payload": "000200804865697a756e6773726567656c756e670a4665726e7374656c6c65722032"}
+{"t": 35.983, "dir": "tx", "cmd": "MM", "len": 1, "payload": "01", "note": "ack"}
+{"t": 36.043, "dir": "rx", "cmd": "MM", "len": 34, "payload": "000210004865697a756e6773726567656c756e670a4865697a6b7265697320202033"}
+{"t": 36.043, "dir": "tx", "cmd": "MM", "len": 1, "payload": "01", "note": "ack"}
+{"t": 36.103, "dir": "rx", "cmd": "MM", "len": 34, "payload": "000220004865697a756e6773726567656c756e670a4665726e7374656c6c65722033"}
+{"t": 36.103, "dir": "tx", "cmd": "MM", "len": 1, "payload": "01", "note": "ack"}
+{"t": 36.161, "dir": "rx", "cmd": "MM", "len": 34, "payload": "000240004865697a756e6773726567656c756e670a4865697a6b7265697320202034"}
+{"t": 36.162, "dir": "tx", "cmd": "MM", "len": 1, "payload": "01", "note": "ack"}
+{"t": 36.222, "dir": "rx", "cmd": "MM", "len": 34, "payload": "000280004865697a756e6773726567656c756e670a4665726e7374656c6c65722034"}
+{"t": 36.222, "dir": "tx", "cmd": "MM", "len": 1, "payload": "01", "note": "ack"}
+{"t": 36.249, "dir": "rx", "cmd": "MZ", "len": 1, "payload": "4d"}
+{"t": 36.249, "dir": "tx", "cmd": "MZ", "len": 1, "payload": "01", "note": "ack"}
+{"t": 36.282, "dir": "rx", "cmd": "MW", "len": 14, "payload": "00324b657373656c616e6c616765"}
+{"t": 36.283, "dir": "tx", "cmd": "MW", "len": 1, "payload": "01", "note": "ack"}
+{"t": 36.323, "dir": "rx", "cmd": "MW", "len": 16, "payload": "00394865697a756e6773756d66656c64"}
+{"t": 36.323, "dir": "tx", "cmd": "MW", "len": 1, "payload": "01", "note": "ack"}
+{"t": 36.359, "dir": "rx", "cmd": "MW", "len": 12, "payload": "004a4865697a6f7074696f6e"}
+{"t": 36.359, "dir": "tx", "cmd": "MW", "len": 1, "payload": "01", "note": "ack"}
+{"t": 36.399, "dir": "rx", "cmd": "MW", "len": 12, "payload": "00214865697a6b7265697365"}
+{"t": 36.4, "dir": "tx", "cmd": "MW", "len": 1, "payload": "01", "note": "ack"}
+{"t": 36.427, "dir": "rx", "cmd": "MZ", "len": 1, "payload": "57"}
+{"t": 36.428, "dir": "tx", "cmd": "MZ", "len": 1, "payload": "01", "note": "ack"}
+{"t": 36.453, "dir": "rx", "cmd": "MS", "len": 6, "payload": "242011021001"}
+{"t": 36.453, "dir": "tx", "cmd": "MS", "len": 1, "payload": "01", "note": "ack"}
+{"t": 36.477, "dir": "rx", "cmd": "MZ", "len": 1, "payload": "53"}
+{"t": 36.477, "dir": "tx", "cmd": "MZ", "len": 1, "payload": "01", "note": "ack"}
+{"t": 36.531, "dir": "rx", "cmd": "MT", "len": 33, "payload": "00536963686572686569747374656d702e0a28535442292061757367656c947374"}
+{"t": 36.531, "dir": "tx", "cmd": "MT", "len": 1, "payload": "01", "note": "ack"}
+{"t": 36.58, "dir": "rx", "cmd": "MT", "len": 23, "payload": "014b657373656c74656d702e0a6665686c657268616674"}
+{"t": 36.581, "dir": "tx", "cmd": "MT", "len": 1, "payload": "01", "note": "ack"}
+{"t": 36.633, "dir": "rx", "cmd": "MT", "len": 25, "payload": "02566f726c61756674656d702e310a6665686c657268616674"}
+{"t": 36.633, "dir": "tx", "cmd": "MT", "len": 1, "payload": "01", "note": "ack"}
+{"t": 36.682, "dir": "rx", "cmd": "MT", "len": 25, "payload": "03566f726c61756674656d702e320a6665686c657268616674"}
+{"t": 36.682, "dir": "tx", "cmd": "MT", "len": 1, "payload": "01", "note": "ack"}
+{"t": 36.732, "dir": "rx", "cmd": "MT", "len": 25, "payload": "044665726e7374656c6c657220310a6665686c657268616674"}
+{"t": 36.732, "dir": "tx", "cmd": "MT", "len": 1, "payload": "01", "note": "ack"}
+{"t": 36.783, "dir": "rx", "cmd": "MT", "len": 25, "payload": "054665726e7374656c6c657220320a6665686c657268616674"}
+{"t": 36.783, "dir": "tx", "cmd": "MT", "len": 1, "payload": "01", "note": "ack"}
+{"t": 36.832, "dir": "rx", "cmd": "MT", "len": 24, "payload": "06426f696c657274656d702e200a6665686c657268616674"}
+{"t": 36.832, "dir": "tx", "cmd": "MT", "len": 1, "payload": "01", "note": "ack"}
+{"t": 36.885, "dir": "rx", "cmd": "MT", "len": 28, "payload": "074b657373656c7281636b6c617566742e0a6665686c657268616674"}
+{"t": 36.885, "dir": "tx", "cmd": "MT", "len": 1, "payload": "01", "note": "ack"}
+{"t": 36.938, "dir": "rx", "cmd": "MT", "len": 28, "payload": "0850756666657274656d702e0a6f62656e206665686c657268616674"}
+{"t": 36.938, "dir": "tx", "cmd": "MT", "len": 1, "payload": "01", "note": "ack"}
+{"t": 36.986, "dir": "rx", "cmd": "MT", "len": 29, "payload": "0950756666657274656d702e0a756e74656e206665686c657268616674"}
+{"t": 36.986, "dir": "tx", "cmd": "MT", "len": 1, "payload": "01", "note": "ack"}
+{"t": 37.037, "dir": "rx", "cmd": "MT", "len": 29, "payload": "0a50756666657274656d702e0a6d69747465206665686c657268616674"}
+{"t": 37.037, "dir": "tx", "cmd": "MT", "len": 1, "payload": "01", "note": "ack"}
+{"t": 37.082, "dir": "rx", "cmd": "MT", "len": 25, "payload": "0b946c6b657373656c74656d702e0a6665686c657268616674"}
+{"t": 37.082, "dir": "tx", "cmd": "MT", "len": 1, "payload": "01", "note": "ack"}
+{"t": 37.134, "dir": "rx", "cmd": "MT", "len": 22, "payload": "0c50656c6c6574737a75667568720a67657374947274"}
+{"t": 37.135, "dir": "tx", "cmd": "MT", "len": 1, "payload": "01", "note": "ack"}
+{"t": 37.19, "dir": "rx", "cmd": "MT", "len": 32, "payload": "0d5a816e6476657273756368206973740a6e696368742067656c756e67656e21"}
+{"t": 37.19, "dir": "tx", "cmd": "MT", "len": 1, "payload": "01", "note": "ack"}
+{"t": 37.249, "dir": "rx", "cmd": "MT", "len": 32, "payload": "0e53696368657268656974737a6569740a54616267207a75206e696564726967"}
+{"t": 37.249, "dir": "tx", "cmd": "MT", "len": 1, "payload": "01", "note": "ack"}
+{"t": 37.305, "dir": "rx", "cmd": "MT", "len": 28, "payload": "0f5281636b6c61756674656d702e0a7a75206c616e67652054494546"}
+{"t": 37.305, "dir": "tx", "cmd": "MT", "len": 1, "payload": "01", "note": "ack"}
+{"t": 37.361, "dir": "rx", "cmd": "MT", "len": 34, "payload": "104b6f6d6d2e7a756d2050656c6c6574730a6d6f64756c206665686c657268616674"}
+{"t": 37.361, "dir": "tx", "cmd": "MT", "len": 1, "payload": "01", "note": "ack"}
+{"t": 37.412, "dir": "rx", "cmd": "MT", "len": 24, "payload": "11426566816c6c6465636b656c0a7363686c69657373656e"}
+{"t": 37.412, "dir": "tx", "cmd": "MT", "len": 1, "payload": "01", "note": "ack"}
+{"t": 37.466, "dir": "rx", "cmd": "MT", "len": 29, "payload": "12426566816c6c6465636b656c0a7a75206c616e6765206f6666656e21"}
+{"t": 37.466, "dir": "tx", "cmd": "MT", "len": 1, "payload": "01", "note": "ack"}
+{"t": 37.505, "dir": "rx", "cmd": "MT", "len": 19, "payload": "1350656c6c6574730a6e61636866816c6c656e"}
+{"t": 37.505, "dir": "tx", "cmd": "MT", "len": 1, "payload": "01", "note": "ack"}
+{"t": 37.557, "dir": "rx", "cmd": "MT", "len": 30, "payload": "145a752077656e69672050656c6c6574730a696d20426568846c74657221"}
+{"t": 37.557, "dir": "tx", "cmd": "MT", "len": 1, "payload": "01", "note": "ack"}
+{"t": 37.608, "dir": "rx", "cmd": "MT", "len": 31, "payload": "155261756d61757374726167756e670a70728166656e2f7265696e6967656e"}
+{"t": 37.609, "dir": "tx", "cmd": "MT", "len": 1, "payload": "01", "note": "ack"}
+{"t": 37.668, "dir": "rx", "cmd": "MT", "len": 31, "payload": "16426568846c74657274656d702e0a756e7a756c847373696720686f636821"}
+{"t": 37.668, "dir": "tx", "cmd": "MT", "len": 1, "payload": "01", "note": "ack"}
+{"t": 37.723, "dir": "rx", "cmd": "MT", "len": 25, "payload": "17566f726c61756674656d702e330a6665686c657268616674"}
+{"t": 37.724, "dir": "tx", "cmd": "MT", "len": 1, "payload": "01", "note": "ack"}
+{"t": 37.772, "dir": "rx", "cmd": "MT", "len": 25, "payload": "18566f726c61756674656d702e340a6665686c657268616674"}
+{"t": 37.772, "dir": "tx", "cmd": "MT", "len": 1, "payload": "01", "note": "ack"}
+{"t": 37.822, "dir": "rx", "cmd": "MT", "len": 25, "payload": "194665726e7374656c6c657220330a6665686c657268616674"}
+{"t": 37.822, "dir": "tx", "cmd": "MT", "len": 1, "payload": "01", "note": "ack"}
+{"t": 37.872, "dir": "rx", "cmd": "MT", "len": 25, "payload": "1a4665726e7374656c6c657220340a6665686c657268616674"}
+{"t": 37.872, "dir": "tx", "cmd": "MT", "len": 1, "payload": "01", "note": "ack"}
+{"t": 37.92, "dir": "rx", "cmd": "MT", "len": 23, "payload": "1b5261756d61757374726167756e670a67657374947274"}
+{"t": 37.92, "dir": "tx", "cmd": "MT", "len": 1, "payload": "01", "note": "ack"}
+{"t": 37.977, "dir": "rx", "cmd": "MT", "len": 28, "payload": "1c5363686c817373656c736368616c742e0a6765736368616c746574"}
+{"t": 37.977, "dir": "tx", "cmd": "MT", "len": 1, "payload": "01", "note": "ack"}
+{"t": 38.021, "dir": "rx", "cmd": "MT", "len": 25, "payload": "1d4665756572722e81626572647275636b0a57846368746572"}
+{"t": 38.022, "dir": "tx", "cmd": "MT", "len": 1, "payload": "01", "note": "ack"}
+{"t": 38.063, "dir": "rx", "cmd": "MT", "len": 17, "payload": "1e45696e73636875620a67657374947274"}
+{"t": 38.063, "dir": "tx", "cmd": "MT", "len": 1, "payload": "01", "note": "ack"}
+{"t": 38.112, "dir": "rx", "cmd": "MT", "len": 26, "payload": "1f5072696d8472204c7566740a4b6c617070652070728166656e"}
+{"t": 38.112, "dir": "tx", "cmd": "MT", "len": 1, "payload": "01", "note": "ack"}
+{"t": 38.165, "dir": "rx", "cmd": "MT", "len": 28, "payload": "2053656b756e648472204c7566740a4b6c617070652070728166656e"}
+{"t": 38.166, "dir": "tx", "cmd": "MT", "len": 1, "payload": "01", "note": "ack"}
+{"t": 38.211, "dir": "rx", "cmd": "MT", "len": 25, "payload": "21507566666572207a75206b616c740a4e4143484c4547454e"}
+{"t": 38.212, "dir": "tx", "cmd": "MT", "len": 1, "payload": "01", "note": "ack"}
+{"t": 38.269, "dir": "rx", "cmd": "MT", "len": 33, "payload": "2253656b756e64847220566f726c2e2d0a74656d702e206665686c657268616674"}
+{"t": 38.27, "dir": "tx", "cmd": "MT", "len": 1, "payload": "01", "note": "ack"}
+{"t": 38.321, "dir": "rx", "cmd": "MT", "len": 32, "payload": "234b6f6c6c2e5281636b6c6175662d0a74656d702e206665686c657268616674"}
+{"t": 38.321, "dir": "tx", "cmd": "MT", "len": 1, "payload": "01", "note": "ack"}
+{"t": 38.377, "dir": "rx", "cmd": "MT", "len": 31, "payload": "2441757373656e6681686c65722d0a74656d702e206665686c657268616674"}
+{"t": 38.377, "dir": "tx", "cmd": "MT", "len": 1, "payload": "01", "note": "ack"}
+{"t": 38.42, "dir": "rx", "cmd": "MT", "len": 24, "payload": "25426f696c657274656d702e320a6665686c657268616674"}
+{"t": 38.42, "dir": "tx", "cmd": "MT", "len": 1, "payload": "01", "note": "ack"}
+{"t": 38.465, "dir": "rx", "cmd": "MT", "len": 19, "payload": "265a75207669656c0a46616c7363686c756674"}
+{"t": 38.465, "dir": "tx", "cmd": "MT", "len": 1, "payload": "01", "note": "ack"}
+{"t": 38.513, "dir": "rx", "cmd": "MT", "len": 27, "payload": "2753696368657268656974737a6569740a4f32207a7520486f6368"}
+{"t": 38.513, "dir": "tx", "cmd": "MT", "len": 1, "payload": "01", "note": "ack"}
+{"t": 38.568, "dir": "rx", "cmd": "MT", "len": 32, "payload": "2849736f6c696572748172206f6666656e0a4173636865626f7820766f6c6c21"}
+{"t": 38.569, "dir": "tx", "cmd": "MT", "len": 1, "payload": "01", "note": "ack"}
+{"t": 38.621, "dir": "rx", "cmd": "MT", "len": 25, "payload": "294c616765727261756d0a4b6f6e74726f6c6c6965726e2021"}
+{"t": 38.621, "dir": "tx", "cmd": "MT", "len": 1, "payload": "01", "note": "ack"}
+{"t": 38.669, "dir": "rx", "cmd": "MT", "len": 20, "payload": "2a52424b207363686c69657373740a6e69636874"}
+{"t": 38.669, "dir": "tx", "cmd": "MT", "len": 1, "payload": "01", "note": "ack"}
+{"t": 38.707, "dir": "rx", "cmd": "MT", "len": 12, "payload": "2b526f73740a4665686c6572"}
+{"t": 38.707, "dir": "tx", "cmd": "MT", "len": 1, "payload": "01", "note": "ack"}
+{"t": 38.752, "dir": "rx", "cmd": "MT", "len": 17, "payload": "2c52424b209466666e65740a6e69636874"}
+{"t": 38.752, "dir": "tx", "cmd": "MT", "len": 1, "payload": "01", "note": "ack"}
+{"t": 38.794, "dir": "rx", "cmd": "MT", "len": 19, "payload": "2d526f7374616e74726965620a646566656b74"}
+{"t": 38.794, "dir": "tx", "cmd": "MT", "len": 1, "payload": "01", "note": "ack"}
+{"t": 38.84, "dir": "rx", "cmd": "MT", "len": 25, "payload": "2e526f73747265696e6967756e670a6665686c657268616674"}
+{"t": 38.84, "dir": "tx", "cmd": "MT", "len": 1, "payload": "01", "note": "ack"}
+{"t": 38.888, "dir": "rx", "cmd": "MT", "len": 23, "payload": "2f535a2d447265687a61686c0a6665686c657268616674"}
+{"t": 38.888, "dir": "tx", "cmd": "MT", "len": 1, "payload": "01", "note": "ack"}
+{"t": 38.942, "dir": "rx", "cmd": "MT", "len": 27, "payload": "3053696368657268656974737a6569740a4d41582053656e736f72"}
+{"t": 38.942, "dir": "tx", "cmd": "MT", "len": 1, "payload": "01", "note": "ack"}
+{"t": 38.996, "dir": "rx", "cmd": "MT", "len": 31, "payload": "314272656e6e6572207265696e6967656e0a6b6f6e74726f6c6c696572656e"}
+{"t": 38.996, "dir": "tx", "cmd": "MT", "len": 1, "payload": "01", "note": "ack"}
+{"t": 39.042, "dir": "rx", "cmd": "MT", "len": 27, "payload": "324665686c65726265686562756e670a6162676562726f6368656e"}
+{"t": 39.042, "dir": "tx", "cmd": "MT", "len": 1, "payload": "01", "note": "ack"}
+{"t": 39.092, "dir": "rx", "cmd": "MT", "len": 27, "payload": "334b6f6c6c656b746f726681686c65720a6665686c657268616674"}
+{"t": 39.092, "dir": "tx", "cmd": "MT", "len": 1, "payload": "01", "note": "ack"}
+{"t": 39.115, "dir": "rx", "cmd": "MZ", "len": 1, "payload": "54"}
+{"t": 39.115, "dir": "tx", "cmd": "MZ", "len": 1, "payload": "01", "note": "ack"}
+{"t": 39.144, "dir": "rx", "cmd": "MU", "len": 10, "payload": "21c80454532203040026"}
+{"t": 39.145, "dir": "tx", "cmd": "MU", "len": 1, "payload": "01", "note": "ack"}
+{"t": 39.177, "dir": "rx", "cmd": "MU", "len": 10, "payload": "21480254532203040026"}
+{"t": 39.177, "dir": "tx", "cmd": "MU", "len": 1, "payload": "01", "note": "ack"}
+{"t": 39.204, "dir": "rx", "cmd": "MU", "len": 10, "payload": "21c90115451004040026"}
+{"t": 39.204, "dir": "tx", "cmd": "MU", "len": 1, "payload": "01", "note": "ack"}
+{"t": 39.234, "dir": "rx", "cmd": "MU", "len": 10, "payload": "21c80421281508040026"}
+{"t": 39.235, "dir": "tx", "cmd": "MU", "len": 1, "payload": "01", "note": "ack"}
+{"t": 39.265, "dir": "rx", "cmd": "MU", "len": 10, "payload": "21480221281508040026"}
+{"t": 39.266, "dir": "tx", "cmd": "MU", "len": 1, "payload": "01", "note": "ack"}
+{"t": 39.297, "dir": "rx", "cmd": "MU", "len": 10, "payload": "21c90153520609040026"}
+{"t": 39.297, "dir": "tx", "cmd": "MU", "len": 1, "payload": "01", "note": "ack"}
+{"t": 39.334, "dir": "rx", "cmd": "MU", "len": 10, "payload": "21490233240709040026"}
+{"t": 39.334, "dir": "tx", "cmd": "MU", "len": 1, "payload": "01", "note": "ack"}
+{"t": 39.363, "dir": "rx", "cmd": "MU", "len": 10, "payload": "21480412492009040026"}
+{"t": 39.364, "dir": "tx", "cmd": "MU", "len": 1, "payload": "01", "note": "ack"}
+{"t": 39.394, "dir": "rx", "cmd": "MU", "len": 10, "payload": "21c90146300712040026"}
+{"t": 39.395, "dir": "tx", "cmd": "MU", "len": 1, "payload": "01", "note": "ack"}
+{"t": 39.424, "dir": "rx", "cmd": "MU", "len": 10, "payload": "21c80453581913040026"}
+{"t": 39.425, "dir": "tx", "cmd": "MU", "len": 1, "payload": "01", "note": "ack"}
+{"t": 39.464, "dir": "rx", "cmd": "MU", "len": 10, "payload": "21480253581913040026"}
+{"t": 39.464, "dir": "tx", "cmd": "MU", "len": 1, "payload": "01", "note": "ack"}
+{"t": 39.494, "dir": "rx", "cmd": "MU", "len": 10, "payload": "21c90139202020040026"}
+{"t": 39.495, "dir": "tx", "cmd": "MU", "len": 1, "payload": "01", "note": "ack"}
+{"t": 39.524, "dir": "rx", "cmd": "MU", "len": 10, "payload": "21c80457591423040026"}
+{"t": 39.524, "dir": "tx", "cmd": "MU", "len": 1, "payload": "01", "note": "ack"}
+{"t": 39.554, "dir": "rx", "cmd": "MU", "len": 10, "payload": "21480257591423040026"}
+{"t": 39.554, "dir": "tx", "cmd": "MU", "len": 1, "payload": "01", "note": "ack"}
+{"t": 39.584, "dir": "rx", "cmd": "MU", "len": 10, "payload": "21c90157280601050026"}
+{"t": 39.584, "dir": "tx", "cmd": "MU", "len": 1, "payload": "01", "note": "ack"}
+{"t": 39.614, "dir": "rx", "cmd": "MU", "len": 10, "payload": "21c80414331401050026"}
+{"t": 39.614, "dir": "tx", "cmd": "MU", "len": 1, "payload": "01", "note": "ack"}
+{"t": 39.644, "dir": "rx", "cmd": "MU", "len": 10, "payload": "21480214331401050026"}
+{"t": 39.645, "dir": "tx", "cmd": "MU", "len": 1, "payload": "01", "note": "ack"}
+{"t": 39.675, "dir": "rx", "cmd": "MU", "len": 10, "payload": "21c90157170512050026"}
+{"t": 39.675, "dir": "tx", "cmd": "MU", "len": 1, "payload": "01", "note": "ack"}
+{"t": 39.704, "dir": "rx", "cmd": "MU", "len": 10, "payload": "21c80451061116050026"}
+{"t": 39.704, "dir": "tx", "cmd": "MU", "len": 1, "payload": "01", "note": "ack"}
+{"t": 39.734, "dir": "rx", "cmd": "MU", "len": 10, "payload": "21480251061116050026"}
+{"t": 39.734, "dir": "tx", "cmd": "MU", "len": 1, "payload": "01", "note": "ack"}
+{"t": 39.764, "dir": "rx", "cmd": "MU", "len": 10, "payload": "21c90128240521050026"}
+{"t": 39.765, "dir": "tx", "cmd": "MU", "len": 1, "payload": "01", "note": "ack"}
+{"t": 39.794, "dir": "rx", "cmd": "MU", "len": 10, "payload": "21c80438121522050026"}
+{"t": 39.794, "dir": "tx", "cmd": "MU", "len": 1, "payload": "01", "note": "ack"}
+{"t": 39.824, "dir": "rx", "cmd": "MU", "len": 10, "payload": "21480238121522050026"}
+{"t": 39.824, "dir": "tx", "cmd": "MU", "len": 1, "payload": "01", "note": "ack"}
+{"t": 39.854, "dir": "rx", "cmd": "MU", "len": 10, "payload": "21c90126220620090026"}
+{"t": 39.854, "dir": "tx", "cmd": "MU", "len": 1, "payload": "01", "note": "ack"}
+{"t": 39.885, "dir": "rx", "cmd": "MU", "len": 10, "payload": "21c80459421423090026"}
+{"t": 39.886, "dir": "tx", "cmd": "MU", "len": 1, "payload": "01", "note": "ack"}
+{"t": 39.914, "dir": "rx", "cmd": "MU", "len": 10, "payload": "21480259421423090026"}
+{"t": 39.914, "dir": "tx", "cmd": "MU", "len": 1, "payload": "01", "note": "ack"}
+{"t": 39.945, "dir": "rx", "cmd": "MU", "len": 10, "payload": "21c90155390626090026"}
+{"t": 39.945, "dir": "tx", "cmd": "MU", "len": 1, "payload": "01", "note": "ack"}
+{"t": 39.973, "dir": "rx", "cmd": "MU", "len": 10, "payload": "21c80450241326090026"}
+{"t": 39.973, "dir": "tx", "cmd": "MU", "len": 1, "payload": "01", "note": "ack"}
+{"t": 40.003, "dir": "rx", "cmd": "MU", "len": 10, "payload": "21480250241326090026"}
+{"t": 40.003, "dir": "tx", "cmd": "MU", "len": 1, "payload": "01", "note": "ack"}
+{"t": 40.024, "dir": "rx", "cmd": "MZ", "len": 1, "payload": "55"}
+{"t": 40.024, "dir": "tx", "cmd": "MZ", "len": 1, "payload": "01", "note": "ack"}
+{"t": 40.044, "dir": "rx", "cmd": "MZ", "len": 1, "payload": "56"}
+{"t": 40.045, "dir": "tx", "cmd": "MZ", "len": 1, "payload": "01", "note": "ack"}
+{"t": 40.32, "dir": "rx", "cmd": "M2", "len": 7, "payload": "10011806100226"}
+{"t": 40.32, "dir": "tx", "cmd": "M2", "len": 1, "payload": "01", "note": "ack"}
+{"t": 40.32, "dir": "tx", "cmd": "Rb", "len": 3, "payload": "000000", "note": "start M1"}
+{"t": 40.384, "dir": "rx", "cmd": "Rb", "len": 1, "payload": "01", "note": "ack"}
+{"t": 40.888, "dir": "rx", "cmd": "M1", "len": 70, "payload": "000500010000002d001e0028006400000000000200130000000000030062005a004600000069002500000032000000320037ffff004b004b002c000000fe00fe09bc015d001e"}
+{"t": 40.888, "dir": "tx", "cmd": "M1", "len": 1, "payload": "01", "note": "ack"}
+{"t": 41.329, "dir": "rx", "cmd": "M2", "len": 7, "payload": "11011806100226"}
+{"t": 41.329, "dir": "tx", "cmd": "M2", "len": 1, "payload": "01", "note": "ack"}
+{"t": 41.887, "dir": "rx", "cmd": "M1", "len": 70, "payload": "000500010000002d001e0028006400000000000200130000000000030062005a004600000069002500000032000000320037ffff004b004b002c000000fe00fe09bc015d001e"}
+{"t": 41.887, "dir": "tx", "cmd": "M1", "len": 1, "payload": "01", "note": "ack"}
+{"t": 42.319, "dir": "rx", "cmd": "M2", "len": 7, "payload": "12011806100226"}
+{"t": 42.32, "dir": "tx", "cmd": "M2", "len": 1, "payload": "01", "note": "ack"}
+{"t": 42.886, "dir": "rx", "cmd": "M1", "len": 70, "payload": "000500010000002d001e0028006400000000000200130000000000030062005a004600000069002500000032000000320037ffff004b004b002c000000fe00fe09bc015d001e"}
+{"t": 42.886, "dir": "tx", "cmd": "M1", "len": 1, "payload": "01", "note": "ack"}
+{"t": 43.318, "dir": "rx", "cmd": "M2", "len": 7, "payload": "13011806100226"}
+{"t": 43.318, "dir": "tx", "cmd": "M2", "len": 1, "payload": "01", "note": "ack"}
+{"t": 43.885, "dir": "rx", "cmd": "M1", "len": 70, "payload": "000500010000002d001e0028006400000000000200130000000000030062005a004600000069002500000032000000320037ffff004b004b002c000000fe00fe09bc015d001e"}
+{"t": 43.886, "dir": "tx", "cmd": "M1", "len": 1, "payload": "01", "note": "ack"}
+{"t": 44.317, "dir": "rx", "cmd": "M2", "len": 7, "payload": "14011806100226"}
+{"t": 44.317, "dir": "tx", "cmd": "M2", "len": 1, "payload": "01", "note": "ack"}
+{"t": 44.884, "dir": "rx", "cmd": "M1", "len": 70, "payload": "000500010000002d001e0028006400000000000200130000000000030062005a004600000069002500000032000000320037ffff004b004b002c000000fe00fe09bc015d001e"}
+{"t": 44.884, "dir": "tx", "cmd": "M1", "len": 1, "payload": "01", "note": "ack"}
+{"t": 45.316, "dir": "rx", "cmd": "M2", "len": 7, "payload": "15011806100226"}
+{"t": 45.316, "dir": "tx", "cmd": "M2", "len": 1, "payload": "01", "note": "ack"}
+{"t": 45.883, "dir": "rx", "cmd": "M1", "len": 70, "payload": "000500010000002d001e0028006400000000000200130000000000030062005a004600000069002500000032000000320037ffff004b004b002c000000fe00fe09bc015d001e"}
+{"t": 45.883, "dir": "tx", "cmd": "M1", "len": 1, "payload": "01", "note": "ack"}

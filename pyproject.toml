@@ -1,0 +1,48 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "froeling-s3100"
+version = "0.1.0"
+description = "Asynchronous client for the Fröling Lambdatronic S3100 heating controller (serial protocol over a TCP bridge)"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.12"
+authors = [{ name = "Alexander Hechnet" }]
+classifiers = [
+    "Framework :: AsyncIO",
+    "Programming Language :: Python :: 3",
+    "Topic :: Home Automation",
+    "Typing :: Typed",
+]
+dependencies = []
+
+[project.optional-dependencies]
+test = ["pytest>=8", "pytest-asyncio>=0.24", "pytest-cov"]
+
+[project.scripts]
+froeling-s3100-simulator = "froeling_s3100.simulator:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+froeling_s3100 = ["py.typed"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "function"
+testpaths = ["tests/lib"]
+
+[tool.mypy]
+strict = true
+python_version = "3.12"
+
+[tool.ruff]
+line-length = 110
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP", "SIM", "RUF", "ASYNC", "PL"]
+ignore = ["PLR0913", "PLR2004", "PLR0912", "PLR0915", "ASYNC109"]
