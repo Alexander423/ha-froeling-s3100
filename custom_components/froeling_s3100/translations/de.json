@@ -194,6 +194,66 @@
       },
       "controller_time": {
         "name": "Uhrzeit Steuerung"
+      },
+      "switch_off_above_target": {
+        "name": "Ausschalten über Solltemperatur +"
+      },
+      "max_heat_up_time": {
+        "name": "Maximale Anheizzeit"
+      },
+      "min_flue_gas_temperature": {
+        "name": "Minimale Abgastemperatur"
+      },
+      "max_flue_gas_temperature": {
+        "name": "Maximale Abgastemperatur"
+      },
+      "fire_out_flue_gas_temperature": {
+        "name": "Abgastemperatur Feuer-Aus"
+      },
+      "switch_off_above_max_target": {
+        "name": "Ausschalten über max. Solltemperatur +"
+      },
+      "residual_oxygen_target": {
+        "name": "Restsauerstoff Soll"
+      },
+      "fire_out_residual_oxygen": {
+        "name": "Restsauerstoff Feuer-Aus"
+      },
+      "primary_air_flap_voltage_closed": {
+        "name": "Primärluftklappe Spannung 0 %"
+      },
+      "primary_air_flap_voltage_open": {
+        "name": "Primärluftklappe Spannung 100 %"
+      },
+      "secondary_air_flap_voltage_closed": {
+        "name": "Sekundärluftklappe Spannung 0 %"
+      },
+      "secondary_air_flap_voltage_open": {
+        "name": "Sekundärluftklappe Spannung 100 %"
+      },
+      "min_return_temperature": {
+        "name": "Mindestrücklauftemperatur"
+      },
+      "pumps_start_temperature": {
+        "name": "Pumpen laufen ab"
+      },
+      "return_pump_min_speed": {
+        "name": "Rücklaufanhebepumpe Mindestdrehzahl"
+      },
+      "buffer_pump_min_speed": {
+        "name": "Pufferpumpe Mindestdrehzahl"
+      },
+      "hot_water_pump_min_speed": {
+        "name": "Boilerpumpe Mindestdrehzahl"
+      },
+      "circuit_max_flow_temperature": {
+        "name": "Maximale Vorlauftemperatur Heizkreis {number}"
+      },
+      "circuit_mixer_runtime": {
+        "name": "Mischerlaufzeit Heizkreis {number}"
+      },
+      "circuit_frost_protection": {
+        "name": "Frostschutztemperatur Heizkreis {number}"
       }
     }
   },

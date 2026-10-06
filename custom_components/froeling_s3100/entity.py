@@ -28,6 +28,7 @@ class FroelingEntity(CoordinatorEntity[FroelingCoordinator]):
             manufacturer=MANUFACTURER,
             model=MODEL,
             name=DEFAULT_NAME,
+            sw_version=coordinator.catalog.firmware,
         )
 
     @property

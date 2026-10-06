@@ -106,6 +106,27 @@
       },
       "controller_time": {
         "default": "mdi:clock-outline"
+      },
+      "max_heat_up_time": {
+        "default": "mdi:fire-clock"
+      },
+      "fire_out_flue_gas_temperature": {
+        "default": "mdi:fire-off"
+      },
+      "residual_oxygen_target": {
+        "default": "mdi:molecule"
+      },
+      "fire_out_residual_oxygen": {
+        "default": "mdi:molecule"
+      },
+      "pumps_start_temperature": {
+        "default": "mdi:pump"
+      },
+      "circuit_mixer_runtime": {
+        "default": "mdi:valve"
+      },
+      "circuit_frost_protection": {
+        "default": "mdi:snowflake-thermometer"
       }
     }
   }

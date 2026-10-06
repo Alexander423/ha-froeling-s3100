@@ -95,3 +95,42 @@ def lookup(name: str) -> tuple[MeasurementInfo | None, dict[str, str]]:
         if match := pattern.match(normalized):
             return info, {"number": match.group(1)}
     return None, {}
+
+
+# Documented service parameters (read-only): id -> (translation key, enabled by default).
+SERVICE_PARAMETERS: dict[int, tuple[str, bool]] = {
+    0: ("switch_off_above_target", False),
+    1: ("max_heat_up_time", True),
+    2: ("min_flue_gas_temperature", True),
+    3: ("max_flue_gas_temperature", True),
+    5: ("fire_out_flue_gas_temperature", True),
+    13: ("switch_off_above_max_target", False),
+    25: ("residual_oxygen_target", True),
+    26: ("fire_out_residual_oxygen", True),
+    29: ("primary_air_flap_voltage_closed", False),
+    30: ("primary_air_flap_voltage_open", False),
+    31: ("secondary_air_flap_voltage_closed", False),
+    32: ("secondary_air_flap_voltage_open", False),
+    119: ("min_return_temperature", True),
+    120: ("pumps_start_temperature", True),
+    121: ("return_pump_min_speed", False),
+    127: ("buffer_pump_min_speed", False),
+    173: ("hot_water_pump_min_speed", False),
+}
+HEATING_CIRCUIT_BLOCKS: dict[int, int] = {1: 89, 2: 102, 3: 191, 4: 204}
+HEATING_CIRCUIT_PARAMETERS: dict[int, tuple[str, bool]] = {
+    6: ("circuit_max_flow_temperature", True),
+    9: ("circuit_mixer_runtime", False),
+    10: ("circuit_frost_protection", False),
+}
+
+
+def service_parameters(circuits: set[str]) -> dict[int, tuple[str, bool, dict[str, str]]]:
+    """Documented service parameters for the announced heating circuits."""
+    result = {pid: (key, enabled, {}) for pid, (key, enabled) in SERVICE_PARAMETERS.items()}
+    for circuit, start in HEATING_CIRCUIT_BLOCKS.items():
+        if str(circuit) not in circuits:
+            continue
+        for offset, (key, enabled) in HEATING_CIRCUIT_PARAMETERS.items():
+            result[start + offset] = (key, enabled, {"number": str(circuit)})
+    return result

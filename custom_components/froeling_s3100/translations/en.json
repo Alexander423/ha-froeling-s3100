@@ -194,6 +194,66 @@
       },
       "controller_time": {
         "name": "Controller time"
+      },
+      "switch_off_above_target": {
+        "name": "Switch-off above target +"
+      },
+      "max_heat_up_time": {
+        "name": "Maximum heating-up time"
+      },
+      "min_flue_gas_temperature": {
+        "name": "Minimum flue gas temperature"
+      },
+      "max_flue_gas_temperature": {
+        "name": "Maximum flue gas temperature"
+      },
+      "fire_out_flue_gas_temperature": {
+        "name": "Fire-out flue gas temperature"
+      },
+      "switch_off_above_max_target": {
+        "name": "Switch-off above max. target +"
+      },
+      "residual_oxygen_target": {
+        "name": "Residual oxygen target"
+      },
+      "fire_out_residual_oxygen": {
+        "name": "Fire-out residual oxygen"
+      },
+      "primary_air_flap_voltage_closed": {
+        "name": "Primary air flap voltage 0 %"
+      },
+      "primary_air_flap_voltage_open": {
+        "name": "Primary air flap voltage 100 %"
+      },
+      "secondary_air_flap_voltage_closed": {
+        "name": "Secondary air flap voltage 0 %"
+      },
+      "secondary_air_flap_voltage_open": {
+        "name": "Secondary air flap voltage 100 %"
+      },
+      "min_return_temperature": {
+        "name": "Minimum return temperature"
+      },
+      "pumps_start_temperature": {
+        "name": "Pumps start at"
+      },
+      "return_pump_min_speed": {
+        "name": "Return lift pump minimum speed"
+      },
+      "buffer_pump_min_speed": {
+        "name": "Buffer pump minimum speed"
+      },
+      "hot_water_pump_min_speed": {
+        "name": "Hot water pump minimum speed"
+      },
+      "circuit_max_flow_temperature": {
+        "name": "Maximum flow temperature circuit {number}"
+      },
+      "circuit_mixer_runtime": {
+        "name": "Mixer runtime circuit {number}"
+      },
+      "circuit_frost_protection": {
+        "name": "Frost protection temperature circuit {number}"
       }
     }
   },

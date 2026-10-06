@@ -115,3 +115,18 @@ def test_bad_record_is_preserved() -> None:
     catalog = builder.finish()
     assert len(builder.errors) == 1
     assert [e.command for e in catalog.raw_entries] == ["MC", "MX"]
+
+
+def test_firmware_and_documented_parameters(catalog: Catalog) -> None:
+    assert catalog.firmware == "24.20"
+    heat_up = catalog.parameters[1]
+    assert heat_up.name == "Maximale Anheizzeit"
+    assert heat_up.documented
+    assert not heat_up.in_customer_menu
+    assert (heat_up.value, heat_up.unit) == (10, "min")
+    assert catalog.parameters[5].name == "Abgastemp. Feuer-AUS"
+    assert catalog.parameters[5].value == 85
+    assert catalog.parameters[26].value == 19.5
+    assert catalog.parameters[95].name == "Heizkreis 1 Vorlauftemp. Maximalwert"
+    # Customer parameters keep the name from the controller menu.
+    assert not catalog.parameters[0x75].documented

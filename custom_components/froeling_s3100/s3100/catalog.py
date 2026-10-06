@@ -5,6 +5,7 @@ from __future__ import annotations
 import logging
 from datetime import datetime
 
+from .known_parameters import known_service_parameters
 from .models import (
     Catalog,
     FaultEvent,
@@ -199,6 +200,13 @@ class CatalogBuilder:
         # Error texts (MT) arrive before the history, so texts resolve here.
         self.catalog.error_history.append(parse_fault(p, self.catalog.error_texts))
 
+    def _parse_ms(self, p: bytes) -> None:
+        # Firmware version in BCD, e.g. 24 20 ... = V24.20.
+        if len(p) < 2:
+            raise DecodeError("MS too short")
+        self.catalog.firmware = f"{bcd(p[0])}.{bcd(p[1]):02d}"
+        self.catalog.raw_entries.append(RawEntry("MS", bytes(p)))
+
     def _parse_mz(self, p: bytes) -> None:
         if len(p) != 1:
             raise DecodeError("MZ length != 1")
@@ -221,6 +229,11 @@ class CatalogBuilder:
         for fault in catalog.error_history:
             fault.text = catalog.error_texts.get(fault.error_id, fault.text)
         self._apply_menu(catalog)
+        for param_id, name in known_service_parameters().items():
+            param = catalog.parameters.get(param_id)
+            if param is not None and not param.in_customer_menu:
+                param.name = name
+                param.documented = True
         return catalog
 
     @staticmethod

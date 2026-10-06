@@ -11,6 +11,7 @@ from homeassistant.config_entries import ConfigEntryState
 from homeassistant.const import ATTR_ENTITY_ID, STATE_OFF, STATE_ON, STATE_UNAVAILABLE
 from homeassistant.core import HomeAssistant
 from homeassistant.exceptions import HomeAssistantError, ServiceValidationError
+from homeassistant.helpers import device_registry as dr
 from homeassistant.helpers import entity_registry as er
 from homeassistant.helpers import issue_registry as ir
 from homeassistant.util import dt as dt_util
@@ -345,3 +346,26 @@ async def test_no_warning_on_unload(
     await setup_entry(hass, entry)
     assert await hass.config_entries.async_unload(entry.entry_id)
     assert "Connection to the Fröling S3100 lost" not in caplog.text
+
+
+async def test_service_parameters_and_firmware(
+    hass: HomeAssistant, entity_registry_enabled_by_default: None, simulator: SimulatedController
+) -> None:
+    entry = make_entry(simulator, writes=True)
+    await setup_entry(hass, entry)
+    heat_up = hass.states.get(entity_id(hass, entry, "sensor", "param_1"))
+    assert heat_up.name == "Fröling S3100 Maximum heating-up time"
+    assert float(heat_up.state) == 10
+    assert heat_up.attributes["unit_of_measurement"] == "min"
+    fire_out = hass.states.get(entity_id(hass, entry, "sensor", "param_5"))
+    assert float(fire_out.state) == 85
+    max_flow = hass.states.get(entity_id(hass, entry, "sensor", "param_95"))
+    assert max_flow.name == "Fröling S3100 Maximum flow temperature circuit 1"
+    registry = er.async_get(hass)
+    # Circuit 4 is not announced by this controller, service parameters are never writable.
+    assert registry.async_get_entity_id("sensor", DOMAIN, f"{entry.entry_id}_param_210") is None
+    assert registry.async_get_entity_id("number", DOMAIN, f"{entry.entry_id}_param_1") is None
+
+    device = dr.async_get(hass).async_get_device(identifiers={(DOMAIN, entry.entry_id)})
+    assert device.sw_version == "24.20"
+    assert await hass.config_entries.async_unload(entry.entry_id)

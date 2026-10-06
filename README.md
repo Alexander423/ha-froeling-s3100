@@ -96,8 +96,18 @@ configuration is deleted with it.
 | Parameters | Customer-menu parameters, read-only by default (diagnostic) |
 | Connection | Diagnostic connectivity sensor |
 
-Service and combustion parameters are never exposed as entities. You can
-inspect them in the diagnostics.
+Service and combustion parameters are never writable. A set of them was
+identified with the Fröling service manual (*Lambdatronic S 3100
+Bedienungsanleitung Service-Techniker ab V24.16*), for example maximum
+heating-up time, fire-out flue gas temperature, fire-out residual oxygen,
+minimum return temperature and maximum flow temperature per circuit. They are
+shown as read-only diagnostic sensors. All others are only available in the
+diagnostics. The controller firmware version is shown in the device info.
+
+Only values that the controller transmits are available. The S3100 does not
+transmit heating circuit pumps or mixers at all; Fröling's own PC software
+reads the same value list. On the tested unit, the user level (customer or
+service) does not change that list.
 
 ### Example automation
 

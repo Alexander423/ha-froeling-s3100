@@ -29,7 +29,7 @@ from .entity import (
     customer_parameters,
     remove_moved_entities,
 )
-from .measurements import lookup
+from .measurements import lookup, service_parameters
 from .s3100 import Measurement, MeasurementKind, Parameter
 
 PARALLEL_UPDATES = 0
@@ -64,6 +64,16 @@ async def async_setup_entry(
         MeasurementSensor(coordinator, m) for m in coordinator.catalog.measurements
     ]
     entities += [ParameterSensor(coordinator, p) for p in customer_parameters(coordinator, Platform.SENSOR)]
+    circuits: set[str] = set()
+    for measurement in coordinator.catalog.measurements:
+        info, placeholders = lookup(measurement.name)
+        if info is not None and info.translation_key == "flow_temperature":
+            circuits.add(placeholders["number"])
+    for param_id, (key, enabled, placeholders) in service_parameters(circuits).items():
+        if (parameter := coordinator.catalog.parameters.get(param_id)) is not None and not (
+            parameter.in_customer_menu
+        ):
+            entities.append(ServiceParameterSensor(coordinator, parameter, key, enabled, placeholders))
     entities += [
         LastFaultSensor(coordinator),
         LastFaultTimeSensor(coordinator),
@@ -145,6 +155,25 @@ class ParameterSensor(FroelingParameterEntity, SensorEntity):
             return value
         minutes = int(value)
         return f"{minutes // 60:02d}:{minutes % 60:02d}"
+
+
+class ServiceParameterSensor(ParameterSensor):
+    """A documented service parameter, always read-only."""
+
+    def __init__(
+        self,
+        coordinator: FroelingCoordinator,
+        parameter: Parameter,
+        translation_key: str,
+        enabled: bool,
+        placeholders: dict[str, str],
+    ) -> None:
+        """Initialize the sensor."""
+        super().__init__(coordinator, parameter)
+        del self._attr_name  # Use the translated name instead of the raw one.
+        self._attr_translation_key = translation_key
+        self._attr_translation_placeholders = placeholders
+        self._attr_entity_registry_enabled_default = enabled
 
 
 class LastFaultSensor(FroelingEntity, SensorEntity):

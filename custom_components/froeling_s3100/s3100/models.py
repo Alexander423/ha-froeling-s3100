@@ -143,6 +143,7 @@ class Parameter:
     menu_path: tuple[str, ...] = ()
     kind: ParameterKind = ParameterKind.UNKNOWN
     in_customer_menu: bool = False
+    documented: bool = False
 
     @property
     def is_time(self) -> bool:
@@ -269,6 +270,7 @@ class Catalog:
     raw_entries: list[RawEntry] = field(default_factory=list)
     blocks: list[str] = field(default_factory=list)
     frames: list[tuple[str, bytes]] = field(default_factory=list)
+    firmware: str | None = None
 
     @property
     def m1_length(self) -> int:
