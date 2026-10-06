@@ -410,7 +410,7 @@ class S3100Client:
                 await asyncio.wait_for(writer.wait_closed(), 2)
 
     def _fail_pending(self, err: Exception) -> None:
-        futures = [future for future, _ in self._pending.values()]
+        futures: list[asyncio.Future[Any]] = [future for future, _ in self._pending.values()]
         self._pending.clear()
         if self._pending_change is not None:
             futures.append(self._pending_change[1])
