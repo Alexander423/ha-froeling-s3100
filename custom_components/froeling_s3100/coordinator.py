@@ -180,7 +180,7 @@ class FroelingCoordinator(DataUpdateCoordinator[FroelingData]):
             if online:
                 if self._was_online is False:
                     _LOGGER.info("Connection to the Fröling S3100 restored")
-            elif self._was_online:
+            elif self._was_online and state is not ConnectionState.STOPPED:
                 _LOGGER.warning(
                     "Connection to the Fröling S3100 lost (%s), reconnecting",
                     self.client.stats.last_error or state,

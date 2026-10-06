@@ -336,3 +336,12 @@ async def test_derived_sensors_heating_up(hass: HomeAssistant, simulator: Simula
         assert hass.states.get(entity_id(hass, entry, "binary_sensor", key)).state == STATE_ON
     assert hass.states.get(entity_id(hass, entry, "binary_sensor", "fault")).state == STATE_OFF
     assert await hass.config_entries.async_unload(entry.entry_id)
+
+
+async def test_no_warning_on_unload(
+    hass: HomeAssistant, simulator: SimulatedController, caplog: pytest.LogCaptureFixture
+) -> None:
+    entry = make_entry(simulator)
+    await setup_entry(hass, entry)
+    assert await hass.config_entries.async_unload(entry.entry_id)
+    assert "Connection to the Fröling S3100 lost" not in caplog.text
