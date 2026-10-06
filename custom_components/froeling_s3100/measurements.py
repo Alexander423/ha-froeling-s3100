@@ -127,7 +127,9 @@ HEATING_CIRCUIT_PARAMETERS: dict[int, tuple[str, bool]] = {
 
 def service_parameters(circuits: set[str]) -> dict[int, tuple[str, bool, dict[str, str]]]:
     """Documented service parameters for the announced heating circuits."""
-    result = {pid: (key, enabled, {}) for pid, (key, enabled) in SERVICE_PARAMETERS.items()}
+    result: dict[int, tuple[str, bool, dict[str, str]]] = {
+        pid: (key, enabled, {}) for pid, (key, enabled) in SERVICE_PARAMETERS.items()
+    }
     for circuit, start in HEATING_CIRCUIT_BLOCKS.items():
         if str(circuit) not in circuits:
             continue
