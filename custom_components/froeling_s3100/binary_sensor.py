@@ -7,8 +7,6 @@ from homeassistant.const import EntityCategory, Platform
 from homeassistant.core import HomeAssistant
 from homeassistant.helpers.entity_platform import AddConfigEntryEntitiesCallback
 
-from froeling_s3100 import MeasurementKind
-
 from .coordinator import FroelingConfigEntry, FroelingCoordinator
 from .entity import (
     FroelingEntity,
@@ -16,6 +14,7 @@ from .entity import (
     customer_parameters,
     remove_moved_entities,
 )
+from .s3100 import MeasurementKind
 
 PARALLEL_UPDATES = 0
 

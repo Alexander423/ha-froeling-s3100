@@ -22,8 +22,6 @@ from homeassistant.core import HomeAssistant
 from homeassistant.helpers.entity_platform import AddConfigEntryEntitiesCallback
 from homeassistant.util import dt as dt_util
 
-from froeling_s3100 import Measurement, MeasurementKind, Parameter
-
 from .coordinator import FroelingConfigEntry, FroelingCoordinator
 from .entity import (
     FroelingEntity,
@@ -32,6 +30,7 @@ from .entity import (
     remove_moved_entities,
 )
 from .measurements import lookup
+from .s3100 import Measurement, MeasurementKind, Parameter
 
 PARALLEL_UPDATES = 0
 

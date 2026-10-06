@@ -11,8 +11,6 @@ from homeassistant.const import CONF_HOST, CONF_PORT
 from homeassistant.core import callback
 from homeassistant.helpers import selector
 
-from froeling_s3100 import S3100ConnectionError, S3100TimeoutError, async_probe
-
 from .const import (
     CONF_ENABLE_WRITES,
     CONF_UPDATE_INTERVAL,
@@ -25,6 +23,7 @@ from .const import (
     PROBE_TIMEOUT,
 )
 from .coordinator import FroelingConfigEntry
+from .s3100 import S3100ConnectionError, S3100TimeoutError, async_probe
 
 _LOGGER = logging.getLogger(__name__)
 

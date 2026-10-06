@@ -8,10 +8,9 @@ from homeassistant.helpers import entity_registry as er
 from homeassistant.helpers.device_registry import DeviceInfo
 from homeassistant.helpers.update_coordinator import CoordinatorEntity
 
-from froeling_s3100 import Parameter, ParameterKind
-
 from .const import DEFAULT_NAME, DOMAIN, MANUFACTURER, MODEL
 from .coordinator import FroelingCoordinator
+from .s3100 import Parameter, ParameterKind
 
 
 class FroelingEntity(CoordinatorEntity[FroelingCoordinator]):

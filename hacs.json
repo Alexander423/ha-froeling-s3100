@@ -1,5 +1,7 @@
 {
   "name": "Fröling Lambdatronic S3100",
   "homeassistant": "2025.10.0",
-  "render_readme": true
+  "render_readme": true,
+  "zip_release": true,
+  "filename": "froeling_s3100.zip"
 }

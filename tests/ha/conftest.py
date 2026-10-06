@@ -17,8 +17,8 @@ from custom_components.froeling_s3100.const import (
     CONF_UPDATE_INTERVAL,
     DOMAIN,
 )
-from froeling_s3100 import S3100Client
-from froeling_s3100.simulator import Recording, SimulatedController
+from custom_components.froeling_s3100.s3100 import S3100Client
+from custom_components.froeling_s3100.s3100.simulator import Recording, SimulatedController
 
 CAPTURE = Path(__file__).parent.parent / "fixtures" / "s3100_capture.jsonl"
 

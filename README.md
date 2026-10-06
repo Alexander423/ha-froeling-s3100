@@ -1,5 +1,8 @@
 # Fröling Lambdatronic S3100 for Home Assistant
 
+[![CI](https://github.com/Alexander423/ha-froeling-s3100/actions/workflows/ci.yml/badge.svg)](https://github.com/Alexander423/ha-froeling-s3100/actions/workflows/ci.yml)
+[![HACS Custom](https://img.shields.io/badge/HACS-Custom-41BDF5.svg)](https://hacs.xyz/docs/faq/custom_repositories)
+
 Native Home Assistant integration for wood and pellet boilers with the
 **Fröling Lambdatronic S3100** controller (e.g. FHG Turbo 3000), plus the
 standalone asynchronous Python library `froeling-s3100` it is built on.
@@ -58,7 +61,7 @@ connected, do not connect other tools to the bridge.
 
 ## Installation
 
-1. HACS → Integrations → ⋮ → *Custom repositories* → add this repository (type *Integration*).
+1. HACS → ⋮ → *Custom repositories* → add `https://github.com/Alexander423/ha-froeling-s3100` with type *Integration*.
 2. Install **Fröling Lambdatronic S3100** and restart Home Assistant.
 3. *Settings → Devices & services → Add integration → Fröling Lambdatronic S3100*.
 4. Enter the IP address and port of the bridge.
@@ -128,6 +131,12 @@ automation:
 | Frequent reconnects | Diagnostics → `statistics`: `checksum_errors`, `timeouts`. Shorten or shield the RS232 cable. |
 
 ## Library
+
+The protocol library lives in `src/froeling_s3100` and has no Home Assistant
+dependency. While the integration is distributed through HACS, a copy of it
+is bundled in `custom_components/froeling_s3100/s3100`. Run
+`python tools/sync_library.py` after changing the library. CI checks that
+both are identical.
 
 ```python
 from froeling_s3100 import S3100Client

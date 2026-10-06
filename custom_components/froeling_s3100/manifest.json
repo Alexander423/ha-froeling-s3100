@@ -1,14 +1,17 @@
 {
   "domain": "froeling_s3100",
   "name": "Fröling Lambdatronic S3100",
-  "codeowners": ["@alexanderhechnet"],
+  "codeowners": [
+    "@Alexander423"
+  ],
   "config_flow": true,
-  "documentation": "https://github.com/alexanderhechnet/froeling-s3100",
+  "documentation": "https://github.com/Alexander423/ha-froeling-s3100",
   "integration_type": "device",
   "iot_class": "local_push",
-  "issue_tracker": "https://github.com/alexanderhechnet/froeling-s3100/issues",
-  "loggers": ["froeling_s3100"],
-  "quality_scale": "platinum",
-  "requirements": ["froeling-s3100==0.1.0"],
+  "issue_tracker": "https://github.com/Alexander423/ha-froeling-s3100/issues",
+  "loggers": [
+    "custom_components.froeling_s3100.s3100"
+  ],
+  "requirements": [],
   "version": "0.1.0"
 }

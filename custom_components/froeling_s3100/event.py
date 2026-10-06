@@ -7,11 +7,10 @@ from homeassistant.core import HomeAssistant, callback
 from homeassistant.helpers.dispatcher import async_dispatcher_connect
 from homeassistant.helpers.entity_platform import AddConfigEntryEntitiesCallback
 
-from froeling_s3100 import FaultEvent
-
 from .const import EVENT_FAULT
 from .coordinator import FroelingConfigEntry, FroelingCoordinator, fault_signal
 from .entity import FroelingEntity
+from .s3100 import FaultEvent
 
 PARALLEL_UPDATES = 0
 

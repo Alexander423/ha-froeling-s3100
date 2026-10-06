@@ -10,10 +10,9 @@ from homeassistant.exceptions import ConfigEntryNotReady
 from homeassistant.helpers import issue_registry as ir
 from homeassistant.helpers.storage import Store
 
-from froeling_s3100 import Catalog, S3100Client, S3100TimeoutError, build_catalog
-
 from .const import CONF_ENABLE_WRITES, DOMAIN, ONLINE_TIMEOUT, SETUP_TIMEOUT, STORAGE_VERSION
 from .coordinator import FroelingConfigEntry, FroelingCoordinator
+from .s3100 import Catalog, S3100Client, S3100TimeoutError, build_catalog
 
 _LOGGER = logging.getLogger(__name__)
 

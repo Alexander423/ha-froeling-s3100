@@ -22,7 +22,13 @@ from homeassistant.helpers.storage import Store
 from homeassistant.helpers.update_coordinator import DataUpdateCoordinator
 from homeassistant.util import dt as dt_util
 
-from froeling_s3100 import (
+from .const import (
+    CONF_ENABLE_WRITES,
+    CONF_UPDATE_INTERVAL,
+    DEFAULT_UPDATE_INTERVAL,
+    DOMAIN,
+)
+from .s3100 import (
     Catalog,
     ConnectionState,
     Event,
@@ -32,13 +38,6 @@ from froeling_s3100 import (
     S3100Error,
     S3100NotReadyError,
     S3100WriteNotAllowedError,
-)
-
-from .const import (
-    CONF_ENABLE_WRITES,
-    CONF_UPDATE_INTERVAL,
-    DEFAULT_UPDATE_INTERVAL,
-    DOMAIN,
 )
 
 _LOGGER = logging.getLogger(__name__)

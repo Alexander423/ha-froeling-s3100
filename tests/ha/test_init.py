@@ -21,8 +21,8 @@ from pytest_homeassistant_custom_component.components.diagnostics import (
 from pytest_homeassistant_custom_component.typing import ClientSessionGenerator
 
 from custom_components.froeling_s3100.const import DOMAIN
-from froeling_s3100 import S3100WriteError
-from froeling_s3100.simulator import SimulatedController
+from custom_components.froeling_s3100.s3100 import S3100WriteError
+from custom_components.froeling_s3100.s3100.simulator import SimulatedController
 
 from .conftest import make_entry, setup_entry, wait_for_values
 

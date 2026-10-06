@@ -7,10 +7,9 @@ from homeassistant.const import EntityCategory, Platform, UnitOfTemperature
 from homeassistant.core import HomeAssistant
 from homeassistant.helpers.entity_platform import AddConfigEntryEntitiesCallback
 
-from froeling_s3100 import Parameter
-
 from .coordinator import FroelingConfigEntry, FroelingCoordinator
 from .entity import FroelingParameterEntity, customer_parameters, remove_moved_entities
+from .s3100 import Parameter
 from .sensor import UNITS
 
 PARALLEL_UPDATES = 1

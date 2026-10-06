@@ -16,7 +16,7 @@ from custom_components.froeling_s3100.const import (
     CONF_UPDATE_INTERVAL,
     DOMAIN,
 )
-from froeling_s3100.simulator import SimulatedController
+from custom_components.froeling_s3100.s3100.simulator import SimulatedController
 
 from .conftest import make_entry, setup_entry
 

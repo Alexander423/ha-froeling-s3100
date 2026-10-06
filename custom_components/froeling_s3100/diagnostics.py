@@ -13,9 +13,8 @@ from homeassistant.components.diagnostics import async_redact_data
 from homeassistant.const import CONF_HOST
 from homeassistant.core import HomeAssistant
 
-from froeling_s3100 import FaultEvent, Parameter
-
 from .coordinator import FroelingConfigEntry
+from .s3100 import FaultEvent, Parameter
 
 TO_REDACT = {CONF_HOST}
 
