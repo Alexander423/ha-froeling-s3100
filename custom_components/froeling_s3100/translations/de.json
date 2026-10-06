@@ -52,8 +52,27 @@
   },
   "entity": {
     "binary_sensor": {
-      "connected": { "name": "Verbindung" },
-      "fault": { "name": "Störung" }
+      "connected": {
+        "name": "Verbindung"
+      },
+      "fault": {
+        "name": "Störung"
+      },
+      "fire_active": {
+        "name": "Feuer aktiv"
+      },
+      "heating_up": {
+        "name": "Anheizen"
+      },
+      "circuit_demand": {
+        "name": "Heizkreis {number} Anforderung"
+      },
+      "buffer_pump_running": {
+        "name": "Pufferpumpe läuft"
+      },
+      "induced_draft_fan_running": {
+        "name": "Saugzug läuft"
+      }
     },
     "event": {
       "fault_event": {
@@ -68,42 +87,114 @@
       }
     },
     "sensor": {
-      "status": { "name": "Status" },
-      "operating_mode": { "name": "Betriebsart" },
-      "grate": { "name": "Rost" },
-      "boiler_temperature": { "name": "Kesseltemperatur" },
-      "boiler_temperature_target": { "name": "Kesseltemperatur Soll" },
-      "flue_gas_temperature": { "name": "Abgastemperatur" },
-      "flue_gas_temperature_target": { "name": "Abgastemperatur Soll" },
-      "boiler_control_value": { "name": "Kesselstellgröße" },
-      "induced_draft_fan": { "name": "Saugzug" },
-      "primary_air": { "name": "Primärluft" },
-      "primary_air_flap": { "name": "Primärluftklappe Position" },
-      "secondary_air": { "name": "Sekundärluft" },
-      "secondary_air_flap": { "name": "Sekundärluftklappe Position" },
-      "residual_oxygen": { "name": "Restsauerstoff" },
-      "oxygen_controller": { "name": "O2-Regler" },
-      "buffer_temperature_top": { "name": "Puffertemperatur oben" },
-      "buffer_temperature_middle": { "name": "Puffertemperatur Mitte" },
-      "buffer_temperature_bottom": { "name": "Puffertemperatur unten" },
-      "buffer_pump": { "name": "Pufferpumpe" },
-      "hot_water_temperature": { "name": "Warmwassertemperatur" },
-      "outdoor_temperature": { "name": "Außentemperatur" },
-      "combustion_chamber_temperature": { "name": "Feuerraumtemperatur" },
-      "feeder": { "name": "Einschub" },
-      "fill_level": { "name": "Füllstand" },
-      "operating_hours": { "name": "Betriebsstunden" },
-      "fire_hold_hours": { "name": "Stunden Feuerhaltung" },
-      "burner_starts": { "name": "Brennerstarts" },
-      "board_temperature": { "name": "Platinentemperatur" },
-      "flow_temperature": { "name": "Vorlauftemperatur Heizkreis {number}" },
-      "flow_temperature_target": { "name": "Vorlauftemperatur Soll Heizkreis {number}" },
-      "room_temperature": { "name": "Raumtemperatur Heizkreis {number}" },
-      "party_switch": { "name": "Partyschalter Heizkreis {number}" },
-      "kty_sensor": { "name": "KTY-Fühler {number}" },
-      "last_fault": { "name": "Letzte Störung" },
-      "last_fault_time": { "name": "Zeitpunkt letzte Störung" },
-      "controller_time": { "name": "Uhrzeit Steuerung" }
+      "status": {
+        "name": "Status"
+      },
+      "operating_mode": {
+        "name": "Betriebsart"
+      },
+      "grate": {
+        "name": "Rost"
+      },
+      "boiler_temperature": {
+        "name": "Kesseltemperatur"
+      },
+      "boiler_temperature_target": {
+        "name": "Kesseltemperatur Soll"
+      },
+      "flue_gas_temperature": {
+        "name": "Abgastemperatur"
+      },
+      "flue_gas_temperature_target": {
+        "name": "Abgastemperatur Soll"
+      },
+      "boiler_control_value": {
+        "name": "Kesselstellgröße"
+      },
+      "induced_draft_fan": {
+        "name": "Saugzug"
+      },
+      "primary_air": {
+        "name": "Primärluft"
+      },
+      "primary_air_flap": {
+        "name": "Primärluftklappe Position"
+      },
+      "secondary_air": {
+        "name": "Sekundärluft"
+      },
+      "secondary_air_flap": {
+        "name": "Sekundärluftklappe Position"
+      },
+      "residual_oxygen": {
+        "name": "Restsauerstoff"
+      },
+      "oxygen_controller": {
+        "name": "O2-Regler"
+      },
+      "buffer_temperature_top": {
+        "name": "Puffertemperatur oben"
+      },
+      "buffer_temperature_middle": {
+        "name": "Puffertemperatur Mitte"
+      },
+      "buffer_temperature_bottom": {
+        "name": "Puffertemperatur unten"
+      },
+      "buffer_pump": {
+        "name": "Pufferpumpe"
+      },
+      "hot_water_temperature": {
+        "name": "Warmwassertemperatur"
+      },
+      "outdoor_temperature": {
+        "name": "Außentemperatur"
+      },
+      "combustion_chamber_temperature": {
+        "name": "Feuerraumtemperatur"
+      },
+      "feeder": {
+        "name": "Einschub"
+      },
+      "fill_level": {
+        "name": "Füllstand"
+      },
+      "operating_hours": {
+        "name": "Betriebsstunden"
+      },
+      "fire_hold_hours": {
+        "name": "Stunden Feuerhaltung"
+      },
+      "burner_starts": {
+        "name": "Brennerstarts"
+      },
+      "board_temperature": {
+        "name": "Platinentemperatur"
+      },
+      "flow_temperature": {
+        "name": "Vorlauftemperatur Heizkreis {number}"
+      },
+      "flow_temperature_target": {
+        "name": "Vorlauftemperatur Soll Heizkreis {number}"
+      },
+      "room_temperature": {
+        "name": "Raumtemperatur Heizkreis {number}"
+      },
+      "party_switch": {
+        "name": "Partyschalter Heizkreis {number}"
+      },
+      "kty_sensor": {
+        "name": "KTY-Fühler {number}"
+      },
+      "last_fault": {
+        "name": "Letzte Störung"
+      },
+      "last_fault_time": {
+        "name": "Zeitpunkt letzte Störung"
+      },
+      "controller_time": {
+        "name": "Uhrzeit Steuerung"
+      }
     }
   },
   "exceptions": {

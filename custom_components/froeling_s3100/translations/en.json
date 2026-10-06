@@ -57,6 +57,21 @@
       },
       "fault": {
         "name": "Fault"
+      },
+      "fire_active": {
+        "name": "Fire active"
+      },
+      "heating_up": {
+        "name": "Heating up"
+      },
+      "circuit_demand": {
+        "name": "Heating circuit {number} demand"
+      },
+      "buffer_pump_running": {
+        "name": "Buffer pump running"
+      },
+      "induced_draft_fan_running": {
+        "name": "Induced draft fan running"
       }
     },
     "event": {

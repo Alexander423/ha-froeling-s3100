@@ -52,8 +52,27 @@
   },
   "entity": {
     "binary_sensor": {
-      "connected": { "name": "Connection" },
-      "fault": { "name": "Fault" }
+      "connected": {
+        "name": "Connection"
+      },
+      "fault": {
+        "name": "Fault"
+      },
+      "fire_active": {
+        "name": "Fire active"
+      },
+      "heating_up": {
+        "name": "Heating up"
+      },
+      "circuit_demand": {
+        "name": "Heating circuit {number} demand"
+      },
+      "buffer_pump_running": {
+        "name": "Buffer pump running"
+      },
+      "induced_draft_fan_running": {
+        "name": "Induced draft fan running"
+      }
     },
     "event": {
       "fault_event": {
@@ -68,42 +87,114 @@
       }
     },
     "sensor": {
-      "status": { "name": "Status" },
-      "operating_mode": { "name": "Operating mode" },
-      "grate": { "name": "Grate" },
-      "boiler_temperature": { "name": "Boiler temperature" },
-      "boiler_temperature_target": { "name": "Boiler temperature target" },
-      "flue_gas_temperature": { "name": "Flue gas temperature" },
-      "flue_gas_temperature_target": { "name": "Flue gas temperature target" },
-      "boiler_control_value": { "name": "Boiler output" },
-      "induced_draft_fan": { "name": "Induced draft fan" },
-      "primary_air": { "name": "Primary air" },
-      "primary_air_flap": { "name": "Primary air flap position" },
-      "secondary_air": { "name": "Secondary air" },
-      "secondary_air_flap": { "name": "Secondary air flap position" },
-      "residual_oxygen": { "name": "Residual oxygen" },
-      "oxygen_controller": { "name": "Oxygen controller" },
-      "buffer_temperature_top": { "name": "Buffer temperature top" },
-      "buffer_temperature_middle": { "name": "Buffer temperature middle" },
-      "buffer_temperature_bottom": { "name": "Buffer temperature bottom" },
-      "buffer_pump": { "name": "Buffer pump" },
-      "hot_water_temperature": { "name": "Hot water temperature" },
-      "outdoor_temperature": { "name": "Outdoor temperature" },
-      "combustion_chamber_temperature": { "name": "Combustion chamber temperature" },
-      "feeder": { "name": "Feeder" },
-      "fill_level": { "name": "Fill level" },
-      "operating_hours": { "name": "Operating hours" },
-      "fire_hold_hours": { "name": "Ember hold hours" },
-      "burner_starts": { "name": "Burner starts" },
-      "board_temperature": { "name": "Board temperature" },
-      "flow_temperature": { "name": "Flow temperature circuit {number}" },
-      "flow_temperature_target": { "name": "Flow temperature target circuit {number}" },
-      "room_temperature": { "name": "Room temperature circuit {number}" },
-      "party_switch": { "name": "Party switch circuit {number}" },
-      "kty_sensor": { "name": "KTY sensor {number}" },
-      "last_fault": { "name": "Last fault" },
-      "last_fault_time": { "name": "Last fault time" },
-      "controller_time": { "name": "Controller time" }
+      "status": {
+        "name": "Status"
+      },
+      "operating_mode": {
+        "name": "Operating mode"
+      },
+      "grate": {
+        "name": "Grate"
+      },
+      "boiler_temperature": {
+        "name": "Boiler temperature"
+      },
+      "boiler_temperature_target": {
+        "name": "Boiler temperature target"
+      },
+      "flue_gas_temperature": {
+        "name": "Flue gas temperature"
+      },
+      "flue_gas_temperature_target": {
+        "name": "Flue gas temperature target"
+      },
+      "boiler_control_value": {
+        "name": "Boiler output"
+      },
+      "induced_draft_fan": {
+        "name": "Induced draft fan"
+      },
+      "primary_air": {
+        "name": "Primary air"
+      },
+      "primary_air_flap": {
+        "name": "Primary air flap position"
+      },
+      "secondary_air": {
+        "name": "Secondary air"
+      },
+      "secondary_air_flap": {
+        "name": "Secondary air flap position"
+      },
+      "residual_oxygen": {
+        "name": "Residual oxygen"
+      },
+      "oxygen_controller": {
+        "name": "Oxygen controller"
+      },
+      "buffer_temperature_top": {
+        "name": "Buffer temperature top"
+      },
+      "buffer_temperature_middle": {
+        "name": "Buffer temperature middle"
+      },
+      "buffer_temperature_bottom": {
+        "name": "Buffer temperature bottom"
+      },
+      "buffer_pump": {
+        "name": "Buffer pump"
+      },
+      "hot_water_temperature": {
+        "name": "Hot water temperature"
+      },
+      "outdoor_temperature": {
+        "name": "Outdoor temperature"
+      },
+      "combustion_chamber_temperature": {
+        "name": "Combustion chamber temperature"
+      },
+      "feeder": {
+        "name": "Feeder"
+      },
+      "fill_level": {
+        "name": "Fill level"
+      },
+      "operating_hours": {
+        "name": "Operating hours"
+      },
+      "fire_hold_hours": {
+        "name": "Ember hold hours"
+      },
+      "burner_starts": {
+        "name": "Burner starts"
+      },
+      "board_temperature": {
+        "name": "Board temperature"
+      },
+      "flow_temperature": {
+        "name": "Flow temperature circuit {number}"
+      },
+      "flow_temperature_target": {
+        "name": "Flow temperature target circuit {number}"
+      },
+      "room_temperature": {
+        "name": "Room temperature circuit {number}"
+      },
+      "party_switch": {
+        "name": "Party switch circuit {number}"
+      },
+      "kty_sensor": {
+        "name": "KTY sensor {number}"
+      },
+      "last_fault": {
+        "name": "Last fault"
+      },
+      "last_fault_time": {
+        "name": "Last fault time"
+      },
+      "controller_time": {
+        "name": "Controller time"
+      }
     }
   },
   "exceptions": {

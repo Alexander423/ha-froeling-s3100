@@ -88,6 +88,9 @@ configuration is deleted with it.
 | Measurements | Everything in the cyclic telegram: temperatures, fan, air flaps, O2, buffer, hot water, heating circuits, operating hours … |
 | Status / Operating mode | Status line of the display (e.g. *Heizen*, *Feuer-Aus*) and operating mode (*Winterbetrieb*, *Sommerbetrieb* …) as enum sensors |
 | Fault (binary sensor) | On while the display shows *Störung* |
+| Fire active / Heating up | Derived from the status line (*Anheizen*, *Heizen*, *Feuerhaltung*, *Vorwärmphase*, *Zünden*). *Heating up* is a handy automation trigger. |
+| Heating circuit N demand | **Derived.** On while the controller's flow temperature target of the circuit is above 0 °C. The S3100 does not transmit the pump relays themselves, so this approximates "circuit is heating". |
+| Buffer pump / induced draft fan running | **Derived.** On while the respective output is above 0 %. |
 | Fault message (event) | Fires on every live fault with error id and text |
 | Last fault / time | From live faults or the error history |
 | Parameters | Customer-menu parameters, read-only by default (diagnostic) |
@@ -119,6 +122,12 @@ automation:
   available in the diagnostics.
 - Entity names of parameters come from the controller menu and are in
   German.
+- Only the values the controller lists in its MA table are transmitted.
+  On the tested controller that excludes the heating circuit pumps and
+  mixers, although the controller knows further values (visible as
+  `unused_formats` in the diagnostics). Air flaps and other outputs cannot
+  be controlled: the protocol has no command for it and the combustion
+  control must stay with the controller.
 - Climate entities are not provided, because the S3100 has no clear
   per-circuit target/mode model that maps to a thermostat.
 

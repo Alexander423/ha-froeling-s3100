@@ -1,33 +1,112 @@
 {
   "entity": {
     "binary_sensor": {
-      "fault": { "default": "mdi:alert-circle-outline", "state": { "on": "mdi:alert-circle" } }
+      "fault": {
+        "default": "mdi:alert-circle-outline",
+        "state": {
+          "on": "mdi:alert-circle"
+        }
+      },
+      "fire_active": {
+        "default": "mdi:fire-off",
+        "state": {
+          "on": "mdi:fire"
+        }
+      },
+      "heating_up": {
+        "default": "mdi:fire-off",
+        "state": {
+          "on": "mdi:fire-alert"
+        }
+      },
+      "circuit_demand": {
+        "default": "mdi:radiator-off",
+        "state": {
+          "on": "mdi:radiator"
+        }
+      },
+      "buffer_pump_running": {
+        "default": "mdi:pump-off",
+        "state": {
+          "on": "mdi:pump"
+        }
+      },
+      "induced_draft_fan_running": {
+        "default": "mdi:fan-off",
+        "state": {
+          "on": "mdi:fan"
+        }
+      }
     },
     "event": {
-      "fault_event": { "default": "mdi:alert" }
+      "fault_event": {
+        "default": "mdi:alert"
+      }
     },
     "sensor": {
-      "status": { "default": "mdi:fire" },
-      "operating_mode": { "default": "mdi:sun-snowflake-variant" },
-      "grate": { "default": "mdi:grid" },
-      "boiler_control_value": { "default": "mdi:gauge" },
-      "induced_draft_fan": { "default": "mdi:fan" },
-      "primary_air": { "default": "mdi:weather-windy" },
-      "primary_air_flap": { "default": "mdi:valve" },
-      "secondary_air": { "default": "mdi:weather-windy-variant" },
-      "secondary_air_flap": { "default": "mdi:valve" },
-      "residual_oxygen": { "default": "mdi:molecule" },
-      "oxygen_controller": { "default": "mdi:tune-vertical" },
-      "buffer_pump": { "default": "mdi:pump" },
-      "feeder": { "default": "mdi:screw-machine-flat-top" },
-      "fill_level": { "default": "mdi:storage-tank" },
-      "operating_hours": { "default": "mdi:timer-outline" },
-      "fire_hold_hours": { "default": "mdi:campfire" },
-      "burner_starts": { "default": "mdi:counter" },
-      "party_switch": { "default": "mdi:party-popper" },
-      "last_fault": { "default": "mdi:alert-outline" },
-      "last_fault_time": { "default": "mdi:clock-alert-outline" },
-      "controller_time": { "default": "mdi:clock-outline" }
+      "status": {
+        "default": "mdi:fire"
+      },
+      "operating_mode": {
+        "default": "mdi:sun-snowflake-variant"
+      },
+      "grate": {
+        "default": "mdi:grid"
+      },
+      "boiler_control_value": {
+        "default": "mdi:gauge"
+      },
+      "induced_draft_fan": {
+        "default": "mdi:fan"
+      },
+      "primary_air": {
+        "default": "mdi:weather-windy"
+      },
+      "primary_air_flap": {
+        "default": "mdi:valve"
+      },
+      "secondary_air": {
+        "default": "mdi:weather-windy-variant"
+      },
+      "secondary_air_flap": {
+        "default": "mdi:valve"
+      },
+      "residual_oxygen": {
+        "default": "mdi:molecule"
+      },
+      "oxygen_controller": {
+        "default": "mdi:tune-vertical"
+      },
+      "buffer_pump": {
+        "default": "mdi:pump"
+      },
+      "feeder": {
+        "default": "mdi:screw-machine-flat-top"
+      },
+      "fill_level": {
+        "default": "mdi:storage-tank"
+      },
+      "operating_hours": {
+        "default": "mdi:timer-outline"
+      },
+      "fire_hold_hours": {
+        "default": "mdi:campfire"
+      },
+      "burner_starts": {
+        "default": "mdi:counter"
+      },
+      "party_switch": {
+        "default": "mdi:party-popper"
+      },
+      "last_fault": {
+        "default": "mdi:alert-outline"
+      },
+      "last_fault_time": {
+        "default": "mdi:clock-alert-outline"
+      },
+      "controller_time": {
+        "default": "mdi:clock-outline"
+      }
     }
   }
 }

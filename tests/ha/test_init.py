@@ -297,3 +297,42 @@ async def test_diagnostics(
     assert diag["catalog"]["error_history"][0]["text"] == "Puffer zu kalt NACHLEGEN"
     assert "192.168" not in str(diag)
     assert await hass.config_entries.async_unload(entry.entry_id)
+
+
+async def test_derived_sensors_idle(hass: HomeAssistant, simulator: SimulatedController) -> None:
+    entry = make_entry(simulator)
+    await setup_entry(hass, entry)
+    states = {
+        key: hass.states.get(entity_id(hass, entry, "binary_sensor", key))
+        for key in (
+            "fire_active",
+            "heating_up",
+            "circuit_1_demand",
+            "circuit_2_demand",
+            "circuit_3_demand",
+            "buffer_pump_running",
+            "induced_draft_fan_running",
+        )
+    }
+    assert states["fire_active"].state == STATE_OFF  # "Feuer-Aus"
+    assert states["heating_up"].state == STATE_OFF
+    assert states["circuit_1_demand"].state == STATE_OFF  # flow target 0 °C
+    assert states["circuit_2_demand"].state == STATE_OFF
+    assert states["circuit_3_demand"].state == STATE_ON  # flow target 37.5 °C
+    assert states["circuit_3_demand"].name == "Fröling S3100 Heating circuit 3 demand"
+    assert states["buffer_pump_running"].state == STATE_OFF
+    assert states["induced_draft_fan_running"].attributes["device_class"] == "running"
+    assert await hass.config_entries.async_unload(entry.entry_id)
+
+
+async def test_derived_sensors_heating_up(hass: HomeAssistant, simulator: SimulatedController) -> None:
+    m1 = bytearray(simulator.m1)
+    m1[0:2] = (2).to_bytes(2, "big")  # status "Anheizen"
+    m1[14:16] = (80).to_bytes(2, "big")  # induced draft fan 80 %
+    simulator.m1 = bytes(m1)
+    entry = make_entry(simulator)
+    await setup_entry(hass, entry)
+    for key in ("fire_active", "heating_up", "induced_draft_fan_running"):
+        assert hass.states.get(entity_id(hass, entry, "binary_sensor", key)).state == STATE_ON
+    assert hass.states.get(entity_id(hass, entry, "binary_sensor", "fault")).state == STATE_OFF
+    assert await hass.config_entries.async_unload(entry.entry_id)

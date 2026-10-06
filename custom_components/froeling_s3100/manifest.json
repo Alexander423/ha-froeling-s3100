@@ -13,5 +13,5 @@
     "custom_components.froeling_s3100.s3100"
   ],
   "requirements": [],
-  "version": "0.1.0"
+  "version": "0.2.0"
 }
