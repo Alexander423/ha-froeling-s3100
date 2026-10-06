@@ -75,7 +75,8 @@ def make_entry(sim: SimulatedController, *, writes: bool = False) -> MockConfigE
 
 async def setup_entry(hass: HomeAssistant, entry: MockConfigEntry) -> None:
     """Add and set up an entry, waiting until values arrived."""
-    entry.add_to_hass(hass)
+    if hass.config_entries.async_get_entry(entry.entry_id) is None:
+        entry.add_to_hass(hass)
     assert await hass.config_entries.async_setup(entry.entry_id)
     await hass.async_block_till_done()
     await wait_for_values(hass, entry)

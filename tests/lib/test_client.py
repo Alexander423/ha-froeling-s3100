@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import asyncio
+from pathlib import Path
 
 import pytest
 
@@ -17,7 +18,7 @@ from froeling_s3100 import (
     async_probe,
     build_catalog,
 )
-from froeling_s3100.simulator import SimulatedController
+from froeling_s3100.simulator import Recording, SimulatedController
 
 
 def make_client(sim: SimulatedController) -> S3100Client:
@@ -183,3 +184,35 @@ async def test_wait_online(simulator: SimulatedController) -> None:
         await client.stop()
     with pytest.raises(S3100TimeoutError):
         await client.wait_online(0.01)
+
+
+async def test_foreign_service_login_is_ignored(simulator: SimulatedController) -> None:
+    service = Recording.from_jsonl(Path(__file__).parent.parent / "fixtures" / "s3100_capture_service.jsonl")
+    client = make_client(simulator)
+    await client.start()
+    try:
+        catalog = await client.wait_ready(10)
+        menu_size = len(catalog.menu)
+        await simulator.foreign_login(service.config)
+        for _ in range(100):
+            if client.stats.foreign_logins:
+                break
+            await asyncio.sleep(0.02)
+        await asyncio.sleep(0.3)
+        assert client.stats.foreign_logins == 1
+        assert client.catalog is catalog
+        assert len(client.catalog.menu) == menu_size
+        assert client.is_ready
+        with pytest.raises(S3100WriteNotAllowedError):
+            await client.write_parameter(1, 15)  # maximum heating-up time
+    finally:
+        await client.stop()
+
+
+def test_service_catalog_never_exposes_documented_parameters() -> None:
+    service = Recording.from_jsonl(Path(__file__).parent.parent / "fixtures" / "s3100_capture_service.jsonl")
+    catalog = build_catalog(service.config)
+    assert len(catalog.menu) > 134  # the service menu is larger
+    for param_id in (1, 5, 26, 95):
+        assert not catalog.parameters[param_id].in_customer_menu
+        assert catalog.parameters[param_id].documented

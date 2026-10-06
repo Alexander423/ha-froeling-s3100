@@ -83,15 +83,24 @@ def customer_parameters(coordinator: FroelingCoordinator, platform: str) -> list
 
 @callback
 def remove_moved_entities(hass: HomeAssistant, coordinator: FroelingCoordinator, platform: str) -> None:
-    """Drop registry entries of parameters now represented by another platform."""
+    """Drop registry entries of parameters this platform no longer provides.
+
+    This covers parameters that moved to another platform (writes toggled)
+    and parameters that are no longer exposed at all.
+    """
     registry = er.async_get(hass)
     entry_id = coordinator.config_entry.entry_id
-    owner = {
-        f"{entry_id}_param_{p.id}": writable_platform(coordinator, p)
-        for p in coordinator.catalog.parameters.values()
-        if p.in_customer_menu
-    }
+    prefix = f"{entry_id}_param_"
+    owner: dict[str, str] = {}
+    for param in coordinator.catalog.parameters.values():
+        if param.in_customer_menu:
+            owner[f"{prefix}{param.id}"] = writable_platform(coordinator, param)
+        elif param.documented:
+            owner[f"{prefix}{param.id}"] = Platform.SENSOR
     for entity in er.async_entries_for_config_entry(registry, entry_id):
-        target = owner.get(entity.unique_id)
-        if target is not None and entity.domain == platform and target != platform:
+        if (
+            entity.domain == platform
+            and entity.unique_id.startswith(prefix)
+            and owner.get(entity.unique_id) != platform
+        ):
             registry.async_remove(entity.entity_id)

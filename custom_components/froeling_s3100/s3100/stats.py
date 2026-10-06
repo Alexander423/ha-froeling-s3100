@@ -48,6 +48,7 @@ class Statistics:
     decode_errors: int = 0
     nacks_received: int = 0
     stale_frames: int = 0
+    foreign_logins: int = 0
     bytes_rx: int = 0
     bytes_tx: int = 0
     frames_rx: Counter[str] = field(default_factory=Counter)
@@ -77,6 +78,7 @@ class Statistics:
             "decode_errors": self.decode_errors,
             "nacks_received": self.nacks_received,
             "stale_frames": self.stale_frames,
+            "foreign_logins": self.foreign_logins,
             "bytes_rx": self.bytes_rx,
             "bytes_tx": self.bytes_tx,
             "frames_rx": dict(sorted(self.frames_rx.items())),

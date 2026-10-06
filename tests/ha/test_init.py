@@ -369,3 +369,17 @@ async def test_service_parameters_and_firmware(
     device = dr.async_get(hass).async_get_device(identifiers={(DOMAIN, entry.entry_id)})
     assert device.sw_version == "24.20"
     assert await hass.config_entries.async_unload(entry.entry_id)
+
+
+async def test_stale_service_parameter_entities_are_removed(
+    hass: HomeAssistant, simulator: SimulatedController
+) -> None:
+    entry = make_entry(simulator, writes=True)
+    entry.add_to_hass(hass)
+    registry = er.async_get(hass)
+    # Left over from a session that received a service-level menu.
+    stale = registry.async_get_or_create("number", DOMAIN, f"{entry.entry_id}_param_1", config_entry=entry)
+    await setup_entry(hass, entry)
+    assert registry.async_get(stale.entity_id) is None
+    assert registry.async_get_entity_id("sensor", DOMAIN, f"{entry.entry_id}_param_1")
+    assert await hass.config_entries.async_unload(entry.entry_id)

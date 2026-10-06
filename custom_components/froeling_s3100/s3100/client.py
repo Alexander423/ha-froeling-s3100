@@ -180,6 +180,7 @@ class S3100Client:
         self._online_event = asyncio.Event()
         self._stopping = False
         self._ready_since: float | None = None
+        self._foreign_dump = False
 
     # ------------------------------------------------------------------ API
 
@@ -277,6 +278,8 @@ class S3100Client:
 
     def validate_write(self, param: Parameter, value: float) -> int:
         """Check limits and return the raw value to send."""
+        if param.documented or not param.in_customer_menu:
+            raise S3100WriteNotAllowedError(f"parameter {param.id} is a service parameter")
         if param.kind not in WRITABLE_KINDS:
             raise S3100WriteNotAllowedError(f"parameter {param.id} has unsupported type {param.kind}")
         if not param.minimum <= value <= param.maximum:
@@ -300,7 +303,7 @@ class S3100Client:
         param = self.catalog.parameters.get(param_id)
         if param is None:
             raise S3100WriteNotAllowedError(f"unknown parameter {param_id}")
-        if not param.in_customer_menu:
+        if not param.in_customer_menu or param.documented:
             raise S3100WriteNotAllowedError(f"parameter {param_id} is not in the customer menu")
         return param
 
@@ -368,6 +371,7 @@ class S3100Client:
         self.stats.connected_since = time.time()
         self._parser.reset()
         self._builder = None
+        self._foreign_dump = False
         self._m1_errors = 0
         self._last_m1 = 0.0
         self._set_state(ConnectionState.LOGGING_IN)
@@ -486,6 +490,8 @@ class S3100Client:
         if frame.is_nack:
             self.stats.nacks_received += 1
         if pending is None:
+            if frame.command == "Ra" and frame.is_ack:
+                self._handle_foreign_login()
             return
         future, sent = pending
         self.stats.ack_latency.add(time.monotonic() - sent)
@@ -494,12 +500,29 @@ class S3100Client:
         if frame.command == "Ra" and frame.is_ack and self._state is ConnectionState.LOGGING_IN:
             self._start_loading()
 
+    def _handle_foreign_login(self) -> None:
+        """Another client on the bridge logged in.
+
+        The bridge forwards the controller's answers to every connected
+        client, so the configuration that follows was requested with that
+        client's user level (possibly service). It must not replace ours.
+        """
+        self.stats.foreign_logins += 1
+        self._foreign_dump = True
+        self._builder = None
+        _LOGGER.warning(
+            "Another client logged in to the S3100 through the bridge; "
+            "ignoring the configuration it requested"
+        )
+
     def _start_loading(self) -> None:
         self._builder = CatalogBuilder()
         self._loading_started = time.monotonic()
         self._set_state(ConnectionState.LOADING)
 
     def _handle_config(self, command: str, payload: bytes) -> None:
+        if self._foreign_dump:
+            return
         if self._builder is None:
             # The controller re-sends its configuration (e.g. after a menu change).
             _LOGGER.info("Controller started sending a new configuration")
@@ -515,6 +538,9 @@ class S3100Client:
         else:
             self._emit(EventType.TIME, self.controller_time)
 
+        if self._foreign_dump:
+            self._foreign_dump = False
+            return
         if self._builder is not None:
             builder, self._builder = self._builder, None
             catalog = builder.finish()

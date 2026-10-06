@@ -101,6 +101,18 @@ class SimulatedController:
         for writer in list(self._writers):
             writer.close()
 
+    async def foreign_login(self, config: list[tuple[str, bytes]]) -> None:
+        """Simulate another bridge client logging in (e.g. with service level).
+
+        The controller's answer (Ra ACK and a configuration dump) reaches
+        every connected client.
+        """
+        frames = [("Ra", ACK), *config]
+        for writer in list(self._writers):
+            for command, payload in frames:
+                writer.write(encode_frame(command.encode("ascii"), payload))
+            await writer.drain()
+
     def inject_fault(self, payload: bytes) -> None:
         """Send an M3 fault record to the client."""
         self._fault_queue.put_nowait(payload)

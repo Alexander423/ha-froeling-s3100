@@ -231,9 +231,12 @@ class CatalogBuilder:
         self._apply_menu(catalog)
         for param_id, name in known_service_parameters().items():
             param = catalog.parameters.get(param_id)
-            if param is not None and not param.in_customer_menu:
+            if param is not None:
+                # Documented service parameters are never treated as customer
+                # parameters, even if a service-level menu lists them.
                 param.name = name
                 param.documented = True
+                param.in_customer_menu = False
         return catalog
 
     @staticmethod
