@@ -38,8 +38,13 @@ def fast_client() -> Generator[None]:
         yield
 
 
+@pytest.fixture(autouse=True)
+def allow_local_sockets(socket_enabled: None) -> None:
+    """The simulated controller listens on a local TCP port."""
+
+
 @pytest.fixture
-async def simulator() -> AsyncIterator[SimulatedController]:
+async def simulator(hass: HomeAssistant) -> AsyncIterator[SimulatedController]:
     """A simulated S3100 replaying a real capture."""
     sim = SimulatedController(Recording.from_jsonl(CAPTURE), interval=0.05)
     await sim.start()

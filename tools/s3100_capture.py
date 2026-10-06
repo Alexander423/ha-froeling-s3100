@@ -70,7 +70,7 @@ class Capture:
     def read_frames(self) -> list[bytes]:
         try:
             chunk = self.sock.recv(4096)
-        except socket.timeout:
+        except TimeoutError:
             return []
         if not chunk:
             raise ConnectionError("bridge closed the connection")
@@ -86,9 +86,17 @@ class Capture:
             expected = checksum(frame[:-2])
             if int.from_bytes(frame[-2:], "big") != expected:
                 self.bad_checksums += 1
-                self.log.write(json.dumps({"t": round(time.monotonic() - self.t0, 3),
-                                           "dir": "rx", "error": "checksum",
-                                           "bytes": self.buf[:16].hex()}) + "\n")
+                self.log.write(
+                    json.dumps(
+                        {
+                            "t": round(time.monotonic() - self.t0, 3),
+                            "dir": "rx",
+                            "error": "checksum",
+                            "bytes": self.buf[:16].hex(),
+                        }
+                    )
+                    + "\n"
+                )
                 self.buf = self.buf[1:]  # resync by sliding one byte
                 continue
             self.buf = self.buf[total:]
