@@ -1,0 +1,3 @@
+[run]
+omit =
+    */froeling_s3100/s3100/*

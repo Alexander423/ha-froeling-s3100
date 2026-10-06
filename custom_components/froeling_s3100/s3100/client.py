@@ -410,12 +410,16 @@ class S3100Client:
                 await asyncio.wait_for(writer.wait_closed(), 2)
 
     def _fail_pending(self, err: Exception) -> None:
-        for future, _ in self._pending.values():
+        futures = [future for future, _ in self._pending.values()]
+        self._pending.clear()
+        if self._pending_change is not None:
+            futures.append(self._pending_change[1])
+        for future in futures:
             if not future.done():
                 future.set_exception(err)
-        self._pending.clear()
-        if self._pending_change is not None and not self._pending_change[1].done():
-            self._pending_change[1].set_exception(err)
+                # Login/start requests are tracked for latency only and never
+                # awaited; mark the exception as retrieved to avoid warnings.
+                future.exception()
 
     async def _send(self, command: bytes, payload: bytes, *, track: bool = False) -> None:
         if self._writer is None:

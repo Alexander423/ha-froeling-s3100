@@ -90,7 +90,7 @@ async def test_user_flow_already_configured(hass: HomeAssistant, simulator: Simu
 async def test_reconfigure(hass: HomeAssistant, simulator: SimulatedController) -> None:
     entry = make_entry(simulator)
     entry.add_to_hass(hass)
-    entry.mock_state(hass, entry.state)
+    hass.config_entries.async_update_entry(entry, data={CONF_HOST: "127.0.0.1", CONF_PORT: 2})
     result = await entry.start_reconfigure_flow(hass)
     assert result["type"] is FlowResultType.FORM
 
@@ -101,11 +101,11 @@ async def test_reconfigure(hass: HomeAssistant, simulator: SimulatedController) 
 
     with patch("custom_components.froeling_s3100.async_setup_entry", return_value=True):
         result = await hass.config_entries.flow.async_configure(
-            result["flow_id"], {CONF_HOST: "localhost", CONF_PORT: simulator.port}
+            result["flow_id"], {CONF_HOST: "127.0.0.1", CONF_PORT: simulator.port}
         )
     assert result["type"] is FlowResultType.ABORT
     assert result["reason"] == "reconfigure_successful"
-    assert entry.data[CONF_HOST] == "localhost"
+    assert entry.data[CONF_PORT] == simulator.port
 
 
 async def test_reconfigure_duplicate(hass: HomeAssistant, simulator: SimulatedController) -> None:

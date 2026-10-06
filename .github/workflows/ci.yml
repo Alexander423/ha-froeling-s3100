@@ -45,6 +45,7 @@ jobs:
       - run: >
           pytest tests/ha -p no:cacheprovider
           --cov=custom_components.froeling_s3100
+          --cov-config=.coveragerc-ha
           --cov-report=term-missing
           --cov-fail-under=95
 

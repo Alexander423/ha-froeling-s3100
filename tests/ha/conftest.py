@@ -5,7 +5,7 @@ from __future__ import annotations
 import asyncio
 from collections.abc import AsyncIterator, Generator
 from pathlib import Path
-from unittest.mock import patch
+from unittest.mock import PropertyMock, patch
 
 import pytest
 from homeassistant.const import CONF_HOST, CONF_PORT
@@ -34,6 +34,17 @@ def fast_client() -> Generator[None]:
     with patch.dict(
         S3100Client.__init__.__kwdefaults__,
         {"backoff_min": 0.05, "backoff_max": 0.1, "login_retry_interval": 0.3, "idle_timeout": 2.0},
+    ):
+        yield
+
+
+@pytest.fixture
+def entity_registry_enabled_by_default() -> Generator[None]:
+    """Create entities that are disabled by default as enabled."""
+    with patch(
+        "homeassistant.helpers.entity.Entity.entity_registry_enabled_default",
+        new_callable=PropertyMock,
+        return_value=True,
     ):
         yield
 
